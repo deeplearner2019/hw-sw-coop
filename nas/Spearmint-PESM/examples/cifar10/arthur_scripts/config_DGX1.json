@@ -1,0 +1,280 @@
+{
+    "language"          : "PYTHON",
+    "experiment-name"   : "cifarnet_DGX1",
+    "main_file"         : "train_on_cloud_bis",
+    "acquisition"       : "PESM",
+    "max_finished_jobs" : 500,
+
+    "resources" : {
+        "cloud_0" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_0"
+        },
+        "cloud_1" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_1"
+        },
+        "cloud_2" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_2"
+        },
+        "cloud_3" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_3"
+        },
+        "cloud_4" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_4"
+        },
+        "cloud_5" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_5"
+        }
+        ,"cloud_6" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_6"
+        },
+        "cloud_7" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_7"
+        },
+        "p2.xlarge_0" : {
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x_0"
+        },
+        "p2.16xlarge_0" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_0"
+        },
+        "p2.16xlarge_1" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_1"
+        },
+        "p2.16xlarge_2" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_2"
+        },
+        "p2.16xlarge_3" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_3"
+        },
+        "p2.16xlarge_4" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_4"
+        },
+        "p2.16xlarge_5" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_5"
+        },
+        "p2.16xlarge_6" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_6"
+        },
+        "p2.16xlarge_7" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_7"
+        },
+        "p2.16xlarge_8" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_8"
+        },
+        "p2.16xlarge_9" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_9"
+        },
+        "p2.16xlarge_10" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_10"
+        },
+        "p2.16xlarge_11" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_11"
+        },
+        "p2.16xlarge_12" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_12"
+        },
+        "p2.16xlarge_13" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_13"
+        },
+        "p2.16xlarge_14" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_14"
+        },
+        "p2.16xlarge_15" :{
+            "scheduler"         :"local",
+            "max_concurrent"    : 1,
+            "main_file"         :"train_on_p2x16_15"
+        }
+    },
+
+    "variables" : {
+        "b0_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : -1
+        },
+        "b0_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : -1
+        },
+        "b0_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+        "b0_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+
+        "b1_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : 0
+        },
+        "b1_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : 0
+        },
+        "b1_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+        "b1_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+
+        "b2_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : 1
+        },
+        "b2_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : 1
+        },
+        "b2_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+        "b2_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+
+        "b3_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : 2
+        },
+        "b3_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : 2
+        },
+        "b3_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+        "b3_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+
+        "b4_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : 3
+        },
+        "b4_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : -2,
+            "max"  : 3
+        },
+        "b4_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        },
+        "b4_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 7
+        }
+
+    },
+    "tasks" : {
+        "f"      : {
+          "type" : "OBJECTIVE",
+          "resources" : ["cloud_0", "cloud_1", "cloud_2", "cloud_3", "cloud_4", "cloud_5", "cloud_6", "cloud_7", "p2.xlarge_0", "p2.xlarge_1", "p2.xlarge_2", "p2.xlarge_3", "p2.xlarge_4",
+          "p2.16xlarge_0","p2.16xlarge_1","p2.16xlarge_2","p2.16xlarge_3","p2.16xlarge_4","p2.16xlarge_5","p2.16xlarge_6","p2.16xlarge_7","p2.16xlarge_8","p2.16xlarge_9","p2.16xlarge_10","p2.16xlarge_11","p2.16xlarge_12","p2.16xlarge_13","p2.16xlarge_14", "p2.16xlarge_15"]
+        },
+        "time"   : {
+          "type" : "OBJECTIVE",
+          "resources" : ["cloud_0", "cloud_1", "cloud_2", "cloud_3", "cloud_4", "cloud_5", "cloud_6", "cloud_7", "p2.xlarge_0", "p2.xlarge_1", "p2.xlarge_2", "p2.xlarge_3", "p2.xlarge_4",
+          "p2.16xlarge_0","p2.16xlarge_1","p2.16xlarge_2","p2.16xlarge_3","p2.16xlarge_4","p2.16xlarge_5","p2.16xlarge_6","p2.16xlarge_7","p2.16xlarge_8","p2.16xlarge_9","p2.16xlarge_10","p2.16xlarge_11","p2.16xlarge_12","p2.16xlarge_13","p2.16xlarge_14", "p2.16xlarge_15"]
+        },
+        "power" : {
+          "type" : "OBJECTIVE",
+          "resources" : ["cloud_0", "cloud_1", "cloud_2", "cloud_3", "cloud_4", "cloud_5", "cloud_6", "cloud_7","p2.xlarge_0", "p2.xlarge_1", "p2.xlarge_2", "p2.xlarge_3", "p2.xlarge_4",
+          "p2.16xlarge_0","p2.16xlarge_1","p2.16xlarge_2","p2.16xlarge_3","p2.16xlarge_4","p2.16xlarge_5","p2.16xlarge_6","p2.16xlarge_7","p2.16xlarge_8","p2.16xlarge_9","p2.16xlarge_10","p2.16xlarge_11","p2.16xlarge_12","p2.16xlarge_13","p2.16xlarge_14", "p2.16xlarge_15"]
+        }
+    }
+}

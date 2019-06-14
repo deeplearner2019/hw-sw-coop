@@ -1,0 +1,192 @@
+{
+    "language"          : "PYTHON",
+    "experiment-name"   : "cifarnet",
+    "main_file"         : "train_on_cloud_bis",
+    "acquisition"       : "PESM",
+    "max_finished_jobs" : 100,
+
+    "resources" : {
+        "cloud_0" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 1,
+            "main_file"         : "new_train_on_cloud_0"
+        },
+        "cloud_1" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_1"
+        },
+        "cloud_2" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_2"
+        },
+        "cloud_3" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_3"
+        },
+        "cloud_4" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_4"
+        },
+        "cloud_5" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_5"
+        }
+        ,"cloud_6" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_6"
+        },
+        "cloud_7" : {
+            "scheduler"         : "local",
+            "max_concurrent"    : 0,
+            "main_file"         : "train_on_cloud_7"
+        }
+    },
+
+    "variables" : {
+        "b0_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 1
+        },
+        "b0_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 1
+        },
+        "b0_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+        "b0_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+
+        "b1_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 2
+        },
+        "b1_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 2
+        },
+        "b1_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+        "b1_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+
+        "b2_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 3
+        },
+        "b2_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 3
+        },
+        "b2_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+        "b2_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+
+        "b3_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 4
+        },
+        "b3_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 4
+        },
+        "b3_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+        "b3_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+
+        "b4_i1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+        "b4_i2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+        "b4_o1" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        },
+        "b4_o2" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 5
+        }
+
+    },
+    "tasks" : {
+        "f"      : {
+          "type" : "OBJECTIVE",
+          "resources" : ["cloud_0", "cloud_1", "cloud_2", "cloud_3", "cloud_4", "cloud_5", "cloud_6", "cloud_7"]
+        },
+        "time"   : {
+          "type" : "OBJECTIVE",
+          "resources" : ["cloud_0", "cloud_1", "cloud_2", "cloud_3", "cloud_4", "cloud_5", "cloud_6", "cloud_7"]
+        },
+        "memory" : {
+          "type" : "OBJECTIVE",
+          "resources" : ["cloud_0", "cloud_1", "cloud_2", "cloud_3", "cloud_4", "cloud_5", "cloud_6", "cloud_7"]
+        }
+    }
+}

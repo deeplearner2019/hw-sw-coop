@@ -1,0 +1,45 @@
+"""
+This script aims at training on the cloud and then testing the trained model on the platform.
+It commands to train a given model in the first GPU, ie number 0.
+"""
+import json
+
+import functions as f
+import config as cfg
+
+# Variables
+instance_id = cfg.instance_id_p32 #p2.8xlarge
+public_DNS = cfg.public_DNS_p32
+
+train_function = f.train_on_server
+
+nb_gpus_to_use = 1
+gpus_to_use = '0'
+ID_NUMBER = 0
+
+def main(job_id, params):
+    job_id = str(job_id)
+    print(params)
+
+    # Encode params to pass it through the run_command
+    my_params={}
+    for key in params.keys():
+        my_params[key.replace('"','\'')] = int(params[key])
+    my_params = json.dumps(my_params)
+
+    dico_to_save = {}
+    dico_to_save['platform'] = 'Movidius'
+    dico_to_save['job']= job_id
+    dico_to_save['params'] = my_params
+
+    name = f.create_name(my_params)
+
+    if cfg.debug:
+        max_number_of_steps = 100
+    else :
+        max_number_of_steps = 28125
+
+    train_function(name, job_id, nb_gpus_to_use, gpus_to_use, max_number_of_steps, dico_to_save, ID_NUMBER)
+    dico_hardware = f.test_movidius(name, max_number_of_steps, job_id)
+
+    return dico_hardware

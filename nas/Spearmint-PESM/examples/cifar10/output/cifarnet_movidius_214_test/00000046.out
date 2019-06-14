@@ -1,0 +1,115 @@
+Job launching after 0.24 seconds in submission.
+Running python job.
+Changed into dir /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10
+Importing train_eval_image_classifier_movidius.py
+Running train_eval_image_classifier_movidius.main()
+WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:420: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+_-2_-1_0_5_0_-1_2_3_1_-2_2_5_2_1_6_6_-1_0_1_5
+[-2, -1, 0, 5, 0, -1, 2, 3, 1, -2, 2, 5, 2, 1, 6, 6, -1, 0, 1, 5]
+train model
+cifar10
+output dimension of o1 for cell 0 block 0 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 0 with input -1 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 1 with input 0 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 1 with input -1 and operation 3x3_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 2 with input 1 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 2 with input -2 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 3 with input 2 and operation 7x7_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 3 with input 1 and operation 7x7_depth_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 4 with input -1 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 4 with input 0 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 0 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 0 with input -1 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 1 with input 0 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 1 with input -1 and operation 3x3_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 2 with input 1 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 2 with input -2 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 3 with input 2 and operation 7x7_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 3 with input 1 and operation 7x7_depth_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 4 with input -1 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 4 with input 0 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 2 block 0 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 0 with input -1 and operation 5x5_conv:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 1 with input 0 and operation 3x3_depth_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 1 with input -1 and operation 3x3_conv:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 2 with input 1 and operation 3x3_depth_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 2 with input -2 and operation 5x5_conv:
+[32, 16, 16, 24]
+Traceback (most recent call last):
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 245, in launch
+    result = python_launcher(job)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 330, in python_launcher
+    result = module.main(job['id'], params)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 879, in main
+    train_model(candidate, N, F)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 496, in train_model
+    clones = model_deploy.create_clones(deploy_config, clone_fn, [batch_queue])
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/slim/deployment/model_deploy.py", line 193, in create_clones
+    outputs = model_fn(*args, **kwargs)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 479, in clone_fn
+    logits, end_points = network_fn(images)
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/nn_search/nets/nets_factory.py", line 76, in network_fn
+    return func(images, candidate, N, F, num_classes, is_training=is_training, **kwargs)
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/nn_search/nets/cifarnet.py", line 95, in cifarnet
+    net = build_cell(end_points, cell_id, candidate, F, stride = 2, scope = 'Reduction_cell_{}'.format(cell_id),is_training=is_training)
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/nn_search/nets/cifarnet.py", line 242, in build_cell
+    o1 = apply_operation(input_points[str(i1)], op1, num_outputs, stride = 1, scope = 'block_{}_op1'.format(i),is_training=is_training) # if input of current block is the output of previous block, don't do stride 2
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/nn_search/nets/cifarnet.py", line 165, in apply_operation
+    net = slim.separable_conv2d(net, num_outputs, [7, 7], 1, stride = stride, activation_fn = tf.nn.relu, normalizer_fn = slim.batch_norm, normalizer_params={'is_training':is_training}, scope = op_name)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 2502, in separable_convolution2d
+    outputs = layer.apply(inputs)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/layers/base.py", line 671, in apply
+    return self.__call__(inputs, *args, **kwargs)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/layers/base.py", line 575, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/layers/convolutional.py", line 984, in call
+    data_format=utils.convert_data_format(self.data_format, ndim=4))
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/nn_impl.py", line 490, in separable_conv2d
+    op=op)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/nn_ops.py", line 332, in with_space_to_batch
+    input = ops.convert_to_tensor(input, name="input")
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 836, in convert_to_tensor
+    as_ref=False)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 881, in internal_convert_to_tensor
+    if ctx is None: ctx = context.context()
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/eager/context.py", line 309, in context
+    if _context is None:
+KeyboardInterrupt
+Problem executing the function
+Job failed in 1.42 seconds.
+(<type 'exceptions.KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x7fb46e8f5b90>)

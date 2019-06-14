@@ -1,0 +1,17 @@
+Job launching after 0.34 seconds in submission.
+Running python job.
+Changed into dir /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10
+Importing train_eval_image_classifier_movidius.py
+Running train_eval_image_classifier_movidius.main()
+_-1_-2_1_6_-2_0_4_1_-2_0_6_6_1_-1_7_0_-1_-1_5_2
+Traceback (most recent call last):
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 245, in launch
+    result = python_launcher(job)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 330, in python_launcher
+    result = module.main(job['id'], params)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 798, in main
+    output_dir = os.path.join(PATH_TO_HACONE_LOCAL, 'outputs', case, model_name) #_parse_flags() is called when first access FLAGS's attibute
+NameError: global name 'PATH_TO_HACONE_LOCAL' is not defined
+Problem executing the function
+Job failed in 0.83 seconds.
+(<type 'exceptions.NameError'>, NameError("global name 'PATH_TO_HACONE_LOCAL' is not defined",), <traceback object at 0x7f84c9fef830>)

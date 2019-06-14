@@ -1,0 +1,331 @@
+Job launching after 0.23 seconds in submission.
+Running python job.
+Changed into dir /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10
+Importing train_eval_image_classifier_movidius.py
+Running train_eval_image_classifier_movidius.main()
+WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:419: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+_-2_-1_3_1_0_-2_0_6_-1_-1_1_2_0_1_1_4_1_0_0_3
+[-2, -1, 3, 1, 0, -2, 0, 6, -1, -1, 1, 2, 0, 1, 1, 4, 1, 0, 0, 3]
+train model
+cifar10
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 0 with input -2 and operation 3x3_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 0 with input -1 and operation identity:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 1 with input 0 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 1 with input -2 and operation 7x7_depth_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 2 with input -1 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 2 with input -1 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+
+Identity subsample used
+
+output dimension of o1 for cell 0 block 3 with input 0 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 3 with input 1 and operation 5x5_depth_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 4 with input 1 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 4 with input 0 and operation 3x3_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 0 with input -2 and operation 3x3_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 0 with input -1 and operation identity:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 1 with input 0 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 1 with input -2 and operation 7x7_depth_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 2 with input -1 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 2 with input -1 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+
+Identity subsample used
+
+output dimension of o1 for cell 1 block 3 with input 0 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 3 with input 1 and operation 5x5_depth_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 4 with input 1 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 4 with input 0 and operation 3x3_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 2 block 0 with input -2 and operation 3x3_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 0 with input -1 and operation identity:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 1 with input 0 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 1 with input -2 and operation 7x7_depth_conv:
+[32, 16, 16, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 2 block 2 with input -1 and operation identity:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 2 with input -1 and operation 3x3_depth_conv:
+[32, 16, 16, 24]
+
+Identity subsample used
+
+output dimension of o1 for cell 2 block 3 with input 0 and operation identity:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 3 with input 1 and operation 5x5_depth_conv:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 4 with input 1 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 4 with input 0 and operation 3x3_conv:
+[32, 16, 16, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 3 block 0 with input -2 and operation 3x3_conv:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 0 with input -1 and operation identity:
+[32, 16, 16, 48]
+output dimension of o1 for cell 3 block 1 with input 0 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o2 for cell 3 block 1 with input -2 and operation 7x7_depth_conv:
+[32, 32, 32, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 3 block 2 with input -1 and operation identity:
+[32, 16, 16, 48]
+output dimension of o2 for cell 3 block 2 with input -1 and operation 3x3_depth_conv:
+[32, 16, 16, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 3 with input 0 and operation identity:
+[32, 16, 16, 48]
+output dimension of o2 for cell 3 block 3 with input 1 and operation 5x5_depth_conv:
+[32, 16, 16, 48]
+output dimension of o1 for cell 3 block 4 with input 1 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o2 for cell 3 block 4 with input 0 and operation 3x3_conv:
+[32, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 4 block 0 with input -2 and operation 3x3_conv:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 0 with input -1 and operation identity:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 1 with input 0 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 1 with input -2 and operation 7x7_depth_conv:
+[32, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 4 block 2 with input -1 and operation identity:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 2 with input -1 and operation 3x3_depth_conv:
+[32, 16, 16, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 4 block 3 with input 0 and operation identity:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 3 with input 1 and operation 5x5_depth_conv:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 4 with input 1 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 4 with input 0 and operation 3x3_conv:
+[32, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 5 block 0 with input -2 and operation 3x3_conv:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 0 with input -1 and operation identity:
+[32, 8, 8, 48]
+output dimension of o1 for cell 5 block 1 with input 0 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 1 with input -2 and operation 7x7_depth_conv:
+[32, 8, 8, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 5 block 2 with input -1 and operation identity:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 2 with input -1 and operation 3x3_depth_conv:
+[32, 8, 8, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 5 block 3 with input 0 and operation identity:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 3 with input 1 and operation 5x5_depth_conv:
+[32, 8, 8, 48]
+output dimension of o1 for cell 5 block 4 with input 1 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 4 with input 0 and operation 3x3_conv:
+[32, 8, 8, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 6 block 0 with input -2 and operation 3x3_conv:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 0 with input -1 and operation identity:
+[32, 8, 8, 96]
+output dimension of o1 for cell 6 block 1 with input 0 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o2 for cell 6 block 1 with input -2 and operation 7x7_depth_conv:
+[32, 16, 16, 96]
+
+Identity conv2D
+
+output dimension of o1 for cell 6 block 2 with input -1 and operation identity:
+[32, 8, 8, 96]
+output dimension of o2 for cell 6 block 2 with input -1 and operation 3x3_depth_conv:
+[32, 8, 8, 96]
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 3 with input 0 and operation identity:
+[32, 8, 8, 96]
+output dimension of o2 for cell 6 block 3 with input 1 and operation 5x5_depth_conv:
+[32, 8, 8, 96]
+output dimension of o1 for cell 6 block 4 with input 1 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o2 for cell 6 block 4 with input 0 and operation 3x3_conv:
+[32, 8, 8, 96]
+
+Identity conv2D
+
+output dimension of o1 for cell 7 block 0 with input -2 and operation 3x3_conv:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 0 with input -1 and operation identity:
+[32, 8, 8, 96]
+output dimension of o1 for cell 7 block 1 with input 0 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 1 with input -2 and operation 7x7_depth_conv:
+[32, 8, 8, 96]
+
+Identity conv2D
+
+output dimension of o1 for cell 7 block 2 with input -1 and operation identity:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 2 with input -1 and operation 3x3_depth_conv:
+[32, 8, 8, 96]
+
+Identity subsample used
+
+output dimension of o1 for cell 7 block 3 with input 0 and operation identity:WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:489: softmax_cross_entropy (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.softmax_cross_entropy instead. Note that the order of the logits and labels arguments has been changed.
+WARNING:tensorflow:From /home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:398: compute_weighted_loss (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.compute_weighted_loss instead.
+WARNING:tensorflow:From /home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:151: add_loss (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.add_loss instead.
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+2019-02-14 15:50:12.063205: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-02-14 15:50:12.218914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:08:00.0
+totalMemory: 10.91GiB freeMemory: 10.60GiB
+2019-02-14 15:50:12.218970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:08:00.0, compute capability: 6.1)
+
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 3 with input 1 and operation 5x5_depth_conv:
+[32, 8, 8, 96]
+output dimension of o1 for cell 7 block 4 with input 1 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 4 with input 0 and operation 3x3_conv:
+[32, 8, 8, 96]
+final output shape
+(32, 1, 1, 288)
+Traceback (most recent call last):
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 245, in launch
+    result = python_launcher(job)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 330, in python_launcher
+    result = module.main(job['id'], params)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 829, in main
+    train_model(candidate, N, F)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 591, in train_model
+    sync_optimizer=optimizer if FLAGS.sync_replicas else None)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/slim/python/slim/learning.py", line 742, in train
+    master, start_standard_services=False, config=session_config) as sess:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/training/supervisor.py", line 953, in managed_session
+    start_standard_services=start_standard_services)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/training/supervisor.py", line 709, in prepare_or_wait_for_session
+    self._write_graph()
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/training/supervisor.py", line 612, in _write_graph
+    self._logdir, "graph.pbtxt")
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/framework/graph_io.py", line 69, in write_graph
+    text_format.MessageToString(graph_def))
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 163, in MessageToString
+    printer.PrintMessage(message)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 352, in PrintMessage
+    self.PrintField(field, element)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 383, in PrintField
+    self.PrintFieldValue(field, value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 419, in PrintFieldValue
+    self._PrintMessageFieldValue(value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 404, in _PrintMessageFieldValue
+    self.PrintMessage(value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 349, in PrintMessage
+    self.PrintField(field, entry_submsg)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 383, in PrintField
+    self.PrintFieldValue(field, value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 419, in PrintFieldValue
+    self._PrintMessageFieldValue(value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 404, in _PrintMessageFieldValue
+    self.PrintMessage(value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 354, in PrintMessage
+    self.PrintField(field, value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 383, in PrintField
+    self.PrintFieldValue(field, value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 419, in PrintFieldValue
+    self._PrintMessageFieldValue(value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 404, in _PrintMessageFieldValue
+    self.PrintMessage(value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 354, in PrintMessage
+    self.PrintField(field, value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 383, in PrintField
+    self.PrintFieldValue(field, value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 419, in PrintFieldValue
+    self._PrintMessageFieldValue(value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 404, in _PrintMessageFieldValue
+    self.PrintMessage(value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 352, in PrintMessage
+    self.PrintField(field, element)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 383, in PrintField
+    self.PrintFieldValue(field, value)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_format.py", line 437, in PrintFieldValue
+    out.write(text_encoding.CEscape(out_value, out_as_utf8))
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_encoding.py", line 79, in CEscape
+    return ''.join(_cescape_byte_to_str[Ord(c)] for c in text)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/google/protobuf/text_encoding.py", line 79, in <genexpr>
+    return ''.join(_cescape_byte_to_str[Ord(c)] for c in text)
+KeyboardInterrupt
+Problem executing the function
+Job failed in 9.17 seconds.
+(<type 'exceptions.KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x7fea101e60e0>)

@@ -1,0 +1,35 @@
+Job launching after 0.35 seconds in submission.
+Running python job.
+Changed into dir /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10
+Importing train_eval_image_classifier_movidius.py
+Traceback (most recent call last):
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 245, in launch
+    result = python_launcher(job)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 327, in python_launcher
+    module  = __import__(main_file)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 26, in <module>
+    from datasets import dataset_factory
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/slim/datasets/dataset_factory.py", line 21, in <module>
+    from datasets import cifar10
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/slim/datasets/cifar10.py", line 30, in <module>
+    slim = tf.contrib.slim
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/util/lazy_loader.py", line 53, in __getattr__
+    module = self._load()
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/util/lazy_loader.py", line 42, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/__init__.py", line 43, in <module>
+    from tensorflow.contrib import kfac
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/kfac/__init__.py", line 26, in <module>
+    from tensorflow.contrib.kfac.python.ops import layer_collection_lib as layer_collection
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/kfac/python/ops/layer_collection_lib.py", line 28, in <module>
+    from tensorflow.contrib.kfac.python.ops.layer_collection import *
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/kfac/python/ops/layer_collection.py", line 31, in <module>
+    from tensorflow.contrib.kfac.python.ops import loss_functions as lf
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/kfac/python/ops/loss_functions.py", line 15, in <module>
+    """Loss functions to be used by LayerCollection."""
+KeyboardInterrupt
+Problem executing the function
+Job failed in 0.75 seconds.
+(<type 'exceptions.KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x7f4bb4f81d88>)

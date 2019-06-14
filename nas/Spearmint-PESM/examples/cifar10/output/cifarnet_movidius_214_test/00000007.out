@@ -1,0 +1,53 @@
+Job launching after 0.24 seconds in submission.
+Running python job.
+Changed into dir /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10
+Importing train_eval_image_classifier_movidius.py
+Traceback (most recent call last):
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 245, in launch
+    result = python_launcher(job)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 327, in python_launcher
+    module  = __import__(main_file)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 22, in <module>
+    import tensorflow as tf
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/__init__.py", line 82, in <module>
+    from tensorflow.python import keras
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/keras/__init__.py", line 26, in <module>
+    from tensorflow.python.keras import activations
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/keras/activations/__init__.py", line 22, in <module>
+    from tensorflow.python.keras._impl.keras.activations import elu
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/keras/_impl/keras/__init__.py", line 21, in <module>
+    from tensorflow.python.keras._impl.keras import activations
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/keras/_impl/keras/activations.py", line 24, in <module>
+    from tensorflow.python.keras._impl.keras.engine import Layer
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/keras/_impl/keras/engine/__init__.py", line 21, in <module>
+    from tensorflow.python.keras._impl.keras.engine.topology import get_source_inputs
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/keras/_impl/keras/engine/topology.py", line 45, in <module>
+    import yaml
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/yaml/__init__.py", line 8, in <module>
+    from loader import *
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/yaml/loader.py", line 4, in <module>
+    from reader import *
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/yaml/reader.py", line 45, in <module>
+    class Reader(object):
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/yaml/reader.py", line 137, in Reader
+    NON_PRINTABLE = re.compile(u'[^\x09\x0A\x0D\x20-\x7E\x85\xA0-\uD7FF\uE000-\uFFFD]')
+  File "/home/lile/Projects/.virtualenvs/nn_search/lib/python2.7/re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "/home/lile/Projects/.virtualenvs/nn_search/lib/python2.7/re.py", line 249, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/home/lile/Projects/.virtualenvs/nn_search/lib/python2.7/sre_compile.py", line 576, in compile
+    code = _code(p, flags)
+  File "/home/lile/Projects/.virtualenvs/nn_search/lib/python2.7/sre_compile.py", line 561, in _code
+    _compile(code, p.data, flags)
+  File "/home/lile/Projects/.virtualenvs/nn_search/lib/python2.7/sre_compile.py", line 107, in _compile
+    _compile_charset(av, flags, code, fixup, fixes)
+  File "/home/lile/Projects/.virtualenvs/nn_search/lib/python2.7/sre_compile.py", line 232, in _compile_charset
+    flags & SRE_FLAG_UNICODE):
+  File "/home/lile/Projects/.virtualenvs/nn_search/lib/python2.7/sre_compile.py", line 285, in _optimize_charset
+    charmap[i] = 1
+KeyboardInterrupt
+Problem executing the function
+Job failed in 0.36 seconds.
+(<type 'exceptions.KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x7f7e274da908>)

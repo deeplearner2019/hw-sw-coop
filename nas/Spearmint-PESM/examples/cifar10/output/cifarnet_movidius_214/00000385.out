@@ -1,0 +1,2161 @@
+Job launching after 0.34 seconds in submission.
+Running python job.
+Changed into dir /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10
+Importing train_eval_image_classifier_movidius.py
+Running train_eval_image_classifier_movidius.main()
+WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:420: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+_-1_-1_1_2_-2_0_1_0_-2_1_0_0_2_0_0_7_-2_1_4_3
+[-1, -1, 1, 2, -2, 0, 1, 0, -2, 1, 0, 0, 2, 0, 0, 7, -2, 1, 4, 3]
+train model
+cifar10
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 0 with input -1 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 0 with input -1 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 1 with input -2 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 1 with input 0 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 2 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 2 with input 1 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 3 with input 2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 3 with input 0 and operation 7x7_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 4 with input -2 and operation 5x5_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 4 with input 1 and operation 3x3_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 0 with input -1 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 0 with input -1 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 1 with input -2 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 1 with input 0 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 2 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 2 with input 1 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 3 with input 2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 3 with input 0 and operation 7x7_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 4 with input -2 and operation 5x5_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 4 with input 1 and operation 3x3_conv:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 2 block 0 with input -1 and operation identity:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 0 with input -1 and operation 3x3_depth_conv:
+[32, 16, 16, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 2 block 1 with input -2 and operation identity:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 1 with input 0 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 2 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 2 with input 1 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 3 with input 2 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 3 with input 0 and operation 7x7_conv:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 4 with input -2 and operation 5x5_depth_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 4 with input 1 and operation 3x3_conv:
+[32, 16, 16, 24]
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 0 with input -1 and operation identity:
+[32, 16, 16, 48]
+output dimension of o2 for cell 3 block 0 with input -1 and operation 3x3_depth_conv:
+[32, 16, 16, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 1 with input -2 and operation identity:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 1 with input 0 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o1 for cell 3 block 2 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 2 with input 1 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o1 for cell 3 block 3 with input 2 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o2 for cell 3 block 3 with input 0 and operation 7x7_conv:
+[32, 16, 16, 48]
+output dimension of o1 for cell 3 block 4 with input -2 and operation 5x5_depth_conv:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 4 with input 1 and operation 3x3_conv:
+[32, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 4 block 0 with input -1 and operation identity:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 0 with input -1 and operation 3x3_depth_conv:
+[32, 16, 16, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 4 block 1 with input -2 and operation identity:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 1 with input 0 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 2 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 2 with input 1 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 3 with input 2 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 3 with input 0 and operation 7x7_conv:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 4 with input -2 and operation 5x5_depth_conv:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 4 with input 1 and operation 3x3_conv:
+[32, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 5 block 0 with input -1 and operation identity:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 0 with input -1 and operation 3x3_depth_conv:
+[32, 8, 8, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 5 block 1 with input -2 and operation identity:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 1 with input 0 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+output dimension of o1 for cell 5 block 2 with input -2 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 2 with input 1 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+output dimension of o1 for cell 5 block 3 with input 2 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 3 with input 0 and operation 7x7_conv:
+[32, 8, 8, 48]
+output dimension of o1 for cell 5 block 4 with input -2 and operation 5x5_depth_conv:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 4 with input 1 and operation 3x3_conv:
+[32, 8, 8, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 0 with input -1 and operation identity:
+[32, 8, 8, 96]
+output dimension of o2 for cell 6 block 0 with input -1 and operation 3x3_depth_conv:
+[32, 8, 8, 96]
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 1 with input -2 and operation identity:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 1 with input 0 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o1 for cell 6 block 2 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 2 with input 1 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o1 for cell 6 block 3 with input 2 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o2 for cell 6 block 3 with input 0 and operation 7x7_conv:
+[32, 8, 8, 96]
+output dimension of o1 for cell 6 block 4 with input -2 and operation 5x5_depth_conv:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 4 with input 1 and operation 3x3_conv:
+[32, 8, 8, 96]
+
+Identity conv2D
+
+output dimension of o1 for cell 7 block 0 with input -1 and operation identity:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 0 with input -1 and operation 3x3_depth_conv:
+[32, 8, 8, 96]
+
+Identity subsample used
+
+output dimension of o1 for cell 7 block 1 with input -2 and operation identity:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 1 with input 0 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o1 for cell 7 block 2 with input -2 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 2 with input 1 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o1 for cell 7 block 3 with input 2 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 3 with input 0 and operation 7x7_conv:
+[32, 8, 8, 96]
+output dimension of o1 for ceWARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:490: softmax_cross_entropy (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.softmax_cross_entropy instead. Note that the order of the logits and labels arguments has been changed.
+WARNING:tensorflow:From /home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:398: compute_weighted_loss (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.compute_weighted_loss instead.
+WARNING:tensorflow:From /home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:151: add_loss (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.add_loss instead.
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+2019-02-24 21:10:55.549696: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-02-24 21:10:55.724415: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:08:00.0
+totalMemory: 10.91GiB freeMemory: 10.60GiB
+2019-02-24 21:10:55.724464: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:08:00.0, compute capability: 6.1)
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /home/lile/Projects/git_repo/hacone/outputs/cifarnet_movidius/_-1_-1_1_2_-2_0_1_0_-2_1_0_0_2_0_0_7_-2_1_4_3/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 0.
+INFO:tensorflow:global step 10: loss = 26.0779 (0.072 sec/step)
+INFO:tensorflow:global step 20: loss = 27.5089 (0.071 sec/step)
+INFO:tensorflow:global step 30: loss = 29.7612 (0.071 sec/step)
+INFO:tensorflow:global step 40: loss = 23.6676 (0.070 sec/step)
+INFO:tensorflow:global step 50: loss = 21.7982 (0.071 sec/step)
+INFO:tensorflow:global step 60: loss = 43.4433 (0.070 sec/step)
+INFO:tensorflow:global step 70: loss = 36.2421 (0.072 sec/step)
+INFO:tensorflow:global step 80: loss = 33.1826 (0.071 sec/step)
+INFO:tensorflow:global step 90: loss = 41.0665 (0.071 sec/step)
+INFO:tensorflow:global step 100: loss = 34.9056 (0.071 sec/step)
+INFO:tensorflow:global step 110: loss = 51.6030 (0.071 sec/step)
+INFO:tensorflow:global step 120: loss = 44.4888 (0.072 sec/step)
+INFO:tensorflow:global step 130: loss = 41.4480 (0.073 sec/step)
+INFO:tensorflow:global step 140: loss = 102.7101 (0.072 sec/step)
+INFO:tensorflow:global step 150: loss = 52.0575 (0.071 sec/step)
+INFO:tensorflow:global step 160: loss = 73.5153 (0.073 sec/step)
+INFO:tensorflow:global step 170: loss = 80.7814 (0.072 sec/step)
+INFO:tensorflow:global step 180: loss = 76.8936 (0.072 sec/step)
+INFO:tensorflow:global step 190: loss = 63.7232 (0.072 sec/step)
+INFO:tensorflow:global step 200: loss = 90.6389 (0.071 sec/step)
+INFO:tensorflow:global step 210: loss = 68.4064 (0.071 sec/step)
+INFO:tensorflow:global step 220: loss = 65.8908 (0.070 sec/step)
+INFO:tensorflow:global step 230: loss = 119.6396 (0.072 sec/step)
+INFO:tensorflow:global step 240: loss = 77.7211 (0.071 sec/step)
+INFO:tensorflow:global step 250: loss = 75.9080 (0.072 sec/step)
+INFO:tensorflow:global step 260: loss = 72.4539 (0.071 sec/step)
+INFO:tensorflow:global step 270: loss = 69.5237 (0.071 sec/step)
+INFO:tensorflow:global step 280: loss = 60.1766 (0.071 sec/step)
+INFO:tensorflow:global step 290: loss = 79.6958 (0.072 sec/step)
+INFO:tensorflow:global step 300: loss = 46.0238 (0.072 sec/step)
+INFO:tensorflow:global step 310: loss = 57.4374 (0.072 sec/step)
+INFO:tensorflow:global step 320: loss = 58.8568 (0.072 sec/step)
+INFO:tensorflow:global step 330: loss = 80.6708 (0.073 sec/step)
+INFO:tensorflow:global step 340: loss = 75.8090 (0.071 sec/step)
+INFO:tensorflow:global step 350: loss = 52.5665 (0.073 sec/step)
+INFO:tensorflow:global step 360: loss = 40.1753 (0.073 sec/step)
+INFO:tensorflow:global step 370: loss = 76.7069 (0.073 sec/step)
+INFO:tensorflow:global step 380: loss = 38.6298 (0.071 sec/step)
+INFO:tensorflow:global step 390: loss = 69.9228 (0.071 sec/step)
+INFO:tensorflow:global step 400: loss = 49.4141 (0.071 sec/step)
+INFO:tensorflow:global step 410: loss = 65.6930 (0.071 sec/step)
+INFO:tensorflow:global step 420: loss = 68.9641 (0.071 sec/step)
+INFO:tensorflow:global step 430: loss = 45.5260 (0.071 sec/step)
+INFO:tensorflow:global step 440: loss = 78.8022 (0.072 sec/step)
+INFO:tensorflow:global step 450: loss = 102.2635 (0.071 sec/step)
+INFO:tensorflow:global step 460: loss = 78.9764 (0.071 sec/step)
+INFO:tensorflow:global step 470: loss = 93.4868 (0.071 sec/step)
+INFO:tensorflow:global step 480: loss = 91.7871 (0.072 sec/step)
+INFO:tensorflow:global step 490: loss = 83.2101 (0.071 sec/step)
+INFO:tensorflow:global step 500: loss = 122.9563 (0.071 sec/step)
+INFO:tensorflow:global step 510: loss = 109.9991 (0.070 sec/step)
+INFO:tensorflow:global step 520: loss = 81.7052 (0.073 sec/step)
+INFO:tensorflow:global step 530: loss = 78.0139 (0.071 sec/step)
+INFO:tensorflow:global step 540: loss = 145.0967 (0.072 sec/step)
+INFO:tensorflow:global step 550: loss = 109.5963 (0.072 sec/step)
+INFO:tensorflow:global step 560: loss = 104.5370 (0.074 sec/step)
+INFO:tensorflow:global step 570: loss = 78.2513 (0.072 sec/step)
+INFO:tensorflow:global step 580: loss = 131.9703 (0.071 sec/step)
+INFO:tensorflow:global step 590: loss = 142.2572 (0.072 sec/step)
+INFO:tensorflow:global step 600: loss = 82.9059 (0.071 sec/step)
+INFO:tensorflow:global step 610: loss = 98.4651 (0.072 sec/step)
+INFO:tensorflow:global step 620: loss = 92.7855 (0.072 sec/step)
+INFO:tensorflow:global step 630: loss = 192.7537 (0.072 sec/step)
+INFO:tensorflow:global step 640: loss = 138.6790 (0.072 sec/step)
+INFO:tensorflow:global step 650: loss = 140.4986 (0.071 sec/step)
+INFO:tensorflow:global step 660: loss = 99.4328 (0.072 sec/step)
+INFO:tensorflow:global step 670: loss = 132.9735 (0.072 sec/step)
+INFO:tensorflow:global step 680: loss = 164.8098 (0.074 sec/step)
+INFO:tensorflow:global step 690: loss = 234.7136 (0.079 sec/step)
+INFO:tensorflow:global step 700: loss = 216.5892 (0.074 sec/step)
+INFO:tensorflow:global step 710: loss = 267.5775 (0.071 sec/step)
+INFO:tensorflow:global step 720: loss = 185.6366 (0.072 sec/step)
+INFO:tensorflow:global step 730: loss = 177.5134 (0.072 sec/step)
+INFO:tensorflow:global step 740: loss = 134.0886 (0.073 sec/step)
+INFO:tensorflow:global step 750: loss = 134.2231 (0.072 sec/step)
+INFO:tensorflow:global step 760: loss = 170.2894 (0.072 sec/step)
+INFO:tensorflow:global step 770: loss = 138.6783 (0.072 sec/step)
+INFO:tensorflow:global step 780: loss = 127.0041 (0.072 sec/step)
+INFO:tensorflow:global step 790: loss = 169.3984 (0.070 sec/step)
+INFO:tensorflow:global step 800: loss = 201.9708 (0.072 sec/step)
+INFO:tensorflow:global step 810: loss = 143.4878 (0.072 sec/step)
+INFO:tensorflow:global step 820: loss = 187.5813 (0.072 sec/step)
+INFO:tensorflow:global step 830: loss = 116.9589 (0.073 sec/step)
+INFO:tensorflow:global step 840: loss = 122.2799 (0.073 sec/step)
+INFO:tensorflow:global step 850: loss = 115.1792 (0.072 sec/step)
+INFO:tensorflow:global step 860: loss = 98.0957 (0.074 sec/step)
+INFO:tensorflow:global step 870: loss = 84.1095 (0.074 sec/step)
+INFO:tensorflow:global step 880: loss = 131.6793 (0.072 sec/step)
+INFO:tensorflow:global step 890: loss = 95.4697 (0.073 sec/step)
+INFO:tensorflow:global step 900: loss = 101.4267 (0.070 sec/step)
+INFO:tensorflow:global step 910: loss = 192.3682 (0.071 sec/step)
+INFO:tensorflow:global step 920: loss = 150.6476 (0.071 sec/step)
+INFO:tensorflow:global step 930: loss = 209.3712 (0.072 sec/step)
+INFO:tensorflow:global step 940: loss = 217.9106 (0.072 sec/step)
+INFO:tensorflow:global step 950: loss = 155.2507 (0.072 sec/step)
+INFO:tensorflow:global step 960: loss = 104.3810 (0.072 sec/step)
+INFO:tensorflow:global step 970: loss = 153.0967 (0.072 sec/step)
+INFO:tensorflow:global step 980: loss = 123.5252 (0.073 sec/step)
+INFO:tensorflow:global step 990: loss = 149.1431 (0.072 sec/step)
+INFO:tensorflow:global step 1000: loss = 211.7244 (0.071 sec/step)
+INFO:tensorflow:global step 1010: loss = 283.1346 (0.076 sec/step)
+INFO:tensorflow:global step 1020: loss = 250.0380 (0.072 sec/step)
+INFO:tensorflow:global step 1030: loss = 171.7191 (0.072 sec/step)
+INFO:tensorflow:global step 1040: loss = 176.6126 (0.071 sec/step)
+INFO:tensorflow:global step 1050: loss = 288.3166 (0.073 sec/step)
+INFO:tensorflow:global step 1060: loss = 274.5591 (0.072 sec/step)
+INFO:tensorflow:global step 1070: loss = 125.3252 (0.072 sec/step)
+INFO:tensorflow:global step 1080: loss = 315.5651 (0.072 sec/step)
+INFO:tensorflow:global step 1090: loss = 187.8652 (0.071 sec/step)
+INFO:tensorflow:global step 1100: loss = 191.9801 (0.072 sec/step)
+INFO:tensorflow:global step 1110: loss = 152.3992 (0.072 sec/step)
+INFO:tensorflow:global step 1120: loss = 128.3950 (0.070 sec/step)
+INFO:tensorflow:global step 1130: loss = 124.9895 (0.072 sec/step)
+INFO:tensorflow:global step 1140: loss = 71.4909 (0.074 sec/step)
+INFO:tensorflow:global step 1150: loss = 101.6033 (0.072 sec/step)
+INFO:tensorflow:global step 1160: loss = 110.1059 (0.072 sec/step)
+INFO:tensorflow:global step 1170: loss = 162.6705 (0.072 sec/step)
+INFO:tensorflow:global step 1180: loss = 132.7126 (0.072 sec/step)
+INFO:tensorflow:global step 1190: loss = 148.4109 (0.071 sec/step)
+INFO:tensorflow:global step 1200: loss = 128.9532 (0.071 sec/step)
+INFO:tensorflow:global step 1210: loss = 178.9742 (0.073 sec/step)
+INFO:tensorflow:global step 1220: loss = 144.3224 (0.071 sec/step)
+INFO:tensorflow:global step 1230: loss = 190.8472 (0.072 sec/step)
+INFO:tensorflow:global step 1240: loss = 121.4156 (0.073 sec/step)
+INFO:tensorflow:global step 1250: loss = 160.3306 (0.072 sec/step)
+INFO:tensorflow:global step 1260: loss = 209.2906 (0.072 sec/step)
+INFO:tensorflow:global step 1270: loss = 188.0331 (0.074 sec/step)
+INFO:tensorflow:global step 1280: loss = 174.8677 (0.072 sec/step)
+INFO:tensorflow:global step 1290: loss = 213.9737 (0.072 sec/step)
+INFO:tensorflow:global step 1300: loss = 145.2451 (0.071 sec/step)
+INFO:tensorflow:global step 1310: loss = 297.1522 (0.072 sec/step)
+INFO:tensorflow:global step 1320: loss = 197.7586 (0.073 sec/step)
+INFO:tensorflow:global step 1330: loss = 240.4766 (0.073 sec/step)
+INFO:tensorflow:global step 1340: loss = 239.6104 (0.072 sec/step)
+INFO:tensorflow:global step 1350: loss = 265.1844 (0.071 sec/step)
+INFO:tensorflow:global step 1360: loss = 267.5664 (0.071 sec/step)
+INFO:tensorflow:global step 1370: loss = 184.7061 (0.073 sec/step)
+INFO:tensorflow:global step 1380: loss = 178.2112 (0.072 sec/step)
+INFO:tensorflow:global step 1390: loss = 168.4036 (0.074 sec/step)
+INFO:tensorflow:global step 1400: loss = 162.4203 (0.072 sec/step)
+INFO:tensorflow:global step 1410: loss = 198.9055 (0.072 sec/step)
+INFO:tensorflow:global step 1420: loss = 143.9783 (0.071 sec/step)
+INFO:tensorflow:global step 1430: loss = 147.0759 (0.070 sec/step)
+INFO:tensorflow:global step 1440: loss = 167.6218 (0.072 sec/step)
+INFO:tensorflow:global step 1450: loss = 186.3520 (0.076 sec/step)
+INFO:tensorflow:global step 1460: loss = 142.6532 (0.073 sec/step)
+INFO:tensorflow:global step 1470: loss = 191.9834 (0.075 sec/step)
+INFO:tensorflow:global step 1480: loss = 404.0096 (0.072 sec/step)
+INFO:tensorflow:global step 1490: loss = 338.1931 (0.072 sec/step)
+INFO:tensorflow:global step 1500: loss = 298.9275 (0.074 sec/step)
+INFO:tensorflow:global step 1510: loss = 300.7792 (0.072 sec/step)
+INFO:tensorflow:global step 1520: loss = 200.4810 (0.072 sec/step)
+INFO:tensorflow:global step 1530: loss = 127.1710 (0.071 sec/step)
+INFO:tensorflow:global step 1540: loss = 196.8975 (0.073 sec/step)
+INFO:tensorflow:global step 1550: loss = 99.1469 (0.072 sec/step)
+INFO:tensorflow:global step 1560: loss = 149.0803 (0.072 sec/step)
+INFO:tensorflow:global step 1570: loss = 192.0439 (0.072 sec/step)
+INFO:tensorflow:global step 1580: loss = 181.8688 (0.074 sec/step)
+INFO:tensorflow:global step 1590: loss = 193.8194 (0.073 sec/step)
+INFO:tensorflow:global step 1600: loss = 163.7117 (0.072 sec/step)
+INFO:tensorflow:global step 1610: loss = 207.6089 (0.071 sec/step)
+INFO:tensorflow:global step 1620: loss = 131.3481 (0.073 sec/step)
+INFO:tensorflow:global step 1630: loss = 235.4441 (0.072 sec/step)
+INFO:tensorflow:global step 1640: loss = 319.9729 (0.072 sec/step)
+INFO:tensorflow:global step 1650: loss = 301.0449 (0.073 sec/step)
+INFO:tensorflow:global step 1660: loss = 237.2622 (0.081 sec/step)
+INFO:tensorflow:global step 1670: loss = 264.1922 (0.084 sec/step)
+INFO:tensorflow:global step 1680: loss = 202.3196 (0.084 sec/step)
+INFO:tensorflow:global step 1690: loss = 95.6867 (0.080 sec/step)
+INFO:tensorflow:global step 1700: loss = 269.8329 (0.075 sec/step)
+INFO:tensorflow:global step 1710: loss = 222.4384 (0.072 sec/step)
+INFO:tensorflow:global step 1720: loss = 206.4974 (0.076 sec/step)
+INFO:tensorflow:global step 1730: loss = 154.3280 (0.082 sec/step)
+INFO:tensorflow:global step 1740: loss = 201.0984 (0.077 sec/step)
+INFO:tensorflow:global step 1750: loss = 224.2715 (0.076 sec/step)
+INFO:tensorflow:global step 1760: loss = 196.6190 (0.074 sec/step)
+INFO:tensorflow:global step 1770: loss = 166.3354 (0.075 sec/step)
+INFO:tensorflow:global step 1780: loss = 216.8277 (0.073 sec/step)
+INFO:tensorflow:global step 1790: loss = 156.7289 (0.072 sec/step)
+INFO:tensorflow:global step 1800: loss = 137.5977 (0.073 sec/step)
+INFO:tensorflow:global step 1810: loss = 138.8339 (0.076 sec/step)
+INFO:tensorflow:global step 1820: loss = 182.8445 (0.078 sec/step)
+INFO:tensorflow:global step 1830: loss = 258.5567 (0.072 sec/step)
+INFO:tensorflow:global step 1840: loss = 159.2954 (0.074 sec/step)
+INFO:tensorflow:global step 1850: loss = 124.9116 (0.075 sec/step)
+INFO:tensorflow:global step 1860: loss = 193.4661 (0.075 sec/step)
+INFO:tensorflow:global step 1870: loss = 179.1712 (0.079 sec/step)
+INFO:tensorflow:global step 1880: loss = 221.6225 (0.075 sec/step)
+INFO:tensorflow:global step 1890: loss = 154.5097 (0.078 sec/step)
+INFO:tensorflow:global step 1900: loss = 184.7050 (0.077 sec/step)
+INFO:tensorflow:global step 1910: loss = 221.4224 (0.080 sec/step)
+INFO:tensorflow:global step 1920: loss = 178.3718 (0.077 sec/step)
+INFO:tensorflow:global step 1930: loss = 274.8012 (0.073 sec/step)
+INFO:tensorflow:global step 1940: loss = 245.9536 (0.077 sec/step)
+INFO:tensorflow:global step 1950: loss = 209.0880 (0.075 sec/step)
+INFO:tensorflow:global step 1960: loss = 259.0051 (0.077 sec/step)
+INFO:tensorflow:global step 1970: loss = 211.8297 (0.080 sec/step)
+INFO:tensorflow:global step 1980: loss = 328.3768 (0.075 sec/step)
+INFO:tensorflow:global step 1990: loss = 223.2808 (0.074 sec/step)
+INFO:tensorflow:global step 2000: loss = 164.8212 (0.075 sec/step)
+INFO:tensorflow:global step 2010: loss = 193.5761 (0.076 sec/step)
+INFO:tensorflow:global step 2020: loss = 192.9846 (0.072 sec/step)
+INFO:tensorflow:global step 2030: loss = 142.6765 (0.075 sec/step)
+INFO:tensorflow:global step 2040: loss = 219.1685 (0.074 sec/step)
+INFO:tensorflow:global step 2050: loss = 195.9334 (0.074 sec/step)
+INFO:tensorflow:global step 2060: loss = 145.3633 (0.073 sec/step)
+INFO:tensorflow:global step 2070: loss = 113.0309 (0.079 sec/step)
+INFO:tensorflow:global step 2080: loss = 122.6397 (0.072 sec/step)
+INFO:tensorflow:global step 2090: loss = 142.9641 (0.077 sec/step)
+INFO:tensorflow:global step 2100: loss = 146.5403 (0.077 sec/step)
+INFO:tensorflow:global step 2110: loss = 210.3644 (0.078 sec/step)
+INFO:tensorflow:global step 2120: loss = 224.5806 (0.080 sec/step)
+INFO:tensorflow:global step 2130: loss = 296.5016 (0.077 sec/step)
+INFO:tensorflow:global step 2140: loss = 201.9947 (0.075 sec/step)
+INFO:tensorflow:global step 2150: loss = 176.2859 (0.075 sec/step)
+INFO:tensorflow:global step 2160: loss = 256.7084 (0.075 sec/step)
+INFO:tensorflow:global step 2170: loss = 186.8463 (0.075 sec/step)
+INFO:tensorflow:global step 2180: loss = 199.7738 (0.082 sec/step)
+INFO:tensorflow:global step 2190: loss = 232.6613 (0.074 sec/step)
+INFO:tensorflow:global step 2200: loss = 213.9654 (0.076 sec/step)
+INFO:tensorflow:global step 2210: loss = 204.2289 (0.077 sec/step)
+INFO:tensorflow:global step 2220: loss = 213.2361 (0.073 sec/step)
+INFO:tensorflow:global step 2230: loss = 250.8947 (0.075 sec/step)
+INFO:tensorflow:global step 2240: loss = 199.6816 (0.074 sec/step)
+INFO:tensorflow:global step 2250: loss = 215.3185 (0.107 sec/step)
+INFO:tensorflow:global step 2260: loss = 210.2257 (0.072 sec/step)
+INFO:tensorflow:global step 2270: loss = 134.8742 (0.079 sec/step)
+INFO:tensorflow:global step 2280: loss = 136.2597 (0.070 sec/step)
+INFO:tensorflow:global step 2290: loss = 97.9567 (0.077 sec/step)
+INFO:tensorflow:global step 2300: loss = 119.9182 (0.073 sec/step)
+INFO:tensorflow:global step 2310: loss = 158.0426 (0.074 sec/step)
+INFO:tensorflow:global step 2320: loss = 140.7423 (0.073 sec/step)
+INFO:tensorflow:global step 2330: loss = 146.0050 (0.072 sec/step)
+INFO:tensorflow:global step 2340: loss = 191.8400 (0.072 sec/step)
+INFO:tensorflow:global step 2350: loss = 102.3263 (0.073 sec/step)
+INFO:tensorflow:global step 2360: loss = 204.8395 (0.073 sec/step)
+INFO:tensorflow:global step 2370: loss = 149.0780 (0.071 sec/step)
+INFO:tensorflow:global step 2380: loss = 212.0033 (0.072 sec/step)
+INFO:tensorflow:global step 2390: loss = 176.9158 (0.073 sec/step)
+INFO:tensorflow:global step 2400: loss = 207.6138 (0.074 sec/step)
+INFO:tensorflow:global step 2410: loss = 202.4736 (0.072 sec/step)
+INFO:tensorflow:global step 2420: loss = 250.9372 (0.072 sec/step)
+INFO:tensorflow:global step 2430: loss = 176.2227 (0.071 sec/step)
+INFO:tensorflow:global step 2440: loss = 185.4026 (0.072 sec/step)
+INFO:tensorflow:global step 2450: loss = 258.3033 (0.072 sec/step)
+INFO:tensorflow:global step 2460: loss = 301.1155 (0.071 sec/step)
+INFO:tensorflow:global step 2470: loss = 287.8925 (0.074 sec/step)
+INFO:tensorflow:global step 2480: loss = 283.9634 (0.071 sec/step)
+INFO:tensorflow:global step 2490: loss = 374.9612 (0.071 sec/step)
+INFO:tensorflow:global step 2500: loss = 248.2565 (0.072 sec/step)
+INFO:tensorflow:global step 2510: loss = 173.7405 (0.072 sec/step)
+INFO:tensorflow:global step 2520: loss = 408.3506 (0.079 sec/step)
+INFO:tensorflow:global step 2530: loss = 154.8211 (0.072 sec/step)
+INFO:tensorflow:global step 2540: loss = 265.0131 (0.074 sec/step)
+INFO:tensorflow:global step 2550: loss = 454.9308 (0.074 sec/step)
+INFO:tensorflow:global step 2560: loss = 210.2579 (0.073 sec/step)
+INFO:tensorflow:global step 2570: loss = 122.0266 (0.072 sec/step)
+INFO:tensorflow:global step 2580: loss = 176.5690 (0.073 sec/step)
+INFO:tensorflow:global step 2590: loss = 152.1478 (0.078 sec/step)
+INFO:tensorflow:global step 2600: loss = 209.0433 (0.075 sec/step)
+INFO:tensorflow:global step 2610: loss = 178.6588 (0.075 sec/step)
+INFO:tensorflow:global step 2620: loss = 147.3590 (0.074 sec/step)
+INFO:tensorflow:global step 2630: loss = 133.1879 (0.076 sec/step)
+INFO:tensorflow:global step 2640: loss = 141.8721 (0.074 sec/step)
+INFO:tensorflow:global step 2650: loss = 172.5268 (0.075 sec/step)
+INFO:tensorflow:global step 2660: loss = 178.5466 (0.089 sec/step)
+INFO:tensorflow:global step 2670: loss = 167.3143 (0.077 sec/step)
+INFO:tensorflow:global step 2680: loss = 190.9413 (0.079 sec/step)
+INFO:tensorflow:global step 2690: loss = 126.1862 (0.077 sec/step)
+INFO:tensorflow:global step 2700: loss = 214.1562 (0.078 sec/step)
+INFO:tensorflow:global step 2710: loss = 180.2661 (0.079 sec/step)
+INFO:tensorflow:global step 2720: loss = 333.8842 (0.074 sec/step)
+INFO:tensorflow:global step 2730: loss = 229.9111 (0.072 sec/step)
+INFO:tensorflow:global step 2740: loss = 270.9722 (0.082 sec/step)
+INFO:tensorflow:global step 2750: loss = 116.0662 (0.075 sec/step)
+INFO:tensorflow:global step 2760: loss = 167.3579 (0.076 sec/step)
+INFO:tensorflow:global step 2770: loss = 148.1976 (0.088 sec/step)
+INFO:tensorflow:global step 2780: loss = 163.5780 (0.073 sec/step)
+INFO:tensorflow:global step 2790: loss = 267.6617 (0.077 sec/step)
+INFO:tensorflow:global step 2800: loss = 203.9561 (0.073 sec/step)
+INFO:tensorflow:global step 2810: loss = 160.1419 (0.072 sec/step)
+INFO:tensorflow:global step 2820: loss = 128.8968 (0.077 sec/step)
+INFO:tensorflow:global step 2830: loss = 167.8021 (0.072 sec/step)
+INFO:tensorflow:global step 2840: loss = 155.7041 (0.071 sec/step)
+INFO:tensorflow:global step 2850: loss = 147.6225 (0.071 sec/step)
+INFO:tensorflow:global step 2860: loss = 182.9760 (0.072 sec/step)
+INFO:tensorflow:global step 2870: loss = 214.0309 (0.077 sec/step)
+INFO:tensorflow:global step 2880: loss = 307.3799 (0.073 sec/step)
+INFO:tensorflow:global step 2890: loss = 239.0982 (0.074 sec/step)
+INFO:tensorflow:global step 2900: loss = 179.5339 (0.071 sec/step)
+INFO:tensorflow:global step 2910: loss = 215.1713 (0.073 sec/step)
+INFO:tensorflow:global step 2920: loss = 273.6172 (0.072 sec/step)
+INFO:tensorflow:global step 2930: loss = 136.0653 (0.071 sec/step)
+INFO:tensorflow:global step 2940: loss = 277.0923 (0.071 sec/step)
+INFO:tensorflow:global step 2950: loss = 224.9627 (0.070 sec/step)
+INFO:tensorflow:global step 2960: loss = 263.0782 (0.072 sec/step)
+INFO:tensorflow:global step 2970: loss = 312.2589 (0.071 sec/step)
+INFO:tensorflow:global step 2980: loss = 286.1123 (0.071 sec/step)
+INFO:tensorflow:global step 2990: loss = 168.3406 (0.074 sec/step)
+INFO:tensorflow:global step 3000: loss = 186.1776 (0.073 sec/step)
+INFO:tensorflow:global step 3010: loss = 150.7060 (0.075 sec/step)
+INFO:tensorflow:global step 3020: loss = 325.8895 (0.072 sec/step)
+INFO:tensorflow:global step 3030: loss = 146.2229 (0.073 sec/step)
+INFO:tensorflow:global step 3040: loss = 241.8549 (0.073 sec/step)
+INFO:tensorflow:global step 3050: loss = 274.8151 (0.071 sec/step)
+INFO:tensorflow:global step 3060: loss = 350.8842 (0.074 sec/step)
+INFO:tensorflow:global step 3070: loss = 234.7032 (0.079 sec/step)
+INFO:tensorflow:global step 3080: loss = 337.4086 (0.073 sec/step)
+INFO:tensorflow:global step 3090: loss = 408.4841 (0.072 sec/step)
+INFO:tensorflow:global step 3100: loss = 459.4932 (0.089 sec/step)
+INFO:tensorflow:global step 3110: loss = 174.6443 (0.072 sec/step)
+INFO:tensorflow:global step 3120: loss = 208.7054 (0.072 sec/step)
+INFO:tensorflow:global step 3130: loss = 207.2734 (0.076 sec/step)
+INFO:tensorflow:global step 3140: loss = 120.6705 (0.074 sec/step)
+INFO:tensorflow:global step 3150: loss = 237.9140 (0.073 sec/step)
+INFO:tensorflow:global step 3160: loss = 155.6605 (0.078 sec/step)
+INFO:tensorflow:global step 3170: loss = 209.8413 (0.078 sec/step)
+INFO:tensorflow:global step 3180: loss = 234.3471 (0.081 sec/step)
+INFO:tensorflow:global step 3190: loss = 183.8390 (0.072 sec/step)
+INFO:tensorflow:global step 3200: loss = 183.0136 (0.076 sec/step)
+INFO:tensorflow:global step 3210: loss = 123.6853 (0.078 sec/step)
+INFO:tensorflow:global step 3220: loss = 177.7379 (0.082 sec/step)
+INFO:tensorflow:global step 3230: loss = 147.3507 (0.080 sec/step)
+INFO:tensorflow:global step 3240: loss = 164.3628 (0.074 sec/step)
+INFO:tensorflow:global step 3250: loss = 216.3129 (0.077 sec/step)
+INFO:tensorflow:global step 3260: loss = 247.6686 (0.075 sec/step)
+INFO:tensorflow:global step 3270: loss = 160.1788 (0.077 sec/step)
+INFO:tensorflow:global step 3280: loss = 188.1421 (0.079 sec/step)
+INFO:tensorflow:global step 3290: loss = 142.0589 (0.081 sec/step)
+INFO:tensorflow:global step 3300: loss = 123.8626 (0.081 sec/step)
+INFO:tensorflow:global step 3310: loss = 183.1769 (0.077 sec/step)
+INFO:tensorflow:global step 3320: loss = 215.6097 (0.075 sec/step)
+INFO:tensorflow:global step 3330: loss = 109.9603 (0.073 sec/step)
+INFO:tensorflow:global step 3340: loss = 128.1131 (0.073 sec/step)
+INFO:tensorflow:global step 3350: loss = 146.6871 (0.075 sec/step)
+INFO:tensorflow:global step 3360: loss = 130.3450 (0.074 sec/step)
+INFO:tensorflow:global step 3370: loss = 80.4247 (0.083 sec/step)
+INFO:tensorflow:global step 3380: loss = 119.4157 (0.081 sec/step)
+INFO:tensorflow:global step 3390: loss = 113.3390 (0.079 sec/step)
+INFO:tensorflow:global step 3400: loss = 187.6391 (0.073 sec/step)
+INFO:tensorflow:global step 3410: loss = 141.8017 (0.075 sec/step)
+INFO:tensorflow:global step 3420: loss = 116.5358 (0.074 sec/step)
+INFO:tensorflow:global step 3430: loss = 104.4496 (0.074 sec/step)
+INFO:tensorflow:global step 3440: loss = 89.6718 (0.073 sec/step)
+INFO:tensorflow:global step 3450: loss = 130.1671 (0.073 sec/step)
+INFO:tensorflow:global step 3460: loss = 159.6139 (0.073 sec/step)
+INFO:tensorflow:global step 3470: loss = 133.6697 (0.072 sec/step)
+INFO:tensorflow:global step 3480: loss = 112.3841 (0.077 sec/step)
+INFO:tensorflow:global step 3490: loss = 97.2673 (0.073 sec/step)
+INFO:tensorflow:global step 3500: loss = 167.5704 (0.072 sec/step)
+INFO:tensorflow:global step 3510: loss = 121.7304 (0.098 sec/step)
+INFO:tensorflow:global step 3520: loss = 93.9808 (0.071 sec/step)
+INFO:tensorflow:global step 3530: loss = 106.5201 (0.072 sec/step)
+INFO:tensorflow:global step 3540: loss = 174.8070 (0.071 sec/step)
+INFO:tensorflow:global step 3550: loss = 164.5399 (0.072 sec/step)
+INFO:tensorflow:global step 3560: loss = 159.5792 (0.072 sec/step)
+INFO:tensorflow:global step 3570: loss = 114.5015 (0.071 sec/step)
+INFO:tensorflow:global step 3580: loss = 126.0729 (0.072 sec/step)
+INFO:tensorflow:global step 3590: loss = 81.2592 (0.072 sec/step)
+INFO:tensorflow:global step 3600: loss = 131.3853 (0.072 sec/step)
+INFO:tensorflow:global step 3610: loss = 127.0746 (0.071 sec/step)
+INFO:tensorflow:global step 3620: loss = 130.5756 (0.072 sec/step)
+INFO:tensorflow:global step 3630: loss = 144.1804 (0.073 sec/step)
+INFO:tensorflow:global step 3640: loss = 171.3125 (0.072 sec/step)
+INFO:tensorflow:global step 3650: loss = 144.5187 (0.072 sec/step)
+INFO:tensorflow:global step 3660: loss = 75.4726 (0.072 sec/step)
+INFO:tensorflow:global step 3670: loss = 83.0802 (0.092 sec/step)
+INFO:tensorflow:global step 3680: loss = 79.0190 (0.073 sec/step)
+INFO:tensorflow:global step 3690: loss = 93.8866 (0.073 sec/step)
+INFO:tensorflow:global step 3700: loss = 205.8023 (0.072 sec/step)
+INFO:tensorflow:global step 3710: loss = 121.4383 (0.072 sec/step)
+INFO:tensorflow:global step 3720: loss = 96.0421 (0.072 sec/step)
+INFO:tensorflow:global step 3730: loss = 93.0067 (0.075 sec/step)
+INFO:tensorflow:global step 3740: loss = 79.3989 (0.075 sec/step)
+INFO:tensorflow:global step 3750: loss = 109.5353 (0.077 sec/step)
+INFO:tensorflow:global step 3760: loss = 164.3810 (0.076 sec/step)
+INFO:tensorflow:global step 3770: loss = 187.4560 (0.074 sec/step)
+INFO:tensorflow:global step 3780: loss = 96.4091 (0.093 sec/step)
+INFO:tensorflow:global step 3790: loss = 144.2652 (0.073 sec/step)
+INFO:tensorflow:global step 3800: loss = 167.1761 (0.073 sec/step)
+INFO:tensorflow:global step 3810: loss = 131.2851 (0.082 sec/step)
+INFO:tensorflow:global step 3820: loss = 189.3734 (0.074 sec/step)
+INFO:tensorflow:global step 3830: loss = 66.7727 (0.078 sec/step)
+INFO:tensorflow:global step 3840: loss = 121.2301 (0.073 sec/step)
+INFO:tensorflow:global step 3850: loss = 152.0737 (0.073 sec/step)
+INFO:tensorflow:global step 3860: loss = 116.1757 (0.073 sec/step)
+INFO:tensorflow:global step 3870: loss = 124.3249 (0.078 sec/step)
+INFO:tensorflow:global step 3880: loss = 115.7460 (0.075 sec/step)
+INFO:tensorflow:global step 3890: loss = 111.7225 (0.074 sec/step)
+INFO:tensorflow:global step 3900: loss = 103.2782 (0.073 sec/step)
+INFO:tensorflow:global step 3910: loss = 91.9162 (0.078 sec/step)
+INFO:tensorflow:global step 3920: loss = 85.5441 (0.080 sec/step)
+INFO:tensorflow:global step 3930: loss = 85.0036 (0.075 sec/step)
+INFO:tensorflow:global step 3940: loss = 96.3688 (0.075 sec/step)
+INFO:tensorflow:global step 3950: loss = 50.7535 (0.074 sec/step)
+INFO:tensorflow:global step 3960: loss = 83.3232 (0.078 sec/step)
+INFO:tensorflow:global step 3970: loss = 130.6151 (0.077 sec/step)
+INFO:tensorflow:global step 3980: loss = 115.5334 (0.074 sec/step)
+INFO:tensorflow:global step 3990: loss = 118.4546 (0.076 sec/step)
+INFO:tensorflow:global step 4000: loss = 123.1997 (0.074 sec/step)
+INFO:tensorflow:global step 4010: loss = 90.2155 (0.076 sec/step)
+INFO:tensorflow:global step 4020: loss = 100.7972 (0.074 sec/step)
+INFO:tensorflow:global step 4030: loss = 105.7496 (0.075 sec/step)
+INFO:tensorflow:global step 4040: loss = 106.3286 (0.075 sec/step)
+INFO:tensorflow:global step 4050: loss = 101.2277 (0.075 sec/step)
+INFO:tensorflow:global step 4060: loss = 78.4582 (0.083 sec/step)
+INFO:tensorflow:global step 4070: loss = 87.2377 (0.084 sec/step)
+INFO:tensorflow:global step 4080: loss = 56.2366 (0.081 sec/step)
+INFO:tensorflow:global step 4090: loss = 68.0238 (0.081 sec/step)
+INFO:tensorflow:global step 4100: loss = 112.7821 (0.086 sec/step)
+INFO:tensorflow:global step 4110: loss = 89.1206 (0.079 sec/step)
+INFO:tensorflow:global step 4120: loss = 59.4249 (0.076 sec/step)
+INFO:tensorflow:global step 4130: loss = 65.2373 (0.071 sec/step)
+INFO:tensorflow:global step 4140: loss = 98.7796 (0.072 sec/step)
+INFO:tensorflow:global step 4150: loss = 90.1016 (0.072 sec/step)
+INFO:tensorflow:global step 4160: loss = 105.1748 (0.072 sec/step)
+INFO:tensorflow:global step 4170: loss = 105.2386 (0.073 sec/step)
+INFO:tensorflow:global step 4180: loss = 92.0482 (0.071 sec/step)
+INFO:tensorflow:global step 4190: loss = 92.5122 (0.072 sec/step)
+INFO:tensorflow:global step 4200: loss = 76.4829 (0.071 sec/step)
+INFO:tensorflow:global step 4210: loss = 72.4799 (0.072 sec/step)
+INFO:tensorflow:global step 4220: loss = 100.9096 (0.072 sec/step)
+INFO:tensorflow:global step 4230: loss = 72.6433 (0.072 sec/step)
+INFO:tensorflow:global step 4240: loss = 71.1296 (0.072 sec/step)
+INFO:tensorflow:global step 4250: loss = 79.1538 (0.071 sec/step)
+INFO:tensorflow:global step 4260: loss = 143.6400 (0.071 sec/step)
+INFO:tensorflow:global step 4270: loss = 60.0448 (0.073 sec/step)
+INFO:tensorflow:global step 4280: loss = 100.8278 (0.072 sec/step)
+INFO:tensorflow:global step 4290: loss = 89.0931 (0.071 sec/step)
+INFO:tensorflow:global step 4300: loss = 57.0917 (0.073 sec/step)
+INFO:tensorflow:global step 4310: loss = 81.5906 (0.073 sec/step)
+INFO:tensorflow:global step 4320: loss = 75.3578 (0.074 sec/step)
+INFO:tensorflow:global step 4330: loss = 77.8280 (0.074 sec/step)
+INFO:tensorflow:global step 4340: loss = 60.7634 (0.074 sec/step)
+INFO:tensorflow:global step 4350: loss = 81.3390 (0.080 sec/step)
+INFO:tensorflow:global step 4360: loss = 67.8165 (0.073 sec/step)
+INFO:tensorflow:global step 4370: loss = 89.0033 (0.073 sec/step)
+INFO:tensorflow:global step 4380: loss = 43.2927 (0.075 sec/step)
+INFO:tensorflow:global step 4390: loss = 54.6648 (0.075 sec/step)
+INFO:tensorflow:global step 4400: loss = 56.9096 (0.073 sec/step)
+INFO:tensorflow:global step 4410: loss = 108.2550 (0.075 sec/step)
+INFO:tensorflow:global step 4420: loss = 75.8805 (0.072 sec/step)
+INFO:tensorflow:global step 4430: loss = 42.3245 (0.074 sec/step)
+INFO:tensorflow:global step 4440: loss = 65.5781 (0.078 sec/step)
+INFO:tensorflow:global step 4450: loss = 82.1824 (0.074 sec/step)
+INFO:tensorflow:global step 4460: loss = 89.9966 (0.076 sec/step)
+INFO:tensorflow:global step 4470: loss = 85.2707 (0.076 sec/step)
+INFO:tensorflow:global step 4480: loss = 62.9421 (0.075 sec/step)
+INFO:tensorflow:global step 4490: loss = 81.9500 (0.073 sec/step)
+INFO:tensorflow:global step 4500: loss = 52.6079 (0.073 sec/step)
+INFO:tensorflow:global step 4510: loss = 97.2949 (0.074 sec/step)
+INFO:tensorflow:global step 4520: loss = 73.9780 (0.077 sec/step)
+INFO:tensorflow:global step 4530: loss = 78.1387 (0.074 sec/step)
+INFO:tensorflow:global step 4540: loss = 51.1223 (0.074 sec/step)
+INFO:tensorflow:global step 4550: loss = 56.3642 (0.074 sec/step)
+INFO:tensorflow:global step 4560: loss = 69.9433 (0.077 sec/step)
+INFO:tensorflow:global step 4570: loss = 64.0858 (0.074 sec/step)
+INFO:tensorflow:global step 4580: loss = 77.0610 (0.083 sec/step)
+INFO:tensorflow:global step 4590: loss = 134.7832 (0.080 sec/step)
+INFO:tensorflow:global step 4600: loss = 70.9973 (0.079 sec/step)
+INFO:tensorflow:global step 4610: loss = 78.7713 (0.079 sec/step)
+INFO:tensorflow:global step 4620: loss = 61.5310 (0.080 sec/step)
+INFO:tensorflow:global step 4630: loss = 72.9441 (0.083 sec/step)
+INFO:tensorflow:global step 4640: loss = 141.6364 (0.096 sec/step)
+INFO:tensorflow:global step 4650: loss = 115.6841 (0.077 sec/step)
+INFO:tensorflow:global step 4660: loss = 61.3566 (0.074 sec/step)
+INFO:tensorflow:global step 4670: loss = 54.4571 (0.078 sec/step)
+INFO:tensorflow:global step 4680: loss = 51.2537 (0.088 sec/step)
+INFO:tensorflow:global step 4690: loss = 118.6699 (0.075 sec/step)
+INFO:tensorflow:global step 4700: loss = 98.4135 (0.072 sec/step)
+INFO:tensorflow:global step 4710: loss = 74.2029 (0.072 sec/step)
+INFO:tensorflow:global step 4720: loss = 81.4018 (0.073 sec/step)
+INFO:tensorflow:global step 4730: loss = 89.8738 (0.073 sec/step)
+INFO:tensorflow:global step 4740: loss = 174.5069 (0.108 sec/step)
+INFO:tensorflow:global step 4750: loss = 94.2804 (0.071 sec/step)
+INFO:tensorflow:global step 4760: loss = 111.7077 (0.082 sec/step)
+INFO:tensorflow:global step 4770: loss = 123.2936 (0.074 sec/step)
+INFO:tensorflow:global step 4780: loss = 83.4279 (0.073 sec/step)
+INFO:tensorflow:global step 4790: loss = 115.5828 (0.073 sec/step)
+INFO:tensorflow:global step 4800: loss = 99.5963 (0.072 sec/step)
+INFO:tensorflow:global step 4810: loss = 132.7207 (0.073 sec/step)
+INFO:tensorflow:global step 4820: loss = 101.1050 (0.073 sec/step)
+INFO:tensorflow:global step 4830: loss = 89.0455 (0.071 sec/step)
+INFO:tensorflow:global step 4840: loss = 71.0056 (0.073 sec/step)
+INFO:tensorflow:global step 4850: loss = 124.7409 (0.073 sec/step)
+INFO:tensorflow:global step 4860: loss = 65.3852 (0.072 sec/step)
+INFO:tensorflow:global step 4870: loss = 136.7664 (0.072 sec/step)
+INFO:tensorflow:global step 4880: loss = 88.9526 (0.072 sec/step)
+INFO:tensorflow:global step 4890: loss = 80.5135 (0.073 sec/step)
+INFO:tensorflow:global step 4900: loss = 88.3290 (0.073 sec/step)
+INFO:tensorflow:global step 4910: loss = 102.8726 (0.073 sec/step)
+INFO:tensorflow:global step 4920: loss = 93.1610 (0.075 sec/step)
+INFO:tensorflow:global step 4930: loss = 118.4927 (0.073 sec/step)
+INFO:tensorflow:global step 4940: loss = 105.7278 (0.081 sec/step)
+INFO:tensorflow:global step 4950: loss = 101.8029 (0.072 sec/step)
+INFO:tensorflow:global step 4960: loss = 170.5784 (0.072 sec/step)
+INFO:tensorflow:global step 4970: loss = 122.3709 (0.072 sec/step)
+INFO:tensorflow:global step 4980: loss = 77.6583 (0.074 sec/step)
+INFO:tensorflow:global step 4990: loss = 296.5543 (0.075 sec/step)
+INFO:tensorflow:global step 5000: loss = 211.4017 (0.074 sec/step)
+INFO:tensorflow:global step 5010: loss = 161.2570 (0.071 sec/step)
+INFO:tensorflow:global step 5020: loss = 160.1524 (0.075 sec/step)
+INFO:tensorflow:global step 5030: loss = 183.5743 (0.078 sec/step)
+INFO:tensorflow:global step 5040: loss = 125.7253 (0.102 sec/step)
+INFO:tensorflow:global step 5050: loss = 178.0833 (0.075 sec/step)
+INFO:tensorflow:global step 5060: loss = 94.0850 (0.074 sec/step)
+INFO:tensorflow:global step 5070: loss = 107.5111 (0.073 sec/step)
+INFO:tensorflow:global step 5080: loss = 114.3703 (0.076 sec/step)
+INFO:tensorflow:global step 5090: loss = 64.1394 (0.073 sec/step)
+INFO:tensorflow:global step 5100: loss = 65.1146 (0.073 sec/step)
+INFO:tensorflow:global step 5110: loss = 104.6341 (0.076 sec/step)
+INFO:tensorflow:global step 5120: loss = 68.3587 (0.081 sec/step)
+INFO:tensorflow:global step 5130: loss = 73.5750 (0.074 sec/step)
+INFO:tensorflow:global step 5140: loss = 51.9060 (0.079 sec/step)
+INFO:tensorflow:global step 5150: loss = 94.7046 (0.074 sec/step)
+INFO:tensorflow:global step 5160: loss = 103.5802 (0.074 sec/step)
+INFO:tensorflow:global step 5170: loss = 97.7970 (0.076 sec/step)
+INFO:tensorflow:global step 5180: loss = 70.6261 (0.072 sec/step)
+INFO:tensorflow:global step 5190: loss = 101.2682 (0.074 sec/step)
+INFO:tensorflow:global step 5200: loss = 102.1622 (0.075 sec/step)
+INFO:tensorflow:global step 5210: loss = 76.4357 (0.072 sec/step)
+INFO:tensorflow:global step 5220: loss = 68.2447 (0.080 sec/step)
+INFO:tensorflow:global step 5230: loss = 79.8432 (0.075 sec/step)
+INFO:tensorflow:global step 5240: loss = 117.4284 (0.074 sec/step)
+INFO:tensorflow:global step 5250: loss = 87.7340 (0.082 sec/step)
+INFO:tensorflow:global step 5260: loss = 99.9316 (0.081 sec/step)
+INFO:tensorflow:global step 5270: loss = 116.9278 (0.079 sec/step)
+INFO:tensorflow:global step 5280: loss = 170.2839 (0.074 sec/step)
+INFO:tensorflow:global step 5290: loss = 112.5767 (0.077 sec/step)
+INFO:tensorflow:global step 5300: loss = 111.5934 (0.078 sec/step)
+INFO:tensorflow:global step 5310: loss = 76.1747 (0.071 sec/step)
+INFO:tensorflow:global step 5320: loss = 115.0816 (0.072 sec/step)
+INFO:tensorflow:global step 5330: loss = 160.9095 (0.072 sec/step)
+INFO:tensorflow:global step 5340: loss = 114.9747 (0.072 sec/step)
+INFO:tensorflow:global step 5350: loss = 143.5324 (0.074 sec/step)
+INFO:tensorflow:global step 5360: loss = 86.0600 (0.087 sec/step)
+INFO:tensorflow:global step 5370: loss = 81.1511 (0.074 sec/step)
+INFO:tensorflow:global step 5380: loss = 103.6871 (0.072 sec/step)
+INFO:tensorflow:global step 5390: loss = 149.6831 (0.071 sec/step)
+INFO:tensorflow:global step 5400: loss = 90.0409 (0.071 sec/step)
+INFO:tensorflow:global step 5410: loss = 186.5428 (0.072 sec/step)
+INFO:tensorflow:global step 5420: loss = 216.4846 (0.072 sec/step)
+INFO:tensorflow:global step 5430: loss = 105.3385 (0.071 sec/step)
+INFO:tensorflow:global step 5440: loss = 77.3101 (0.072 sec/step)
+INFO:tensorflow:global step 5450: loss = 113.4887 (0.072 sec/step)
+INFO:tensorflow:global step 5460: loss = 137.2648 (0.071 sec/step)
+INFO:tensorflow:global step 5470: loss = 93.4382 (0.072 sec/step)
+INFO:tensorflow:global step 5480: loss = 99.3512 (0.072 sec/step)
+INFO:tensorflow:global step 5490: loss = 112.5241 (0.076 sec/step)
+INFO:tensorflow:global step 5500: loss = 65.0949 (0.072 sec/step)
+INFO:tensorflow:global step 5510: loss = 66.3780 (0.075 sec/step)
+INFO:tensorflow:global step 5520: loss = 94.3873 (0.071 sec/step)
+INFO:tensorflow:global step 5530: loss = 161.8581 (0.072 sec/step)
+INFO:tensorflow:global step 5540: loss = 127.8884 (0.074 sec/step)
+INFO:tensorflow:global step 5550: loss = 113.8945 (0.071 sec/step)
+INFO:tensorflow:global step 5560: loss = 91.1618 (0.074 sec/step)
+INFO:tensorflow:global step 5570: loss = 156.7723 (0.071 sec/step)
+INFO:tensorflow:global step 5580: loss = 126.1896 (0.072 sec/step)
+INFO:tensorflow:global step 5590: loss = 103.1417 (0.074 sec/step)
+INFO:tensorflow:global step 5600: loss = 67.2737 (0.076 sec/step)
+INFO:tensorflow:global step 5610: loss = 71.3147 (0.079 sec/step)
+INFO:tensorflow:global step 5620: loss = 90.7253 (0.077 sec/step)
+INFO:tensorflow:global step 5630: loss = 79.5580 (0.073 sec/step)
+INFO:tensorflow:global step 5640: loss = 129.9947 (0.074 sec/step)
+INFO:tensorflow:global step 5650: loss = 125.3919 (0.076 sec/step)
+INFO:tensorflow:global step 5660: loss = 83.6146 (0.074 sec/step)
+INFO:tensorflow:global step 5670: loss = 107.1826 (0.074 sec/step)
+INFO:tensorflow:global step 5680: loss = 112.8015 (0.074 sec/step)
+INFO:tensorflow:global step 5690: loss = 134.5673 (0.074 sec/step)
+INFO:tensorflow:global step 5700: loss = 127.3188 (0.078 sec/step)
+INFO:tensorflow:global step 5710: loss = 82.5162 (0.081 sec/step)
+INFO:tensorflow:global step 5720: loss = 117.5573 (0.073 sec/step)
+INFO:tensorflow:global step 5730: loss = 128.4180 (0.073 sec/step)
+INFO:tensorflow:global step 5740: loss = 75.9917 (0.080 sec/step)
+INFO:tensorflow:global step 5750: loss = 78.6720 (0.073 sec/step)
+INFO:tensorflow:global step 5760: loss = 73.2698 (0.084 sec/step)
+INFO:tensorflow:global step 5770: loss = 99.7971 (0.074 sec/step)
+INFO:tensorflow:global step 5780: loss = 67.0375 (0.082 sec/step)
+INFO:tensorflow:global step 5790: loss = 324.0026 (0.074 sec/step)
+INFO:tensorflow:global step 5800: loss = 193.2903 (0.076 sec/step)
+INFO:tensorflow:global step 5810: loss = 135.6780 (0.086 sec/step)
+INFO:tensorflow:global step 5820: loss = 209.0557 (0.073 sec/step)
+INFO:tensorflow:global step 5830: loss = 161.6145 (0.079 sec/step)
+INFO:tensorflow:global step 5840: loss = 204.9759 (0.081 sec/step)
+INFO:tensorflow:global step 5850: loss = 108.6932 (0.074 sec/step)
+INFO:tensorflow:global step 5860: loss = 131.4998 (0.082 sec/step)
+INFO:tensorflow:global step 5870: loss = 112.6896 (0.080 sec/step)
+INFO:tensorflow:global step 5880: loss = 96.3209 (0.074 sec/step)
+INFO:tensorflow:global step 5890: loss = 96.6007 (0.076 sec/step)
+INFO:tensorflow:global step 5900: loss = 173.3432 (0.074 sec/step)
+INFO:tensorflow:global step 5910: loss = 87.0978 (0.073 sec/step)
+INFO:tensorflow:global step 5920: loss = 79.4868 (0.076 sec/step)
+INFO:tensorflow:global step 5930: loss = 71.8012 (0.074 sec/step)
+INFO:tensorflow:global step 5940: loss = 104.8111 (0.072 sec/step)
+INFO:tensorflow:global step 5950: loss = 55.1032 (0.073 sec/step)
+INFO:tensorflow:global step 5960: loss = 122.6765 (0.082 sec/step)
+INFO:tensorflow:global step 5970: loss = 68.1470 (0.072 sec/step)
+INFO:tensorflow:global step 5980: loss = 121.5647 (0.093 sec/step)
+INFO:tensorflow:global step 5990: loss = 178.2045 (0.072 sec/step)
+INFO:tensorflow:global step 6000: loss = 187.2854 (0.073 sec/step)
+INFO:tensorflow:global step 6010: loss = 114.2280 (0.072 sec/step)
+INFO:tensorflow:global step 6020: loss = 178.9732 (0.073 sec/step)
+INFO:tensorflow:global step 6030: loss = 164.5464 (0.071 sec/step)
+INFO:tensorflow:global step 6040: loss = 93.6507 (0.072 sec/step)
+INFO:tensorflow:global step 6050: loss = 94.8281 (0.071 sec/step)
+INFO:tensorflow:global step 6060: loss = 77.6996 (0.071 sec/step)
+INFO:tensorflow:global step 6070: loss = 116.2808 (0.073 sec/step)
+INFO:tensorflow:global step 6080: loss = 113.0452 (0.071 sec/step)
+INFO:tensorflow:global step 6090: loss = 162.0678 (0.071 sec/step)
+INFO:tensorflow:global step 6100: loss = 137.0644 (0.070 sec/step)
+INFO:tensorflow:global step 6110: loss = 97.8745 (0.072 sec/step)
+INFO:tensorflow:global step 6120: loss = 89.1317 (0.071 sec/step)
+INFO:tensorflow:global step 6130: loss = 107.0071 (0.071 sec/step)
+INFO:tensorflow:global step 6140: loss = 168.2362 (0.074 sec/step)
+INFO:tensorflow:global step 6150: loss = 65.3751 (0.070 sec/step)
+INFO:tensorflow:global step 6160: loss = 97.3490 (0.072 sec/step)
+INFO:tensorflow:global step 6170: loss = 75.4281 (0.073 sec/step)
+INFO:tensorflow:global step 6180: loss = 71.5742 (0.073 sec/step)
+INFO:tensorflow:global step 6190: loss = 94.2768 (0.074 sec/step)
+INFO:tensorflow:global step 6200: loss = 95.2187 (0.072 sec/step)
+INFO:tensorflow:global step 6210: loss = 134.6869 (0.074 sec/step)
+INFO:tensorflow:global step 6220: loss = 106.0915 (0.076 sec/step)
+INFO:tensorflow:global step 6230: loss = 84.4834 (0.075 sec/step)
+INFO:tensorflow:global step 6240: loss = 84.3899 (0.079 sec/step)
+INFO:tensorflow:global step 6250: loss = 103.4772 (0.077 sec/step)
+INFO:tensorflow:global step 6260: loss = 129.8408 (0.076 sec/step)
+INFO:tensorflow:global step 6270: loss = 155.0062 (0.074 sec/step)
+INFO:tensorflow:global step 6280: loss = 134.2905 (0.075 sec/step)
+INFO:tensorflow:global step 6290: loss = 105.3921 (0.074 sec/step)
+INFO:tensorflow:global step 6300: loss = 92.6104 (0.072 sec/step)
+INFO:tensorflow:global step 6310: loss = 88.5410 (0.072 sec/step)
+INFO:tensorflow:global step 6320: loss = 86.6539 (0.073 sec/step)
+INFO:tensorflow:global step 6330: loss = 131.5916 (0.075 sec/step)
+INFO:tensorflow:global step 6340: loss = 122.3127 (0.074 sec/step)
+INFO:tensorflow:global step 6350: loss = 68.8928 (0.073 sec/step)
+INFO:tensorflow:global step 6360: loss = 83.2041 (0.073 sec/step)
+INFO:tensorflow:global step 6370: loss = 92.6882 (0.074 sec/step)
+INFO:tensorflow:global step 6380: loss = 80.9306 (0.072 sec/step)
+INFO:tensorflow:global step 6390: loss = 133.4810 (0.085 sec/step)
+INFO:tensorflow:global step 6400: loss = 88.7987 (0.075 sec/step)
+INFO:tensorflow:global step 6410: loss = 69.2395 (0.081 sec/step)
+INFO:tensorflow:global step 6420: loss = 70.2521 (0.078 sec/step)
+INFO:tensorflow:global step 6430: loss = 44.5377 (0.075 sec/step)
+INFO:tensorflow:global step 6440: loss = 93.3593 (0.073 sec/step)
+INFO:tensorflow:global step 6450: loss = 55.3256 (0.097 sec/step)
+INFO:tensorflow:global step 6460: loss = 49.3048 (0.075 sec/step)
+INFO:tensorflow:global step 6470: loss = 49.1891 (0.078 sec/step)
+INFO:tensorflow:global step 6480: loss = 46.1393 (0.073 sec/step)
+INFO:tensorflow:global step 6490: loss = 52.6490 (0.075 sec/step)
+INFO:tensorflow:global step 6500: loss = 32.4236 (0.086 sec/step)
+INFO:tensorflow:global step 6510: loss = 60.5330 (0.077 sec/step)
+INFO:tensorflow:global step 6520: loss = 72.0433 (0.080 sec/step)
+INFO:tensorflow:global step 6530: loss = 65.7484 (0.074 sec/step)
+INFO:tensorflow:global step 6540: loss = 63.8831 (0.072 sec/step)
+INFO:tensorflow:global step 6550: loss = 59.6818 (0.074 sec/step)
+INFO:tensorflow:global step 6560: loss = 70.5836 (0.073 sec/step)
+INFO:tensorflow:global step 6570: loss = 44.4225 (0.073 sec/step)
+INFO:tensorflow:global step 6580: loss = 63.5172 (0.094 sec/step)
+INFO:tensorflow:global step 6590: loss = 50.6903 (0.077 sec/step)
+INFO:tensorflow:global step 6600: loss = 38.7737 (0.074 sec/step)
+INFO:tensorflow:global step 6610: loss = 27.4564 (0.072 sec/step)
+INFO:tensorflow:global step 6620: loss = 47.3069 (0.079 sec/step)
+INFO:tensorflow:global step 6630: loss = 40.7129 (0.072 sec/step)
+INFO:tensorflow:global step 6640: loss = 45.8784 (0.073 sec/step)
+INFO:tensorflow:global step 6650: loss = 41.4784 (0.072 sec/step)
+INFO:tensorflow:global step 6660: loss = 36.4124 (0.073 sec/step)
+INFO:tensorflow:global step 6670: loss = 40.4652 (0.073 sec/step)
+INFO:tensorflow:global step 6680: loss = 57.4756 (0.072 sec/step)
+INFO:tensorflow:global step 6690: loss = 41.3814 (0.072 sec/step)
+INFO:tensorflow:global step 6700: loss = 45.6951 (0.073 sec/step)
+INFO:tensorflow:global step 6710: loss = 51.1612 (0.072 sec/step)
+INFO:tensorflow:global step 6720: loss = 34.4662 (0.073 sec/step)
+INFO:tensorflow:global step 6730: loss = 35.7093 (0.072 sec/step)
+INFO:tensorflow:global step 6740: loss = 39.7607 (0.071 sec/step)
+INFO:tensorflow:global step 6750: loss = 43.3269 (0.072 sec/step)
+INFO:tensorflow:global step 6760: loss = 46.8551 (0.071 sec/step)
+INFO:tensorflow:global step 6770: loss = 32.0714 (0.071 sec/step)
+INFO:tensorflow:global step 6780: loss = 36.7045 (0.075 sec/step)
+INFO:tensorflow:global step 6790: loss = 23.7252 (0.072 sec/step)
+INFO:tensorflow:global step 6800: loss = 34.9212 (0.072 sec/step)
+INFO:tensorflow:global step 6810: loss = 22.0435 (0.078 sec/step)
+INFO:tensorflow:global step 6820: loss = 59.3943 (0.071 sec/step)
+INFO:tensorflow:global step 6830: loss = 30.4979 (0.072 sec/step)
+INFO:tensorflow:global step 6840: loss = 25.7186 (0.073 sec/step)
+INFO:tensorflow:global step 6850: loss = 37.4954 (0.076 sec/step)
+INFO:tensorflow:global step 6860: loss = 23.1737 (0.076 sec/step)
+INFO:tensorflow:global step 6870: loss = 19.7702 (0.076 sec/step)
+INFO:tensorflow:global step 6880: loss = 34.6971 (0.074 sec/step)
+INFO:tensorflow:global step 6890: loss = 29.1350 (0.074 sec/step)
+INFO:tensorflow:global step 6900: loss = 30.6715 (0.074 sec/step)
+INFO:tensorflow:global step 6910: loss = 17.5781 (0.073 sec/step)
+INFO:tensorflow:global step 6920: loss = 27.5337 (0.075 sec/step)
+INFO:tensorflow:global step 6930: loss = 22.7094 (0.077 sec/step)
+INFO:tensorflow:global step 6940: loss = 29.2816 (0.079 sec/step)
+INFO:tensorflow:global step 6950: loss = 16.3936 (0.080 sec/step)
+INFO:tensorflow:global step 6960: loss = 21.2725 (0.073 sec/step)
+INFO:tensorflow:global step 6970: loss = 23.9240 (0.074 sec/step)
+INFO:tensorflow:global step 6980: loss = 32.3951 (0.074 sec/step)
+INFO:tensorflow:global step 6990: loss = 18.8374 (0.079 sec/step)
+INFO:tensorflow:global step 7000: loss = 25.4544 (0.073 sec/step)
+INFO:tensorflow:global step 7010: loss = 15.6249 (0.074 sec/step)
+INFO:tensorflow:global step 7020: loss = 16.7617 (0.079 sec/step)
+INFO:tensorflow:global step 7030: loss = 29.9439 (0.092 sec/step)
+INFO:tensorflow:global step 7040: loss = 23.2061 (0.075 sec/step)
+INFO:tensorflow:global step 7050: loss = 14.1494 (0.082 sec/step)
+INFO:tensorflow:global step 7060: loss = 16.8688 (0.073 sec/step)
+INFO:tensorflow:global step 7070: loss = 10.2296 (0.080 sec/step)
+INFO:tensorflow:global step 7080: loss = 16.1763 (0.075 sec/step)
+INFO:tensorflow:global step 7090: loss = 15.9813 (0.075 sec/step)
+INFO:tensorflow:global step 7100: loss = 15.7311 (0.098 sec/step)
+INFO:tensorflow:global step 7110: loss = 15.4388 (0.072 sec/step)
+INFO:tensorflow:global step 7120: loss = 16.4109 (0.075 sec/step)
+INFO:tensorflow:global step 7130: loss = 15.9353 (0.076 sec/step)
+INFO:tensorflow:global step 7140: loss = 8.2311 (0.078 sec/step)
+INFO:tensorflow:global step 7150: loss = 13.5744 (0.074 sec/step)
+INFO:tensorflow:global step 7160: loss = 12.5537 (0.072 sec/step)
+INFO:tensorflow:global step 7170: loss = 13.5733 (0.072 sec/step)
+INFO:tensorflow:global step 7180: loss = 17.3754 (0.072 sec/step)
+INFO:tensorflow:global step 7190: loss = 14.1054 (0.072 sec/step)
+INFO:tensorflow:global step 7200: loss = 7.4449 (0.075 sec/step)
+INFO:tensorflow:global step 7210: loss = 8.7414 (0.089 sec/step)
+INFO:tensorflow:global step 7220: loss = 7.1481 (0.072 sec/step)
+INFO:tensorflow:global step 7230: loss = 10.0523 (0.096 sec/step)
+INFO:tensorflow:global step 7240: loss = 9.1518 (0.073 sec/step)
+INFO:tensorflow:global step 7250: loss = 7.3023 (0.077 sec/step)
+INFO:tensorflow:global step 7260: loss = 7.4953 (0.072 sec/step)
+INFO:tensorflow:global step 7270: loss = 9.0004 (0.071 sec/step)
+INFO:tensorflow:global step 7280: loss = 9.3287 (0.071 sec/step)
+INFO:tensorflow:global step 7290: loss = 8.2792 (0.072 sec/step)
+INFO:tensorflow:global step 7300: loss = 7.6423 (0.073 sec/step)
+INFO:tensorflow:global step 7310: loss = 8.9974 (0.072 sec/step)
+INFO:tensorflow:global step 7320: loss = 6.9723 (0.074 sec/step)
+INFO:tensorflow:global step 7330: loss = 7.9277 (0.072 sec/step)
+INFO:tensorflow:global step 7340: loss = 5.8706 (0.075 sec/step)
+INFO:tensorflow:global step 7350: loss = 5.4067 (0.072 sec/step)
+INFO:tensorflow:global step 7360: loss = 5.8191 (0.071 sec/step)
+INFO:tensorflow:global step 7370: loss = 7.1194 (0.073 sec/step)
+INFO:tensorflow:global step 7380: loss = 5.6329 (0.072 sec/step)
+INFO:tensorflow:global step 7390: loss = 4.3722 (0.073 sec/step)
+INFO:tensorflow:global step 7400: loss = 7.5162 (0.071 sec/step)
+INFO:tensorflow:global step 7410: loss = 4.2522 (0.076 sec/step)
+INFO:tensorflow:global step 7420: loss = 4.3106 (0.071 sec/step)
+INFO:tensorflow:global step 7430: loss = 4.1493 (0.073 sec/step)
+INFO:tensorflow:global step 7440: loss = 4.7851 (0.072 sec/step)
+INFO:tensorflow:global step 7450: loss = 7.0924 (0.075 sec/step)
+INFO:tensorflow:global step 7460: loss = 6.9510 (0.082 sec/step)
+INFO:tensorflow:global step 7470: loss = 4.2086 (0.079 sec/step)
+INFO:tensorflow:global step 7480: loss = 4.9422 (0.074 sec/step)
+INFO:tensorflow:global step 7490: loss = 3.5939 (0.075 sec/step)
+INFO:tensorflow:global step 7500: loss = 5.1664 (0.077 sec/step)
+INFO:tensorflow:global step 7510: loss = 3.9891 (0.079 sec/step)
+INFO:tensorflow:global step 7520: loss = 4.4012 (0.079 sec/step)
+INFO:tensorflow:global step 7530: loss = 3.8278 (0.074 sec/step)
+INFO:tensorflow:global step 7540: loss = 4.0985 (0.079 sec/step)
+INFO:tensorflow:global step 7550: loss = 3.0130 (0.072 sec/step)
+INFO:tensorflow:global step 7560: loss = 4.4777 (0.074 sec/step)
+INFO:tensorflow:global step 7570: loss = 3.7673 (0.074 sec/step)
+INFO:tensorflow:global step 7580: loss = 3.0544 (0.074 sec/step)
+INFO:tensorflow:global step 7590: loss = 2.9857 (0.077 sec/step)
+INFO:tensorflow:global step 7600: loss = 3.9719 (0.076 sec/step)
+INFO:tensorflow:global step 7610: loss = 3.6668 (0.107 sec/step)
+INFO:tensorflow:global step 7620: loss = 3.3535 (0.073 sec/step)
+INFO:tensorflow:global step 7630: loss = 3.1684 (0.074 sec/step)
+INFO:tensorflow:global step 7640: loss = 4.1101 (0.081 sec/step)
+INFO:tensorflow:global step 7650: loss = 4.0130 (0.075 sec/step)
+INFO:tensorflow:global step 7660: loss = 4.1904 (0.075 sec/step)
+INFO:tensorflow:global step 7670: loss = 3.0789 (0.074 sec/step)
+INFO:tensorflow:global step 7680: loss = 3.1262 (0.074 sec/step)
+INFO:tensorflow:global step 7690: loss = 3.6794 (0.074 sec/step)
+INFO:tensorflow:global step 7700: loss = 3.9034 (0.075 sec/step)
+INFO:tensorflow:global step 7710: loss = 3.2268 (0.071 sec/step)
+INFO:tensorflow:global step 7720: loss = 3.1663 (0.076 sec/step)
+INFO:tensorflow:global step 7730: loss = 3.0292 (0.077 sec/step)
+INFO:tensorflow:global step 7740: loss = 3.8584 (0.078 sec/step)
+INFO:tensorflow:global step 7750: loss = 2.9235 (0.081 sec/step)
+INFO:tensorflow:global step 7760: loss = 2.6234 (0.074 sec/step)
+INFO:tensorflow:global step 7770: loss = 2.4695 (0.074 sec/step)
+INFO:tensorflow:global step 7780: loss = 2.8594 (0.071 sec/step)
+INFO:tensorflow:global step 7790: loss = 2.4056 (0.073 sec/step)
+INFO:tensorflow:global step 7800: loss = 2.2504 (0.071 sec/step)
+INFO:tensorflow:global step 7810: loss = 2.5912 (0.075 sec/step)
+INFO:tensorflow:global step 7820: loss = 3.1327 (0.075 sec/step)
+INFO:tensorflow:global step 7830: loss = 3.1635 (0.082 sec/step)
+INFO:tensorflow:global step 7840: loss = 2.7450 (0.072 sec/step)
+INFO:tensorflow:global step 7850: loss = 2.1945 (0.083 sec/step)
+INFO:tensorflow:global step 7860: loss = 3.4579 (0.070 sec/step)
+INFO:tensorflow:global step 7870: loss = 2.5573 (0.072 sec/step)
+INFO:tensorflow:global step 7880: loss = 2.4926 (0.073 sec/step)
+INFO:tensorflow:global step 7890: loss = 3.7068 (0.073 sec/step)
+INFO:tensorflow:global step 7900: loss = 2.6285 (0.074 sec/step)
+INFO:tensorflow:Saving checkpoint to path /home/lile/Projects/git_repo/hacone/outputs/cifarnet_movidius/_-1_-1_1_2_-2_0_1_0_-2_1_0_0_2_0_0_7_-2_1_4_3/model.ckpt
+INFO:tensorflow:Recording summary at step 7904.
+INFO:tensorflow:global_step/sec: 13.1749
+INFO:tensorflow:global step 7910: loss = 3.4784 (0.071 sec/step)
+INFO:tensorflow:global step 7920: loss = 2.8914 (0.071 sec/step)
+INFO:tensorflow:global step 7930: loss = 2.0611 (0.073 sec/step)
+INFO:tensorflow:global step 7940: loss = 2.7305 (0.071 sec/step)
+INFO:tensorflow:global step 7950: loss = 2.4731 (0.072 sec/step)
+INFO:tensorflow:global step 7960: loss = 2.6683 (0.071 sec/step)
+INFO:tensorflow:global step 7970: loss = 2.5223 (0.072 sec/step)
+INFO:tensorflow:global step 7980: loss = 2.5277 (0.072 sec/step)
+INFO:tensorflow:global step 7990: loss = 2.2181 (0.072 sec/step)
+INFO:tensorflow:global step 8000: loss = 3.0509 (0.074 sec/step)
+INFO:tensorflow:global step 8010: loss = 2.1899 (0.076 sec/step)
+INFO:tensorflow:global step 8020: loss = 2.3871 (0.076 sec/step)
+INFO:tensorflow:global step 8030: loss = 2.9864 (0.078 sec/step)
+INFO:tensorflow:global step 8040: loss = 2.7855 (0.074 sec/step)
+INFO:tensorflow:global step 8050: loss = 2.3177 (0.074 sec/step)
+INFO:tensorflow:global step 8060: loss = 2.6394 (0.074 sec/step)
+INFO:tensorflow:global step 8070: loss = 2.5611 (0.087 sec/step)
+INFO:tensorflow:global step 8080: loss = 2.4543 (0.074 sec/step)
+INFO:tensorflow:global step 8090: loss = 2.2100 (0.073 sec/step)
+INFO:tensorflow:global step 8100: loss = 2.3201 (0.077 sec/step)
+INFO:tensorflow:global step 8110: loss = 2.2399 (0.075 sec/step)
+INFO:tensorflow:global step 8120: loss = 2.4846 (0.075 sec/step)
+INFO:tensorflow:global step 8130: loss = 2.6237 (0.074 sec/step)
+INFO:tensorflow:global step 8140: loss = 2.3714 (0.075 sec/step)
+INFO:tensorflow:global step 8150: loss = 2.1959 (0.076 sec/step)
+INFO:tensorflow:global step 8160: loss = 2.3362 (0.076 sec/step)
+INFO:tensorflow:global step 8170: loss = 2.7372 (0.083 sec/step)
+INFO:tensorflow:global step 8180: loss = 2.9564 (0.074 sec/step)
+INFO:tensorflow:global step 8190: loss = 2.1567 (0.075 sec/step)
+INFO:tensorflow:global step 8200: loss = 2.3732 (0.074 sec/step)
+INFO:tensorflow:global step 8210: loss = 2.5121 (0.075 sec/step)
+INFO:tensorflow:global step 8220: loss = 1.9893 (0.075 sec/step)
+INFO:tensorflow:global step 8230: loss = 2.3819 (0.078 sec/step)
+INFO:tensorflow:global step 8240: loss = 2.3182 (0.086 sec/step)
+INFO:tensorflow:global step 8250: loss = 2.4840 (0.074 sec/step)
+INFO:tensorflow:global step 8260: loss = 2.2805 (0.090 sec/step)
+INFO:tensorflow:global step 8270: loss = 1.9155 (0.081 sec/step)
+INFO:tensorflow:global step 8280: loss = 2.3907 (0.073 sec/step)
+INFO:tensorflow:global step 8290: loss = 2.9199 (0.075 sec/step)
+INFO:tensorflow:global step 8300: loss = 2.9390 (0.090 sec/step)
+INFO:tensorflow:global step 8310: loss = 2.5852 (0.074 sec/step)
+INFO:tensorflow:global step 8320: loss = 2.1678 (0.073 sec/step)
+INFO:tensorflow:global step 8330: loss = 1.9133 (0.077 sec/step)
+INFO:tensorflow:global step 8340: loss = 2.5836 (0.084 sec/step)
+INFO:tensorflow:global step 8350: loss = 2.9312 (0.077 sec/step)
+INFO:tensorflow:global step 8360: loss = 2.1898 (0.075 sec/step)
+INFO:tensorflow:global step 8370: loss = 2.3286 (0.075 sec/step)
+INFO:tensorflow:global step 8380: loss = 1.6780 (0.087 sec/step)
+INFO:tensorflow:global step 8390: loss = 2.3825 (0.076 sec/step)
+INFO:tensorflow:global step 8400: loss = 2.4316 (0.073 sec/step)
+INFO:tensorflow:global step 8410: loss = 2.1309 (0.074 sec/step)
+INFO:tensorflow:global step 8420: loss = 2.2935 (0.076 sec/step)
+INFO:tensorflow:global step 8430: loss = 1.8858 (0.076 sec/step)
+INFO:tensorflow:global step 8440: loss = 2.2129 (0.074 sec/step)
+INFO:tensorflow:global step 8450: loss = 1.9540 (0.078 sec/step)
+INFO:tensorflow:global step 8460: loss = 2.2643 (0.083 sec/step)
+INFO:tensorflow:global step 8470: loss = 2.0680 (0.073 sec/step)
+INFO:tensorflow:global step 8480: loss = 2.2250 (0.073 sec/step)
+INFO:tensorflow:global step 8490: loss = 3.0096 (0.075 sec/step)
+INFO:tensorflow:global step 8500: loss = 1.9068 (0.074 sec/step)
+INFO:tensorflow:global step 8510: loss = 2.2202 (0.077 sec/step)
+INFO:tensorflow:global step 8520: loss = 2.6339 (0.073 sec/step)
+INFO:tensorflow:global step 8530: loss = 2.3769 (0.075 sec/step)
+INFO:tensorflow:global step 8540: loss = 2.4318 (0.079 sec/step)
+INFO:tensorflow:global step 8550: loss = 2.1757 (0.077 sec/step)
+INFO:tensorflow:global step 8560: loss = 1.8414 (0.075 sec/step)
+INFO:tensorflow:global step 8570: loss = 1.9021 (0.074 sec/step)
+INFO:tensorflow:global step 8580: loss = 3.0769 (0.073 sec/step)
+INFO:tensorflow:global step 8590: loss = 1.9566 (0.072 sec/step)
+INFO:tensorflow:global step 8600: loss = 2.3566 (0.080 sec/step)
+INFO:tensorflow:global step 8610: loss = 2.4755 (0.073 sec/step)
+INFO:tensorflow:global step 8620: loss = 2.2097 (0.075 sec/step)
+INFO:tensorflow:global step 8630: loss = 2.9310 (0.074 sec/step)
+INFO:tensorflow:global step 8640: loss = 1.6660 (0.074 sec/step)
+INFO:tensorflow:global step 8650: loss = 2.0285 (0.075 sec/step)
+INFO:tensorflow:global step 8660: loss = 2.0616 (0.074 sec/step)
+INFO:tensorflow:global step 8670: loss = 2.3089 (0.074 sec/step)
+INFO:tensorflow:global step 8680: loss = 2.0270 (0.074 sec/step)
+INFO:tensorflow:global step 8690: loss = 2.0656 (0.073 sec/step)
+INFO:tensorflow:global step 8700: loss = 1.9773 (0.074 sec/step)
+INFO:tensorflow:global step 8710: loss = 2.4562 (0.078 sec/step)
+INFO:tensorflow:global step 8720: loss = 2.3458 (0.080 sec/step)
+INFO:tensorflow:global step 8730: loss = 2.2566 (0.073 sec/step)
+INFO:tensorflow:global step 8740: loss = 2.2968 (0.075 sec/step)
+INFO:tensorflow:global step 8750: loss = 1.6406 (0.077 sec/step)
+INFO:tensorflow:global step 8760: loss = 2.6631 (0.077 sec/step)
+INFO:tensorflow:global step 8770: loss = 1.9797 (0.074 sec/step)
+INFO:tensorflow:global step 8780: loss = 2.2718 (0.072 sec/step)
+INFO:tensorflow:global step 8790: loss = 1.8728 (0.074 sec/step)
+INFO:tensorflow:global step 8800: loss = 2.1167 (0.074 sec/step)
+INFO:tensorflow:global step 8810: loss = 1.7251 (0.078 sec/step)
+INFO:tensorflow:global step 8820: loss = 2.0002 (0.072 sec/step)
+INFO:tensorflow:global step 8830: loss = 2.1989 (0.077 sec/step)
+INFO:tensorflow:global step 8840: loss = 2.4429 (0.076 sec/step)
+INFO:tensorflow:global step 8850: loss = 2.0609 (0.077 sec/step)
+INFO:tensorflow:global step 8860: loss = 2.8470 (0.089 sec/step)
+INFO:tensorflow:global step 8870: loss = 2.1179 (0.073 sec/step)
+INFO:tensorflow:global step 8880: loss = 1.7944 (0.074 sec/step)
+INFO:tensorflow:global step 8890: loss = 2.2160 (0.086 sec/step)
+INFO:tensorflow:global step 8900: loss = 2.3725 (0.078 sec/step)
+INFO:tensorflow:global step 8910: loss = 2.0360 (0.077 sec/step)
+INFO:tensorflow:global step 8920: loss = 1.7982 (0.079 sec/step)
+INFO:tensorflow:global step 8930: loss = 2.1811 (0.076 sec/step)
+INFO:tensorflow:global step 8940: loss = 2.1807 (0.076 sec/step)
+INFO:tensorflow:global step 8950: loss = 2.8433 (0.078 sec/step)
+INFO:tensorflow:global step 8960: loss = 2.0045 (0.074 sec/step)
+INFO:tensorflow:global step 8970: loss = 2.3928 (0.076 sec/step)
+INFO:tensorflow:global step 8980: loss = 2.1240 (0.074 sec/step)
+INFO:tensorflow:global step 8990: loss = 2.4479 (0.076 sec/step)
+INFO:tensorflow:global step 9000: loss = 2.2240 (0.072 sec/step)
+INFO:tensorflow:global step 9010: loss = 2.0676 (0.076 sec/step)
+INFO:tensorflow:global step 9020: loss = 2.1615 (0.075 sec/step)
+INFO:tensorflow:global step 9030: loss = 2.0176 (0.076 sec/step)
+INFO:tensorflow:global step 9040: loss = 2.3764 (0.075 sec/step)
+INFO:tensorflow:global step 9050: loss = 2.6511 (0.078 sec/step)
+INFO:tensorflow:global step 9060: loss = 2.2922 (0.073 sec/step)
+INFO:tensorflow:global step 9070: loss = 2.4721 (0.074 sec/step)
+INFO:tensorflow:global step 9080: loss = 2.0749 (0.075 sec/step)
+INFO:tensorflow:global step 9090: loss = 2.1990 (0.073 sec/step)
+INFO:tensorflow:global step 9100: loss = 1.6638 (0.074 sec/step)
+INFO:tensorflow:global step 9110: loss = 2.4556 (0.075 sec/step)
+INFO:tensorflow:global step 9120: loss = 1.6511 (0.072 sec/step)
+INFO:tensorflow:global step 9130: loss = 1.7068 (0.073 sec/step)
+INFO:tensorflow:global step 9140: loss = 2.0211 (0.075 sec/step)
+INFO:tensorflow:global step 9150: loss = 1.8117 (0.078 sec/step)
+INFO:tensorflow:global step 9160: loss = 1.7690 (0.082 sec/step)
+INFO:tensorflow:global step 9170: loss = 1.8488 (0.077 sec/step)
+INFO:tensorflow:global step 9180: loss = 1.8803 (0.076 sec/step)
+INFO:tensorflow:global step 9190: loss = 2.0850 (0.075 sec/step)
+INFO:tensorflow:global step 9200: loss = 1.9410 (0.083 sec/step)
+INFO:tensorflow:global step 9210: loss = 2.1101 (0.077 sec/step)
+INFO:tensorflow:global step 9220: loss = 2.1508 (0.075 sec/step)
+INFO:tensorflow:global step 9230: loss = 2.0411 (0.078 sec/step)
+INFO:tensorflow:global step 9240: loss = 1.8504 (0.073 sec/step)
+INFO:tensorflow:global step 9250: loss = 2.1337 (0.078 sec/step)
+INFO:tensorflow:global step 9260: loss = 2.0579 (0.074 sec/step)
+INFO:tensorflow:global step 9270: loss = 2.2871 (0.077 sec/step)
+INFO:tensorflow:global step 9280: loss = 1.7156 (0.075 sec/step)
+INFO:tensorflow:global step 9290: loss = 2.1571 (0.076 sec/step)
+INFO:tensorflow:global step 9300: loss = 1.7840 (0.075 sec/step)
+INFO:tensorflow:global step 9310: loss = 2.1403 (0.073 sec/step)
+INFO:tensorflow:global step 9320: loss = 1.8495 (0.073 sec/step)
+INFO:tensorflow:global step 9330: loss = 2.4162 (0.075 sec/step)
+INFO:tensorflow:global step 9340: loss = 1.8976 (0.074 sec/step)
+INFO:tensorflow:global step 9350: loss = 2.0131 (0.082 sec/step)
+INFO:tensorflow:global step 9360: loss = 1.7715 (0.074 sec/step)
+INFO:tensorflow:global step 9370: loss = 2.1714 (0.106 sec/step)
+INFO:tensorflow:global step 9380: loss = 2.4109 (0.074 sec/step)
+INFO:tensorflow:global step 9390: loss = 2.3023 (0.073 sec/step)
+INFO:tensorflow:global step 9400: loss = 1.9245 (0.075 sec/step)
+INFO:tensorflow:global step 9410: loss = 2.0119 (0.074 sec/step)
+INFO:tensorflow:global step 9420: loss = 2.3875 (0.091 sec/step)
+INFO:tensorflow:global step 9430: loss = 1.7112 (0.076 sec/step)
+INFO:tensorflow:global step 9440: loss = 2.3181 (0.082 sec/step)
+INFO:tensorflow:global step 9450: loss = 1.6301 (0.074 sec/step)
+INFO:tensorflow:global step 9460: loss = 2.2081 (0.078 sec/step)
+INFO:tensorflow:global step 9470: loss = 1.7490 (0.080 sec/step)
+INFO:tensorflow:global step 9480: loss = 2.6175 (0.072 sec/step)
+INFO:tensorflow:global step 9490: loss = 1.6881 (0.074 sec/step)
+INFO:tensorflow:global step 9500: loss = 1.7293 (0.076 sec/step)
+INFO:tensorflow:global step 9510: loss = 1.8949 (0.095 sec/step)
+INFO:tensorflow:global step 9520: loss = 2.0000 (0.081 sec/step)
+INFO:tensorflow:global step 9530: loss = 2.0643 (0.076 sec/step)
+INFO:tensorflow:global step 9540: loss = 1.5012 (0.078 sec/step)
+INFO:tensorflow:global step 9550: loss = 1.7713 (0.073 sec/step)
+INFO:tensorflow:global step 9560: loss = 1.8894 (0.075 sec/step)
+INFO:tensorflow:global step 9570: loss = 1.8813 (0.074 sec/step)
+INFO:tensorflow:global step 9580: loss = 2.9677 (0.073 sec/step)
+INFO:tensorflow:global step 9590: loss = 2.7631 (0.078 sec/step)
+INFO:tensorflow:global step 9600: loss = 1.9051 (0.081 sec/step)
+INFO:tensorflow:global step 9610: loss = 1.9966 (0.092 sec/step)
+INFO:tensorflow:global step 9620: loss = 2.0870 (0.075 sec/step)
+INFO:tensorflow:global step 9630: loss = 1.9417 (0.074 sec/step)
+INFO:tensorflow:global step 9640: loss = 1.6888 (0.076 sec/step)
+INFO:tensorflow:global step 9650: loss = 2.0609 (0.075 sec/step)
+INFO:tensorflow:global step 9660: loss = 2.1836 (0.075 sec/step)
+INFO:tensorflow:global step 9670: loss = 1.9340 (0.074 sec/step)
+INFO:tensorflow:global step 9680: loss = 3.2535 (0.077 sec/step)
+INFO:tensorflow:global step 9690: loss = 2.2842 (0.077 sec/step)
+INFO:tensorflow:global step 9700: loss = 1.6877 (0.074 sec/step)
+INFO:tensorflow:global step 9710: loss = 2.0029 (0.076 sec/step)
+INFO:tensorflow:global step 9720: loss = 1.9500 (0.075 sec/step)
+INFO:tensorflow:global step 9730: loss = 1.7031 (0.078 sec/step)
+INFO:tensorflow:global step 9740: loss = 1.4879 (0.074 sec/step)
+INFO:tensorflow:global step 9750: loss = 1.7121 (0.081 sec/step)
+INFO:tensorflow:global step 9760: loss = 2.2331 (0.077 sec/step)
+INFO:tensorflow:global step 9770: loss = 1.8916 (0.076 sec/step)
+INFO:tensorflow:global step 9780: loss = 1.6612 (0.073 sec/step)
+INFO:tensorflow:global step 9790: loss = 1.6923 (0.075 sec/step)
+INFO:tensorflow:global step 9800: loss = 2.1776 (0.073 sec/step)
+INFO:tensorflow:global step 9810: loss = 2.4021 (0.078 sec/step)
+INFO:tensorflow:global step 9820: loss = 2.1433 (0.079 sec/step)
+INFO:tensorflow:global step 9830: loss = 1.9047 (0.076 sec/step)
+INFO:tensorflow:global step 9840: loss = 2.4474 (0.076 sec/step)
+INFO:tensorflow:global step 9850: loss = 1.4262 (0.075 sec/step)
+INFO:tensorflow:global step 9860: loss = 1.9261 (0.077 sec/step)
+INFO:tensorflow:global step 9870: loss = 1.9145 (0.074 sec/step)
+INFO:tensorflow:global step 9880: loss = 2.1465 (0.076 sec/step)
+INFO:tensorflow:global step 9890: loss = 1.5254 (0.079 sec/step)
+INFO:tensorflow:global step 9900: loss = 2.3779 (0.102 sec/step)
+INFO:tensorflow:global step 9910: loss = 2.0327 (0.074 sec/step)
+INFO:tensorflow:global step 9920: loss = 1.6299 (0.081 sec/step)
+INFO:tensorflow:global step 9930: loss = 2.7233 (0.075 sec/step)
+INFO:tensorflow:global step 9940: loss = 1.8296 (0.075 sec/step)
+INFO:tensorflow:global step 9950: loss = 1.9709 (0.073 sec/step)
+INFO:tensorflow:global step 9960: loss = 1.8382 (0.076 sec/step)
+INFO:tensorflow:global step 9970: loss = 2.0153 (0.073 sec/step)
+INFO:tensorflow:global step 9980: loss = 1.9839 (0.080 sec/step)
+INFO:tensorflow:global step 9990: loss = 1.5514 (0.074 sec/step)
+INFO:tensorflow:global step 10000: loss = 2.1302 (0.072 sec/step)
+INFO:tensorflow:global step 10010: loss = 1.9232 (0.074 sec/step)
+INFO:tensorflow:global step 10020: loss = 1.8064 (0.076 sec/step)
+INFO:tensorflow:global step 10030: loss = 2.2185 (0.102 sec/step)
+INFO:tensorflow:global step 10040: loss = 1.8655 (0.078 sec/step)
+INFO:tensorflow:global step 10050: loss = 1.9382 (0.072 sec/step)
+INFO:tensorflow:global step 10060: loss = 1.7857 (0.079 sec/step)
+INFO:tensorflow:global step 10070: loss = 2.0128 (0.076 sec/step)
+INFO:tensorflow:global step 10080: loss = 1.7280 (0.077 sec/step)
+INFO:tensorflow:global step 10090: loss = 1.5798 (0.075 sec/step)
+INFO:tensorflow:global step 10100: loss = 1.6015 (0.072 sec/step)
+INFO:tensorflow:global step 10110: loss = 2.0737 (0.077 sec/step)
+INFO:tensorflow:global step 10120: loss = 1.7107 (0.079 sec/step)
+INFO:tensorflow:global step 10130: loss = 2.4301 (0.075 sec/step)
+INFO:tensorflow:global step 10140: loss = 1.9076 (0.077 sec/step)
+INFO:tensorflow:global step 10150: loss = 1.7343 (0.080 sec/step)
+INFO:tensorflow:global step 10160: loss = 1.9512 (0.073 sec/step)
+INFO:tensorflow:global step 10170: loss = 1.6340 (0.075 sec/step)
+INFO:tensorflow:global step 10180: loss = 1.7734 (0.074 sec/step)
+INFO:tensorflow:global step 10190: loss = 1.6674 (0.079 sec/step)
+INFO:tensorflow:global step 10200: loss = 2.0785 (0.076 sec/step)
+INFO:tensorflow:global step 10210: loss = 1.4303 (0.076 sec/step)
+INFO:tensorflow:global step 10220: loss = 1.7951 (0.075 sec/step)
+INFO:tensorflow:global step 10230: loss = 1.4964 (0.075 sec/step)
+INFO:tensorflow:global step 10240: loss = 2.3404 (0.079 sec/step)
+INFO:tensorflow:global step 10250: loss = 1.7664 (0.076 sec/step)
+INFO:tensorflow:global step 10260: loss = 2.2001 (0.074 sec/step)
+INFO:tensorflow:global step 10270: loss = 2.1829 (0.074 sec/step)
+INFO:tensorflow:global step 10280: loss = 1.7829 (0.085 sec/step)
+INFO:tensorflow:global step 10290: loss = 1.6434 (0.083 sec/step)
+INFO:tensorflow:global step 10300: loss = 2.0654 (0.077 sec/step)
+INFO:tensorflow:global step 10310: loss = 1.4207 (0.076 sec/step)
+INFO:tensorflow:global step 10320: loss = 1.6500 (0.074 sec/step)
+INFO:tensorflow:global step 10330: loss = 2.4579 (0.074 sec/step)
+INFO:tensorflow:global step 10340: loss = 1.3809 (0.072 sec/step)
+INFO:tensorflow:global step 10350: loss = 1.4673 (0.080 sec/step)
+INFO:tensorflow:global step 10360: loss = 1.9934 (0.084 sec/step)
+INFO:tensorflow:global step 10370: loss = 1.9138 (0.078 sec/step)
+INFO:tensorflow:global step 10380: loss = 2.1337 (0.076 sec/step)
+INFO:tensorflow:global step 10390: loss = 2.3761 (0.074 sec/step)
+INFO:tensorflow:global step 10400: loss = 1.5145 (0.077 sec/step)
+INFO:tensorflow:global step 10410: loss = 2.3029 (0.076 sec/step)
+INFO:tensorflow:global step 10420: loss = 1.7038 (0.072 sec/step)
+INFO:tensorflow:global step 10430: loss = 1.8918 (0.073 sec/step)
+INFO:tensorflow:global step 10440: loss = 1.7517 (0.074 sec/step)
+INFO:tensorflow:global step 10450: loss = 2.1192 (0.075 sec/step)
+INFO:tensorflow:global step 10460: loss = 2.5112 (0.075 sec/step)
+INFO:tensorflow:global step 10470: loss = 2.1015 (0.078 sec/step)
+INFO:tensorflow:global step 10480: loss = 1.7497 (0.080 sec/step)
+INFO:tensorflow:global step 10490: loss = 1.9434 (0.073 sec/step)
+INFO:tensorflow:global step 10500: loss = 1.7422 (0.077 sec/step)
+INFO:tensorflow:global step 10510: loss = 2.0969 (0.075 sec/step)
+INFO:tensorflow:global step 10520: loss = 1.8898 (0.075 sec/step)
+INFO:tensorflow:global step 10530: loss = 1.8895 (0.073 sec/step)
+INFO:tensorflow:global step 10540: loss = 2.7382 (0.081 sec/step)
+INFO:tensorflow:global step 10550: loss = 1.9932 (0.074 sec/step)
+INFO:tensorflow:global step 10560: loss = 1.8397 (0.075 sec/step)
+INFO:tensorflow:global step 10570: loss = 1.4398 (0.077 sec/step)
+INFO:tensorflow:global step 10580: loss = 1.9742 (0.075 sec/step)
+INFO:tensorflow:global step 10590: loss = 1.9663 (0.078 sec/step)
+INFO:tensorflow:global step 10600: loss = 2.2242 (0.073 sec/step)
+INFO:tensorflow:global step 10610: loss = 1.9411 (0.076 sec/step)
+INFO:tensorflow:global step 10620: loss = 1.8349 (0.074 sec/step)
+INFO:tensorflow:global step 10630: loss = 1.8368 (0.075 sec/step)
+INFO:tensorflow:global step 10640: loss = 1.9541 (0.075 sec/step)
+INFO:tensorflow:global step 10650: loss = 1.8887 (0.074 sec/step)
+INFO:tensorflow:global step 10660: loss = 1.9922 (0.074 sec/step)
+INFO:tensorflow:global step 10670: loss = 1.8865 (0.075 sec/step)
+INFO:tensorflow:global step 10680: loss = 1.8243 (0.077 sec/step)
+INFO:tensorflow:global step 10690: loss = 1.9201 (0.077 sec/step)
+INFO:tensorflow:global step 10700: loss = 1.6369 (0.083 sec/step)
+INFO:tensorflow:global step 10710: loss = 1.8046 (0.075 sec/step)
+INFO:tensorflow:global step 10720: loss = 1.7858 (0.072 sec/step)
+INFO:tensorflow:global step 10730: loss = 1.8071 (0.077 sec/step)
+INFO:tensorflow:global step 10740: loss = 1.2537 (0.077 sec/step)
+INFO:tensorflow:global step 10750: loss = 1.3451 (0.083 sec/step)
+INFO:tensorflow:global step 10760: loss = 1.5958 (0.076 sec/step)
+INFO:tensorflow:global step 10770: loss = 2.3836 (0.084 sec/step)
+INFO:tensorflow:global step 10780: loss = 1.5118 (0.076 sec/step)
+INFO:tensorflow:global step 10790: loss = 2.0269 (0.074 sec/step)
+INFO:tensorflow:global step 10800: loss = 2.3489 (0.078 sec/step)
+INFO:tensorflow:global step 10810: loss = 1.6126 (0.077 sec/step)
+INFO:tensorflow:global step 10820: loss = 1.8238 (0.076 sec/step)
+INFO:tensorflow:global step 10830: loss = 2.0020 (0.072 sec/step)
+INFO:tensorflow:global step 10840: loss = 1.8108 (0.077 sec/step)
+INFO:tensorflow:global step 10850: loss = 1.8942 (0.077 sec/step)
+INFO:tensorflow:global step 10860: loss = 2.2114 (0.072 sec/step)
+INFO:tensorflow:global step 10870: loss = 1.4953 (0.079 sec/step)
+INFO:tensorflow:global step 10880: loss = 1.9551 (0.074 sec/step)
+INFO:tensorflow:global step 10890: loss = 1.5724 (0.080 sec/step)
+INFO:tensorflow:global step 10900: loss = 2.1149 (0.076 sec/step)
+INFO:tensorflow:global step 10910: loss = 1.7899 (0.080 sec/step)
+INFO:tensorflow:global step 10920: loss = 1.8636 (0.076 sec/step)
+INFO:tensorflow:global step 10930: loss = 1.6791 (0.076 sec/step)
+INFO:tensorflow:global step 10940: loss = 1.9668 (0.071 sec/step)
+INFO:tensorflow:global step 10950: loss = 2.2005 (0.093 sec/step)
+INFO:tensorflow:global step 10960: loss = 1.9397 (0.078 sec/step)
+INFO:tensorflow:global step 10970: loss = 1.2070 (0.075 sec/step)
+INFO:tensorflow:global step 10980: loss = 1.5768 (0.073 sec/step)
+INFO:tensorflow:global step 10990: loss = 1.3200 (0.073 sec/step)
+INFO:tensorflow:global step 11000: loss = 1.6176 (0.075 sec/step)
+INFO:tensorflow:global step 11010: loss = 1.7162 (0.077 sec/step)
+INFO:tensorflow:global step 11020: loss = 2.1193 (0.075 sec/step)
+INFO:tensorflow:global step 11030: loss = 1.8143 (0.078 sec/step)
+INFO:tensorflow:global step 11040: loss = 2.0745 (0.072 sec/step)
+INFO:tensorflow:global step 11050: loss = 1.7611 (0.078 sec/step)
+INFO:tensorflow:global step 11060: loss = 2.2290 (0.073 sec/step)
+INFO:tensorflow:global step 11070: loss = 1.7717 (0.075 sec/step)
+INFO:tensorflow:global step 11080: loss = 1.6293 (0.078 sec/step)
+INFO:tensorflow:global step 11090: loss = 1.5683 (0.078 sec/step)
+INFO:tensorflow:global step 11100: loss = 1.5961 (0.075 sec/step)
+INFO:tensorflow:global step 11110: loss = 1.9882 (0.075 sec/step)
+INFO:tensorflow:global step 11120: loss = 1.9329 (0.073 sec/step)
+INFO:tensorflow:global step 11130: loss = 1.6489 (0.073 sec/step)
+INFO:tensorflow:global step 11140: loss = 1.6245 (0.075 sec/step)
+INFO:tensorflow:global step 11150: loss = 2.3345 (0.075 sec/step)
+INFO:tensorflow:global step 11160: loss = 1.7233 (0.076 sec/step)
+INFO:tensorflow:global step 11170: loss = 2.1783 (0.075 sec/step)
+INFO:tensorflow:global step 11180: loss = 1.7375 (0.073 sec/step)
+INFO:tensorflow:global step 11190: loss = 2.2220 (0.074 sec/step)
+INFO:tensorflow:global step 11200: loss = 1.7239 (0.078 sec/step)
+INFO:tensorflow:global step 11210: loss = 1.7555 (0.076 sec/step)
+INFO:tensorflow:global step 11220: loss = 1.8472 (0.073 sec/step)
+INFO:tensorflow:global step 11230: loss = 1.9056 (0.078 sec/step)
+INFO:tensorflow:global step 11240: loss = 1.4056 (0.076 sec/step)
+INFO:tensorflow:global step 11250: loss = 2.2668 (0.078 sec/step)
+INFO:tensorflow:global step 11260: loss = 2.4850 (0.075 sec/step)
+INFO:tensorflow:global step 11270: loss = 2.0263 (0.075 sec/step)
+INFO:tensorflow:global step 11280: loss = 1.9120 (0.073 sec/step)
+INFO:tensorflow:global step 11290: loss = 2.1470 (0.073 sec/step)
+INFO:tensorflow:global step 11300: loss = 1.9613 (0.075 sec/step)
+INFO:tensorflow:global step 11310: loss = 1.9327 (0.079 sec/step)
+INFO:tensorflow:global step 11320: loss = 1.8411 (0.076 sec/step)
+INFO:tensorflow:global step 11330: loss = 1.2511 (0.073 sec/step)
+INFO:tensorflow:global step 11340: loss = 1.8538 (0.073 sec/step)
+INFO:tensorflow:global step 11350: loss = 1.4696 (0.083 sec/step)
+INFO:tensorflow:global step 11360: loss = 1.6863 (0.080 sec/step)
+INFO:tensorflow:global step 11370: loss = 1.8920 (0.075 sec/step)
+INFO:tensorflow:global step 11380: loss = 1.9153 (0.078 sec/step)
+INFO:tensorflow:global step 11390: loss = 1.7429 (0.076 sec/step)
+INFO:tensorflow:global step 11400: loss = 1.7945 (0.076 sec/step)
+INFO:tensorflow:global step 11410: loss = 1.9547 (0.074 sec/step)
+INFO:tensorflow:global step 11420: loss = 1.7119 (0.076 sec/step)
+INFO:tensorflow:global step 11430: loss = 1.4591 (0.077 sec/step)
+INFO:tensorflow:global step 11440: loss = 1.8577 (0.073 sec/step)
+INFO:tensorflow:global step 11450: loss = 1.4328 (0.075 sec/step)
+INFO:tensorflow:global step 11460: loss = 1.6767 (0.074 sec/step)
+INFO:tensorflow:global step 11470: loss = 1.9163 (0.075 sec/step)
+INFO:tensorflow:global step 11480: loss = 1.9069 (0.079 sec/step)
+INFO:tensorflow:global step 11490: loss = 1.3131 (0.093 sec/step)
+INFO:tensorflow:global step 11500: loss = 2.3538 (0.074 sec/step)
+INFO:tensorflow:global step 11510: loss = 1.3131 (0.081 sec/step)
+INFO:tensorflow:global step 11520: loss = 1.5988 (0.076 sec/step)
+INFO:tensorflow:global step 11530: loss = 1.3324 (0.086 sec/step)
+INFO:tensorflow:global step 11540: loss = 2.0317 (0.074 sec/step)
+INFO:tensorflow:global step 11550: loss = 1.7609 (0.076 sec/step)
+INFO:tensorflow:global step 11560: loss = 1.6693 (0.076 sec/step)
+INFO:tensorflow:global step 11570: loss = 1.7871 (0.080 sec/step)
+INFO:tensorflow:global step 11580: loss = 2.0772 (0.074 sec/step)
+INFO:tensorflow:global step 11590: loss = 1.6342 (0.075 sec/step)
+INFO:tensorflow:global step 11600: loss = 1.5751 (0.088 sec/step)
+INFO:tensorflow:global step 11610: loss = 1.5575 (0.075 sec/step)
+INFO:tensorflow:global step 11620: loss = 1.9508 (0.075 sec/step)
+INFO:tensorflow:global step 11630: loss = 1.4885 (0.091 sec/step)
+INFO:tensorflow:global step 11640: loss = 1.9122 (0.082 sec/step)
+INFO:tensorflow:global step 11650: loss = 1.6522 (0.076 sec/step)
+INFO:tensorflow:global step 11660: loss = 1.7360 (0.075 sec/step)
+INFO:tensorflow:global step 11670: loss = 1.5153 (0.082 sec/step)
+INFO:tensorflow:global step 11680: loss = 1.6820 (0.074 sec/step)
+INFO:tensorflow:global step 11690: loss = 1.8461 (0.074 sec/step)
+INFO:tensorflow:global step 11700: loss = 1.6095 (0.076 sec/step)
+INFO:tensorflow:global step 11710: loss = 2.0187 (0.076 sec/step)
+INFO:tensorflow:global step 11720: loss = 2.1057 (0.074 sec/step)
+INFO:tensorflow:global step 11730: loss = 2.1816 (0.075 sec/step)
+INFO:tensorflow:global step 11740: loss = 1.7351 (0.074 sec/step)
+INFO:tensorflow:global step 11750: loss = 1.8954 (0.075 sec/step)
+INFO:tensorflow:global step 11760: loss = 2.0933 (0.073 sec/step)
+INFO:tensorflow:global step 11770: loss = 1.6873 (0.078 sec/step)
+INFO:tensorflow:global step 11780: loss = 1.9515 (0.076 sec/step)
+INFO:tensorflow:global step 11790: loss = 1.6274 (0.078 sec/step)
+INFO:tensorflow:global step 11800: loss = 1.7123 (0.075 sec/step)
+INFO:tensorflow:global step 11810: loss = 1.8020 (0.076 sec/step)
+INFO:tensorflow:global step 11820: loss = 1.7558 (0.075 sec/step)
+INFO:tensorflow:global step 11830: loss = 1.8856 (0.076 sec/step)
+INFO:tensorflow:global step 11840: loss = 2.1026 (0.075 sec/step)
+INFO:tensorflow:global step 11850: loss = 1.7742 (0.076 sec/step)
+INFO:tensorflow:global step 11860: loss = 2.3614 (0.077 sec/step)
+INFO:tensorflow:global step 11870: loss = 1.7103 (0.074 sec/step)
+INFO:tensorflow:global step 11880: loss = 1.7387 (0.075 sec/step)
+INFO:tensorflow:global step 11890: loss = 2.2645 (0.082 sec/step)
+INFO:tensorflow:global step 11900: loss = 1.6792 (0.073 sec/step)
+INFO:tensorflow:global step 11910: loss = 1.7590 (0.076 sec/step)
+INFO:tensorflow:global step 11920: loss = 2.1381 (0.074 sec/step)
+INFO:tensorflow:global step 11930: loss = 1.7445 (0.080 sec/step)
+INFO:tensorflow:global step 11940: loss = 1.7485 (0.083 sec/step)
+INFO:tensorflow:global step 11950: loss = 2.2200 (0.077 sec/step)
+INFO:tensorflow:global step 11960: loss = 2.1121 (0.075 sec/step)
+INFO:tensorflow:global step 11970: loss = 1.7310 (0.072 sec/step)
+INFO:tensorflow:global step 11980: loss = 1.8152 (0.076 sec/step)
+INFO:tensorflow:global step 11990: loss = 1.3292 (0.073 sec/step)
+INFO:tensorflow:global step 12000: loss = 1.4809 (0.074 sec/step)
+INFO:tensorflow:global step 12010: loss = 1.8515 (0.074 sec/step)
+INFO:tensorflow:global step 12020: loss = 2.0222 (0.078 sec/step)
+INFO:tensorflow:global step 12030: loss = 2.1683 (0.075 sec/step)
+INFO:tensorflow:global step 12040: loss = 2.4363 (0.082 sec/step)
+INFO:tensorflow:global step 12050: loss = 1.6641 (0.076 sec/step)
+INFO:tensorflow:global step 12060: loss = 1.9786 (0.073 sec/step)
+INFO:tensorflow:global step 12070: loss = 1.7436 (0.078 sec/step)
+INFO:tensorflow:global step 12080: loss = 2.1177 (0.078 sec/step)
+INFO:tensorflow:global step 12090: loss = 2.0370 (0.075 sec/step)
+INFO:tensorflow:global step 12100: loss = 1.6643 (0.074 sec/step)
+INFO:tensorflow:global step 12110: loss = 1.2949 (0.078 sec/step)
+INFO:tensorflow:global step 12120: loss = 1.6054 (0.076 sec/step)
+INFO:tensorflow:global step 12130: loss = 1.7650 (0.077 sec/step)
+INFO:tensorflow:global step 12140: loss = 1.4622 (0.082 sec/step)
+INFO:tensorflow:global step 12150: loss = 1.8503 (0.074 sec/step)
+INFO:tensorflow:global step 12160: loss = 1.5171 (0.089 sec/step)
+INFO:tensorflow:global step 12170: loss = 2.1183 (0.075 sec/step)
+INFO:tensorflow:global step 12180: loss = 1.6734 (0.076 sec/step)
+INFO:tensorflow:global step 12190: loss = 1.8026 (0.073 sec/step)
+INFO:tensorflow:global step 12200: loss = 1.4350 (0.074 sec/step)
+INFO:tensorflow:global step 12210: loss = 2.0476 (0.078 sec/step)
+INFO:tensorflow:global step 12220: loss = 1.9398 (0.076 sec/step)
+INFO:tensorflow:global step 12230: loss = 1.8712 (0.072 sec/step)
+INFO:tensorflow:global step 12240: loss = 1.6247 (0.075 sec/step)
+INFO:tensorflow:global step 12250: loss = 1.7758 (0.073 sec/step)
+INFO:tensorflow:global step 12260: loss = 1.4947 (0.075 sec/step)
+INFO:tensorflow:global step 12270: loss = 1.2459 (0.072 sec/step)
+INFO:tensorflow:global step 12280: loss = 1.8838 (0.073 sec/step)
+INFO:tensorflow:global step 12290: loss = 1.7152 (0.073 sec/step)
+INFO:tensorflow:global step 12300: loss = 1.2935 (0.072 sec/step)
+INFO:tensorflow:global step 12310: loss = 2.1303 (0.077 sec/step)
+INFO:tensorflow:global step 12320: loss = 1.5764 (0.075 sec/step)
+INFO:tensorflow:global step 12330: loss = 1.6906 (0.075 sec/step)
+INFO:tensorflow:global step 12340: loss = 1.5281 (0.088 sec/step)
+INFO:tensorflow:global step 12350: loss = 1.6031 (0.074 sec/step)
+INFO:tensorflow:global step 12360: loss = 1.8823 (0.075 sec/step)
+INFO:tensorflow:global step 12370: loss = 2.1814 (0.075 sec/step)
+INFO:tensorflow:global step 12380: loss = 2.1848 (0.075 sec/step)
+INFO:tensorflow:global step 12390: loss = 2.0168 (0.074 sec/step)
+INFO:tensorflow:global step 12400: loss = 1.9291 (0.078 sec/step)
+INFO:tensorflow:global step 12410: loss = 1.8490 (0.074 sec/step)
+INFO:tensorflow:global step 12420: loss = 1.8684 (0.075 sec/step)
+INFO:tensorflow:global step 12430: loss = 1.8337 (0.075 sec/step)
+INFO:tensorflow:global step 12440: loss = 2.0106 (0.077 sec/step)
+INFO:tensorflow:global step 12450: loss = 1.8707 (0.073 sec/step)
+INFO:tensorflow:global step 12460: loss = 1.7381 (0.074 sec/step)
+INFO:tensorflow:global step 12470: loss = 1.3934 (0.080 sec/step)
+INFO:tensorflow:global step 12480: loss = 1.8807 (0.105 sec/step)
+INFO:tensorflow:global step 12490: loss = 1.6192 (0.074 sec/step)
+INFO:tensorflow:global step 12500: loss = 1.6567 (0.074 sec/step)
+INFO:tensorflow:global step 12510: loss = 1.6005 (0.075 sec/step)
+INFO:tensorflow:global step 12520: loss = 1.8315 (0.078 sec/step)
+INFO:tensorflow:global step 12530: loss = 1.6575 (0.079 sec/step)
+INFO:tensorflow:global step 12540: loss = 1.6556 (0.081 sec/step)
+INFO:tensorflow:global step 12550: loss = 1.3578 (0.076 sec/step)
+INFO:tensorflow:global step 12560: loss = 1.7652 (0.079 sec/step)
+INFO:tensorflow:global step 12570: loss = 1.3892 (0.070 sec/step)
+INFO:tensorflow:global step 12580: loss = 1.7740 (0.071 sec/step)
+INFO:tensorflow:global step 12590: loss = 1.9002 (0.072 sec/step)
+INFO:tensorflow:global step 12600: loss = 1.7575 (0.072 sec/step)
+INFO:tensorflow:global step 12610: loss = 1.5648 (0.071 sec/step)
+INFO:tensorflow:global step 12620: loss = 1.5470 (0.072 sec/step)
+INFO:tensorflow:global step 12630: loss = 2.0229 (0.072 sec/step)
+INFO:tensorflow:global step 12640: loss = 1.7699 (0.071 sec/step)
+INFO:tensorflow:global step 12650: loss = 1.9105 (0.071 sec/step)
+INFO:tensorflow:global step 12660: loss = 1.4402 (0.072 sec/step)
+INFO:tensorflow:global step 12670: loss = 1.9567 (0.072 sec/step)
+INFO:tensorflow:global step 12680: loss = 1.5277 (0.072 sec/step)
+INFO:tensorflow:global step 12690: loss = 2.0564 (0.071 sec/step)
+INFO:tensorflow:global step 12700: loss = 1.7093 (0.072 sec/step)
+INFO:tensorflow:global step 12710: loss = 1.5751 (0.072 sec/step)
+INFO:tensorflow:global step 12720: loss = 2.2617 (0.071 sec/step)
+INFO:tensorflow:global step 12730: loss = 1.4817 (0.074 sec/step)
+INFO:tensorflow:global step 12740: loss = 1.6045 (0.071 sec/step)
+INFO:tensorflow:global step 12750: loss = 1.8598 (0.071 sec/step)
+INFO:tensorflow:global step 12760: loss = 1.8318 (0.071 sec/step)
+INFO:tensorflow:global step 12770: loss = 1.2895 (0.072 sec/step)
+INFO:tensorflow:global step 12780: loss = 2.0118 (0.071 sec/step)
+INFO:tensorflow:global step 12790: loss = 1.7996 (0.071 sec/step)
+INFO:tensorflow:global step 12800: loss = 1.6630 (0.073 sec/step)
+INFO:tensorflow:global step 12810: loss = 1.6649 (0.072 sec/step)
+INFO:tensorflow:global step 12820: loss = 1.6772 (0.071 sec/step)
+INFO:tensorflow:global step 12830: loss = 1.5052 (0.072 sec/step)
+INFO:tensorflow:global step 12840: loss = 1.9841 (0.070 sec/step)
+INFO:tensorflow:global step 12850: loss = 2.1245 (0.071 sec/step)
+INFO:tensorflow:global step 12860: loss = 1.6900 (0.072 sec/step)
+INFO:tensorflow:global step 12870: loss = 1.8849 (0.075 sec/step)
+INFO:tensorflow:global step 12880: loss = 1.7145 (0.072 sec/step)
+INFO:tensorflow:global step 12890: loss = 1.8591 (0.072 sec/step)
+INFO:tensorflow:global step 12900: loss = 1.9048 (0.073 sec/step)
+INFO:tensorflow:global step 12910: loss = 1.8407 (0.072 sec/step)
+INFO:tensorflow:global step 12920: loss = 1.4156 (0.072 sec/step)
+INFO:tensorflow:global step 12930: loss = 1.5493 (0.073 sec/step)
+INFO:tensorflow:global step 12940: loss = 1.4902 (0.073 sec/step)
+INFO:tensorflow:global step 12950: loss = 1.6674 (0.074 sec/step)
+INFO:tensorflow:global step 12960: loss = 1.5512 (0.072 sec/step)
+INFO:tensorflow:global step 12970: loss = 1.7105 (0.072 sec/step)
+INFO:tensorflow:global step 12980: loss = 1.7525 (0.072 sec/step)
+INFO:tensorflow:global step 12990: loss = 1.7391 (0.072 sec/step)
+INFO:tensorflow:global step 13000: loss = 1.9788 (0.072 sec/step)
+INFO:tensorflow:global step 13010: loss = 2.0045 (0.073 sec/step)
+INFO:tensorflow:global step 13020: loss = 1.5638 (0.071 sec/step)
+INFO:tensorflow:global step 13030: loss = 1.9278 (0.072 sec/step)
+INFO:tensorflow:global step 13040: loss = 1.7608 (0.071 sec/step)
+INFO:tensorflow:global step 13050: loss = 1.7757 (0.071 sec/step)
+INFO:tensorflow:global step 13060: loss = 1.5730 (0.072 sec/step)
+INFO:tensorflow:global step 13070: loss = 1.7282 (0.072 sec/step)
+INFO:tensorflow:global step 13080: loss = 1.2979 (0.070 sec/step)
+INFO:tensorflow:global step 13090: loss = 1.7907 (0.072 sec/step)
+INFO:tensorflow:global step 13100: loss = 1.8893 (0.075 sec/step)
+INFO:tensorflow:global step 13110: loss = 2.2930 (0.073 sec/step)
+INFO:tensorflow:global step 13120: loss = 1.3769 (0.072 sec/step)
+INFO:tensorflow:global step 13130: loss = 1.3459 (0.070 sec/step)
+INFO:tensorflow:global step 13140: loss = 1.6611 (0.072 sec/step)
+INFO:tensorflow:global step 13150: loss = 1.5159 (0.072 sec/step)
+INFO:tensorflow:global step 13160: loss = 1.8313 (0.072 sec/step)
+INFO:tensorflow:global step 13170: loss = 1.7320 (0.073 sec/step)
+INFO:tensorflow:global step 13180: loss = 1.7935 (0.074 sec/step)
+INFO:tensorflow:global step 13190: loss = 1.7523 (0.073 sec/step)
+INFO:tensorflow:global step 13200: loss = 1.7359 (0.072 sec/step)
+INFO:tensorflow:global step 13210: loss = 1.6874 (0.073 sec/step)
+INFO:tensorflow:global step 13220: loss = 1.5010 (0.073 sec/step)
+INFO:tensorflow:global step 13230: loss = 1.7697 (0.074 sec/step)
+INFO:tensorflow:global step 13240: loss = 1.7792 (0.073 sec/step)
+INFO:tensorflow:global step 13250: loss = 1.2826 (0.072 sec/step)
+INFO:tensorflow:global step 13260: loss = 1.6727 (0.072 sec/step)
+INFO:tensorflow:global step 13270: loss = 2.0247 (0.073 sec/step)
+INFO:tensorflow:global step 13280: loss = 1.8513 (0.072 sec/step)
+INFO:tensorflow:global step 13290: loss = 1.3998 (0.072 sec/step)
+INFO:tensorflow:global step 13300: loss = 1.7337 (0.072 sec/step)
+INFO:tensorflow:global step 13310: loss = 2.0367 (0.071 sec/step)
+INFO:tensorflow:global step 13320: loss = 1.8884 (0.072 sec/step)
+INFO:tensorflow:global step 13330: loss = 1.3985 (0.071 sec/step)
+INFO:tensorflow:global step 13340: loss = 1.5984 (0.073 sec/step)
+INFO:tensorflow:global step 13350: loss = 1.1423 (0.072 sec/step)
+INFO:tensorflow:global step 13360: loss = 1.6954 (0.073 sec/step)
+INFO:tensorflow:global step 13370: loss = 1.6595 (0.071 sec/step)
+INFO:tensorflow:global step 13380: loss = 1.6277 (0.072 sec/step)
+INFO:tensorflow:global step 13390: loss = 1.8190 (0.071 sec/step)
+INFO:tensorflow:global step 13400: loss = 1.7054 (0.071 sec/step)
+INFO:tensorflow:global step 13410: loss = 1.8728 (0.070 sec/step)
+INFO:tensorflow:global step 13420: loss = 1.3352 (0.071 sec/step)
+INFO:tensorflow:global step 13430: loss = 1.5672 (0.071 sec/step)
+INFO:tensorflow:global step 13440: loss = 1.5265 (0.071 sec/step)
+INFO:tensorflow:global step 13450: loss = 1.4833 (0.072 sec/step)
+INFO:tensorflow:global step 13460: loss = 1.7594 (0.072 sec/step)
+INFO:tensorflow:global step 13470: loss = 1.3745 (0.071 sec/step)
+INFO:tensorflow:global step 13480: loss = 2.1454 (0.072 sec/step)
+INFO:tensorflow:global step 13490: loss = 1.5131 (0.072 sec/step)
+INFO:tensorflow:global step 13500: loss = 1.3579 (0.071 sec/step)
+INFO:tensorflow:global step 13510: loss = 1.5566 (0.073 sec/step)
+INFO:tensorflow:global step 13520: loss = 1.6503 (0.071 sec/step)
+INFO:tensorflow:global step 13530: loss = 1.8093 (0.072 sec/step)
+INFO:tensorflow:global step 13540: loss = 1.6846 (0.072 sec/step)
+INFO:tensorflow:global step 13550: loss = 1.8315 (0.072 sec/step)
+INFO:tensorflow:global step 13560: loss = 1.6010 (0.072 sec/step)
+INFO:tensorflow:global step 13570: loss = 1.9320 (0.073 sec/step)
+INFO:tensorflow:global step 13580: loss = 2.5506 (0.075 sec/step)
+INFO:tensorflow:global step 13590: loss = 1.6198 (0.071 sec/step)
+INFO:tensorflow:global step 13600: loss = 1.9065 (0.072 sec/step)
+INFO:tensorflow:global step 13610: loss = 1.7907 (0.072 sec/step)
+INFO:tensorflow:global step 13620: loss = 1.8730 (0.074 sec/step)
+INFO:tensorflow:global step 13630: loss = 1.8451 (0.074 sec/step)
+INFO:tensorflow:global step 13640: loss = 1.4696 (0.071 sec/step)
+INFO:tensorflow:global step 13650: loss = 1.4634 (0.072 sec/step)
+INFO:tensorflow:global step 13660: loss = 1.5979 (0.072 sec/step)
+INFO:tensorflow:global step 13670: loss = 1.7360 (0.072 sec/step)
+INFO:tensorflow:global step 13680: loss = 1.1954 (0.073 sec/step)
+INFO:tensorflow:global step 13690: loss = 1.4394 (0.072 sec/step)
+INFO:tensorflow:global step 13700: loss = 1.6633 (0.071 sec/step)
+INFO:tensorflow:global step 13710: loss = 2.0385 (0.071 sec/step)
+INFO:tensorflow:global step 13720: loss = 1.3863 (0.072 sec/step)
+INFO:tensorflow:global step 13730: loss = 1.9810 (0.072 sec/step)
+INFO:tensorflow:global step 13740: loss = 1.2918 (0.070 sec/step)
+INFO:tensorflow:global step 13750: loss = 1.4122 (0.073 sec/step)
+INFO:tensorflow:global step 13760: loss = 1.8079 (0.073 sec/step)
+INFO:tensorflow:global step 13770: loss = 2.1773 (0.071 sec/step)
+INFO:tensorflow:global step 13780: loss = 1.7573 (0.071 sec/step)
+INFO:tensorflow:global step 13790: loss = 1.9527 (0.071 sec/step)
+INFO:tensorflow:global step 13800: loss = 1.6401 (0.072 sec/step)
+INFO:tensorflow:global step 13810: loss = 1.9640 (0.072 sec/step)
+INFO:tensorflow:global step 13820: loss = 1.6051 (0.073 sec/step)
+INFO:tensorflow:global step 13830: loss = 2.0796 (0.074 sec/step)
+INFO:tensorflow:global step 13840: loss = 1.5267 (0.072 sec/step)
+INFO:tensorflow:global step 13850: loss = 1.7836 (0.072 sec/step)
+INFO:tensorflow:global step 13860: loss = 1.7081 (0.071 sec/step)
+INFO:tensorflow:global step 13870: loss = 1.5218 (0.071 sec/step)
+INFO:tensorflow:global step 13880: loss = 1.9288 (0.071 sec/step)
+INFO:tensorflow:global step 13890: loss = 1.7984 (0.071 sec/step)
+INFO:tensorflow:global step 13900: loss = 1.6843 (0.072 sec/step)
+INFO:tensorflow:global step 13910: loss = 1.4790 (0.071 sec/step)
+INFO:tensorflow:global step 13920: loss = 1.4385 (0.073 sec/step)
+INFO:tensorflow:global step 13930: loss = 1.3584 (0.072 sec/step)
+INFO:tensorflow:global step 13940: loss = 1.3180 (0.073 sec/step)
+INFO:tensorflow:global step 13950: loss = 1.6995 (0.071 sec/step)
+INFO:tensorflow:global step 13960: loss = 1.6606 (0.072 sec/step)
+INFO:tensorflow:global step 13970: loss = 1.5365 (0.072 sec/step)
+INFO:tensorflow:global step 13980: loss = 1.9003 (0.071 sec/step)
+INFO:tensorflow:global step 13990: loss = 1.8401 (0.072 sec/step)
+INFO:tensorflow:global step 14000: loss = 2.1275 (0.072 sec/step)
+INFO:tensorflow:global step 14010: loss = 1.6385 (0.072 sec/step)
+INFO:tensorflow:global step 14020: loss = 1.7677 (0.071 sec/step)
+INFO:tensorflow:global step 14030: loss = 1.3039 (0.072 sec/step)
+INFO:tensorflow:global step 14040: loss = 1.8316 (0.071 sec/step)
+INFO:tensorflow:global step 14050: loss = 1.9462 (0.072 sec/step)
+INFO:tensorflow:global step 14060: loss = 1.5192 (0.072 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:603: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+INFO:tensorflow:Scale of 0 disables regularizer.
+ll 7 block 4 with input -2 and operation 5x5_depth_conv:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 4 with input 1 and operation 3x3_conv:
+[32, 8, 8, 96]
+final output shape
+(32, 1, 1, 192)
+eval model
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 0 with input -1 and operation identity:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 0 with input -1 and operation 3x3_depth_conv:
+[100, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 1 with input -2 and operation identity:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 1 with input 0 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o1 for cell 0 block 2 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 2 with input 1 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o1 for cell 0 block 3 with input 2 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 3 with input 0 and operation 7x7_conv:
+[100, 32, 32, 24]
+output dimension of o1 for cell 0 block 4 with input -2 and operation 5x5_depth_conv:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 4 with input 1 and operation 3x3_conv:
+[100, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 0 with input -1 and operation identity:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 0 with input -1 and operation 3x3_depth_conv:
+[100, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 1 with input -2 and operation identity:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 1 with input 0 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o1 for cell 1 block 2 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 2 with input 1 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o1 for cell 1 block 3 with input 2 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 3 with input 0 and operation 7x7_conv:
+[100, 32, 32, 24]
+output dimension of o1 for cell 1 block 4 with input -2 and operation 5x5_depth_conv:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 4 with input 1 and operation 3x3_conv:
+[100, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 2 block 0 with input -1 and operation identity:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 0 with input -1 and operation 3x3_depth_conv:
+[100, 16, 16, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 2 block 1 with input -2 and operation identity:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 1 with input 0 and operation 3x3_max_pool:
+[100, 16, 16, 24]
+output dimension of o1 for cell 2 block 2 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 2 with input 1 and operation 3x3_max_pool:
+[100, 16, 16, 24]
+output dimension of o1 for cell 2 block 3 with input 2 and operation 3x3_max_pool:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 3 with input 0 and operation 7x7_conv:
+[100, 16, 16, 24]
+output dimension of o1 for cell 2 block 4 with input -2 and operation 5x5_depth_conv:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 4 with input 1 and operation 3x3_conv:
+[100, 16, 16, 24]
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 0 with input -1 and operation identity:
+[100, 16, 16, 48]
+output dimension of o2 for cell 3 block 0 with input -1 and operation 3x3_depth_conv:
+[100, 16, 16, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 1 with input -2 and operation identity:
+[100, 32, 32, 48]
+output dimension of o2 for cell 3 block 1 with input 0 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o1 for cell 3 block 2 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 48]
+output dimension of o2 for cell 3 block 2 with input 1 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o1 for cell 3 block 3 with input 2 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o2 for cell 3 block 3 with input 0 and operation 7x7_conv:
+[100, 16, 16, 48]
+output dimension of o1 for cell 3 block 4 with input -2 and operation 5x5_depth_conv:
+[100, 32, 32, 48]
+output dimension of o2 for cell 3 block 4 with input 1 and operation 3x3_conv:
+[100, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 4 block 0 with input -1 and operation identity:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 0 with input -1 and operation 3x3_depth_conv:
+[100, 16, 16, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 4 block 1 with input -2 and operation identity:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 1 with input 0 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o1 for cell 4 block 2 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 2 with input 1 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o1 for cell 4 block 3 with input 2 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 3 with input 0 and operation 7x7_conv:
+[100, 16, 16, 48]
+output dimension of o1 for cell 4 block 4 with input -2 and operation 5x5_depth_conv:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 4 with input 1 and operation 3x3_conv:
+[100, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 5 block 0 with input -1 and operation identity:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 0 with input -1 and operation 3x3_depth_conv:
+[100, 8, 8, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 5 block 1 with input -2 and operation identity:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 1 with input 0 and operation 3x3_max_pool:
+[100, 8, 8, 48]
+output dimension of o1 for cell 5 block 2 with input -2 and operation 3x3_max_pool:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 2 with input 1 and operation 3x3_max_pool:
+[100, 8, 8, 48]
+output dimension of o1 for cell 5 block 3 with input 2 and operation 3x3_max_pool:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 3 with input 0 and operation 7x7_conv:
+[100, 8, 8, 48]
+output dimension of o1 for cell 5 block 4 with input -2 and operation 5x5_depth_conv:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 4 with input 1 and operation 3x3_conv:
+[100, 8, 8, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 0 with input -1 and operation identity:
+[100, 8, 8, 96]
+output dimension of o2 for cell 6 block 0 with input -1 and operation 3x3_depth_conv:
+[100, 8, 8, 96]
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 1 with input -2 and operation identity:
+[100, 16, 16, 96]
+output dimension of o2 for cell 6 block 1 with input 0 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o1 for cell 6 block 2 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 96]
+output dimension of o2 for cell 6 block 2 with input 1 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o1 for cell 6 block 3 with input 2 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o2 for cell 6 block 3 with input 0 and operation 7x7_conv:
+[100, 8, 8, 96]
+output dimension of o1 for cell 6 block 4 with input -2 and operation 5x5_depth_conv:
+[100, 16, 16, 96]
+output dimension of o2 for cell 6 block 4 with input 1 and operation 3x3_conv:
+[100, 8, 8, 96]
+
+Identity conv2D
+
+output dimension of o1 for cell 7 block 0 with input -1 and operation identity:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 0 with input -1 and operation 3x3_depth_conv:
+[100, 8, 8, 96]
+
+Identity subsample used
+
+output dimension of o1 for cell 7 block 1 with input -2 and operation identity:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 1 with input 0 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o1 for cell 7 block 2 with input -2 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 2 with input 1 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o1 for cell 7 block 3 with input 2 and operatWARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:670: streaming_recall_at_k (from tensorflow.contrib.metrics.python.ops.metric_ops) is deprecated and will be removed after 2016-11-08.
+Instructions for updating:
+Please use `streaming_sparse_recall_at_k`, and reshape labels from [batch_size] to [batch_size, 1].
+INFO:tensorflow:Evaluating /home/lile/Projects/git_repo/hacone/outputs/cifarnet_movidius/_-1_-1_1_2_-2_0_1_0_-2_1_0_0_2_0_0_7_-2_1_4_3/model.ckpt-14062
+INFO:tensorflow:Starting evaluation at 2019-02-24-13:28:54
+2019-02-24 21:28:54.931130: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:08:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lile/Projects/git_repo/hacone/outputs/cifarnet_movidius/_-1_-1_1_2_-2_0_1_0_-2_1_0_0_2_0_0_7_-2_1_4_3/model.ckpt-14062
+INFO:tensorflow:Evaluation [1/50]
+INFO:tensorflow:Evaluation [2/50]
+INFO:tensorflow:Evaluation [3/50]
+INFO:tensorflow:Evaluation [4/50]
+INFO:tensorflow:Evaluation [5/50]
+INFO:tensorflow:Evaluation [6/50]
+INFO:tensorflow:Evaluation [7/50]
+INFO:tensorflow:Evaluation [8/50]
+INFO:tensorflow:Evaluation [9/50]
+INFO:tensorflow:Evaluation [10/50]
+INFO:tensorflow:Evaluation [11/50]
+INFO:tensorflow:Evaluation [12/50]
+INFO:tensorflow:Evaluation [13/50]
+INFO:tensorflow:Evaluation [14/50]
+INFO:tensorflow:Evaluation [15/50]
+INFO:tensorflow:Evaluation [16/50]
+INFO:tensorflow:Evaluation [17/50]
+INFO:tensorflow:Evaluation [18/50]
+INFO:tensorflow:Evaluation [19/50]
+INFO:tensorflow:Evaluation [20/50]
+INFO:tensorflow:Evaluation [21/50]
+INFO:tensorflow:Evaluation [22/50]
+INFO:tensorflow:Evaluation [23/50]
+INFO:tensorflow:Evaluation [24/50]
+INFO:tensorflow:Evaluation [25/50]
+INFO:tensorflow:Evaluation [26/50]
+INFO:tensorflow:Evaluation [27/50]
+INFO:tensorflow:Evaluation [28/50]
+INFO:tensorflow:Evaluation [29/50]
+INFO:tensorflow:Evaluation [30/50]
+INFO:tensorflow:Evaluation [31/50]
+INFO:tensorflow:Evaluation [32/50]
+INFO:tensorflow:Evaluation [33/50]
+INFO:tensorflow:Evaluation [34/50]
+INFO:tensorflow:Evaluation [35/50]
+INFO:tensorflow:Evaluation [36/50]
+INFO:tensorflow:Evaluation [37/50]
+INFO:tensorflow:Evaluation [38/50]
+INFO:tensorflow:Evaluation [39/50]
+INFO:tensorflow:Evaluation [40/50]
+INFO:tensorflow:Evaluation [41/50]
+INFO:tensorflow:Evaluation [42/50]
+INFO:tensorflow:Evaluation [43/50]
+INFO:tensorflow:Evaluation [44/50]
+INFO:tensorflow:Evaluation [45/50]
+INFO:tensorflow:Evaluation [46/50]
+INFO:tensorflow:Evaluation [47/50]
+INFO:tensorflow:Evaluation [48/50]
+INFO:tensorflow:Evaluation [49/50]
+INFO:tensorflow:Evaluation [50/50]
+2019-02-24 21:29:01.461906: I tensorflow/core/kernels/logging_ops.cc:79] eval/Accuracy[0.3878]
+2019-02-24 21:29:01.462202: I tensorflow/core/kernels/logging_ops.cc:79] eval/Recall_5[0.877]
+INFO:tensorflow:Finished evaluation at 2019-02-24-13:29:01
+INFO:tensorflow:Scale of 0 disables regularizer.
+main
+[-1, -1, 1, 2, -2, 0, 1, 0, -2, 1, 0, 0, 2, 0, 0, 7, -2, 1, 4, 3]
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 0 with input -1 and operation identity:
+[None, 32, 32, 24]
+output dimension of o2 for cell 0 block 0 with input -1 and operation 3x3_depth_conv:
+[None, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 0 block 1 with input -2 and operation identity:
+[None, 32, 32, 24]
+output dimension of o2 for cell 0 block 1 with input 0 and operation 3x3_max_pool:
+[None, 32, 32, 24]
+output dimension of o1 for cell 0 block 2 with input -2 and operation 3x3_max_pool:
+[None, 32, 32, 24]
+output dimension of o2 for cell 0 block 2 with input 1 and operation 3x3_max_pool:
+[None, 32, 32, 24]
+output dimension of o1 for cell 0 block 3 with input 2 and operation 3x3_max_pool:
+[None, 32, 32, 24]
+output dimension of o2 for cell 0 block 3 with input 0 and operation 7x7_conv:
+[None, 32, 32, 24]
+output dimension of o1 for cell 0 block 4 with input -2 and operation 5x5_depth_conv:
+[None, 32, 32, 24]
+output dimension of o2 for cell 0 block 4 with input 1 and operation 3x3_conv:
+[None, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 0 with input -1 and operation identity:
+[None, 32, 32, 24]
+output dimension of o2 for cell 1 block 0 with input -1 and operation 3x3_depth_conv:
+[None, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 1 block 1 with input -2 and operation identity:
+[None, 32, 32, 24]
+output dimension of o2 for cell 1 block 1 with input 0 and operation 3x3_max_pool:
+[None, 32, 32, 24]
+output dimension of o1 for cell 1 block 2 with input -2 and operation 3x3_max_pool:
+[None, 32, 32, 24]
+output dimension of o2 for cell 1 block 2 with input 1 and operation 3x3_max_pool:
+[None, 32, 32, 24]
+output dimension of o1 for cell 1 block 3 with input 2 and operation 3x3_max_pool:
+[None, 32, 32, 24]
+output dimension of o2 for cell 1 block 3 with input 0 and operation 7x7_conv:
+[None, 32, 32, 24]
+output dimension of o1 for cell 1 block 4 with input -2 and operation 5x5_depth_conv:
+[None, 32, 32, 24]
+output dimension of o2 for cell 1 block 4 with input 1 and operation 3x3_conv:
+[None, 32, 32, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 2 block 0 with input -1 and operation identity:
+[None, 16, 16, 24]
+output dimension of o2 for cell 2 block 0 with input -1 and operation 3x3_depth_conv:
+[None, 16, 16, 24]
+
+Identity conv2D
+
+output dimension of o1 for cell 2 block 1 with input -2 and operation identity:
+[None, 16, 16, 24]
+output dimension of o2 for cell 2 block 1 with input 0 and operation 3x3_max_pool:
+[None, 16, 16, 24]
+output dimension of o1 for cell 2 block 2 with input -2 and operation 3x3_max_pool:
+[None, 16, 16, 24]
+output dimension of o2 for cell 2 block 2 with input 1 and operation 3x3_max_pool:
+[None, 16, 16, 24]
+output dimension of o1 for cell 2 block 3 with input 2 and operation 3x3_max_pool:
+[None, 16, 16, 24]
+output dimension of o2 for cell 2 block 3 with input 0 and operation 7x7_conv:
+[None, 16, 16, 24]
+output dimension of o1 for cell 2 block 4 with input -2 and operation 5x5_depth_conv:
+[None, 16, 16, 24]
+output dimension of o2 for cell 2 block 4 with input 1 and operation 3x3_conv:
+[None, 16, 16, 24]
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 0 with input -1 and operation identity:
+[None, 16, 16, 48]
+output dimension of o2 for cell 3 block 0 with input -1 and operation 3x3_depth_conv:
+[None, 16, 16, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 1 with input -2 and operation identity:
+[None, 32, 32, 48]
+output dimension of o2 for cell 3 block 1 with input 0 and operation 3x3_max_pool:
+[None, 16, 16, 48]
+output dimension of o1 for cell 3 block 2 with input -2 and operation 3x3_max_pool:
+[None, 32, 32, 48]
+output dimension of o2 for cell 3 block 2 with input 1 and operation 3x3_max_pool:
+[None, 16, 16, 48]
+output dimension of o1 for cell 3 block 3 with input 2 and operation 3x3_max_pool:
+[None, 16, 16, 48]
+output dimension of o2 for cell 3 block 3 with input 0 and operation 7x7_conv:
+[None, 16, 16, 48]
+output dimension of o1 for cell 3 block 4 with input -2 and operation 5x5_depth_conv:
+[None, 32, 32, 48]
+output dimension of o2 for cell 3 block 4 with input 1 and operation 3x3_conv:
+[None, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 4 block 0 with input -1 and operation identity:
+[None, 16, 16, 48]
+output dimension of o2 for cell 4 block 0 with input -1 and operation 3x3_depth_conv:
+[None, 16, 16, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 4 block 1 with input -2 and operation identity:
+[None, 16, 16, 48]
+output dimension of o2 for cell 4 block 1 with input 0 and operation 3x3_max_pool:
+[None, 16, 16, 48]
+output dimension of o1 for cell 4 block 2 with input -2 and operation 3x3_max_pool:
+[None, 16, 16, 48]
+output dimension of o2 for cell 4 block 2 with input 1 and operation 3x3_max_pool:
+[None, 16, 16, 48]
+output dimension of o1 for cell 4 block 3 with input 2 and operation 3x3_max_pool:
+[None, 16, 16, 48]
+output dimension of o2 for cell 4 block 3 with input 0 and operation 7x7_conv:
+[None, 16, 16, 48]
+output dimension of o1 for cell 4 block 4 with input -2 and operation 5x5_depth_conv:
+[None, 16, 16, 48]
+output dimension of o2 for cell 4 block 4 with input 1 and operation 3x3_conv:
+[None, 16, 16, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 5 block 0 with input -1 and operation identity:
+[None, 8, 8, 48]
+output dimension of o2 for cell 5 block 0 with input -1 and operation 3x3_depth_conv:
+[None, 8, 8, 48]
+
+Identity conv2D
+
+output dimension of o1 for cell 5 block 1 with input -2 and operation identity:
+[None, 8, 8, 48]
+output dimension of o2 for cell 5 block 1 with input 0 and operation 3x3_max_pool:
+[None, 8, 8, 48]
+output dimension of o1 for cell 5 block 2 with input -2 and operation 3x3_max_pool:
+[None, 8, 8, 48]
+output dimension of o2 for cell 5 block 2 with input 1 and operation 3x3_max_pool:
+[None, 8, 8, 48]
+output dimension of o1 for cell 5 block 3 with input 2 and operation 3x3_max_pool:
+[None, 8, 8, 48]
+output dimension of o2 for cell 5 block 3 with input 0 and operation 7x7_conv:
+[None, 8, 8, 48]
+output dimension of o1 for cell 5 block 4 with input -2 and operation 5x5_depth_conv:
+[None, 8, 8, 48]
+output dimension of o2 for cell 5 block 4 with input 1 and operation 3x3_conv:
+[None, 8, 8, 48]
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 0 with input -1 and operation identity:
+[None, 8, 8, 96]
+output dimension of o2 for cell 6 block 0 with input -1 and operation 3x3_depth_conv:
+[None, 8, 8, 96]
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 1 with input -2 and operation identity:
+[None, 16, 16, 96]
+output dimension of o2 for cell 6 block 1 with input 0 and operation 3x3_max_pool:
+[None, 8, 8, 96]
+output dimension of o1 for cell 6 block 2 with input -2 and operation 3x3_max_pool:
+[None, 16, 16, 96]
+output dimension of o2 for cell 6 block 2 with input 1 and operation 3x3_max_pool:
+[None, 8, 8, 96]
+output dimension of o1 for cell 6 block 3 with input 2 and operation 3x3_max_pool:
+[None, 8, 8, 96]
+output dimension of o2 for cell 6 block 3 with input 0 and operation 7x7_conv:
+[None, 8, 8, 96]
+output dimension of o1 for cell 6 block 4 with input -2 and operation 5x5_depth_conv:
+[None, 16, 16, 96]
+output dimension of o2 for cell 6 block 4 with input 1 and operation 3x3_conv:
+[None, 8, 8, 96]
+
+Identity conv2D
+
+output dimension of o1 for cell 7 block 0 with input -1 and operation identity:
+[None, 8, 8, 96]
+output dimension of o2 for cell 7 block 0 with input -1 and operation 3x3_depth_conv:
+[None, 8, 8, 96]
+
+Identity subsample used
+
+output dimension of o1 for cell 7 block 1 with input -2 and operation identity:
+[None, 8, 8, 96]
+output dimension of o2 for cell 7 block 1 with input 0 and operation 3x3_max_pool:
+[None, 8, 8, 96]
+output dimension of o1 for cell 7 block 2 with input -2 and operation 3x3_max_pool:
+[None, 8, 8, 96]
+output dimension of o2 for cell 7 block 2 with input 1 and operation 3x3_max_pool:
+[None, 8, 8, 96]
+output dimension of o1 for cell 7 block 3 with input 2 and operation 3x3_max_pool:
+[None, 8, 8, 96]
+output dimension of o2 for cell 7 block 3 with input 0 and operation 7x7_conv:
+[None, 8, 8, 96]
+output dimension of o1 for cell 7 block 4 with input -2 and operation 5x5_depth_conv:
+[None, 8, 8, 96]
+output dimension of o2 for cell 7 block 4 with input 1 and operation 3x3_conv:
+[None, 8, 8, 96]
+final output shape
+(?, 1, 1, 192)
+2019-02-24 21:29:04.586546: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-02-24 21:29:04.739409: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:08:00.0
+totalMemory: 10.91GiB freeMemory: 9.41GiB
+2019-02-24 21:29:04.739458: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:08:00.0, compute capability: 6.1)
+Converted 174 variables to const ops.
+/usr/lib/python3/dist-packages/scipy/stats/morestats.py:16: DeprecationWarning: Importing from numpy.testing.decorators is deprecated, import from numpy.testing instead.
+  from numpy.testing.decorators import setastest
+/home/lile/.local/lib/python3.5/site-packages/tensorflow/python/framework/ops.py:871: DeprecationWarning: builtin type EagerTensor has no __module__ attribute
+/home/lile/.local/lib/python3.5/site-packages/tensorflow/python/util/tf_inspect.py:45: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+/usr/lib/python3.5/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+/home/lile/.local/lib/python3.5/site-packages/tensorflow/python/util/tf_inspect.py:45: DeprecationWarning: inspect.getargspec() is deprecated, use inspect.signature() instead
+/home/lile/.local/lib/python3.5/site-packages/tensorflow/python/framework/tensor_util.py:560: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+/opt/movidius/NCSDK/ncsdk-x86_64/tk/Controllers/FileIO.py:65: UserWarning: [93mYou are using a large type. Consider reducing your data sizes for best performance[0m
+/opt/movidius/NCSDK/ncsdk-x86_64/api/python/mvnc/mvncapi.py:408: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+file done
+Got result {'energy': 1.1239100000000002, 'time': 56.35, 'f': 0.612199991941452}
+Completed successfully in 1117.42 seconds. [{'energy': 1.1239100000000002, 'time': 56.35, 'f': 0.612199991941452}]
+ion 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 3 with input 0 and operation 7x7_conv:
+[100, 8, 8, 96]
+output dimension of o1 for cell 7 block 4 with input -2 and operation 5x5_depth_conv:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 4 with input 1 and operation 3x3_conv:
+[100, 8, 8, 96]
+final output shape
+(100, 1, 1, 192)

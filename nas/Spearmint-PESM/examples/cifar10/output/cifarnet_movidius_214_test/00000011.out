@@ -1,0 +1,532 @@
+Job launching after 0.33 seconds in submission.
+Running python job.
+Changed into dir /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10
+Importing train_eval_image_classifier_movidius.py
+Running train_eval_image_classifier_movidius.main()
+WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:419: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+_-2_-2_5_0_-2_-1_0_0_-2_0_1_1_0_-1_5_5_2_1_2_4
+[-2, -2, 5, 0, -2, -1, 0, 0, -2, 0, 1, 1, 0, -1, 5, 5, 2, 1, 2, 4]
+train model
+cifar10
+output dimension of o1 for cell 0 block 0 with input -2 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 0 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 1 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 1 with input -1 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+
+Identity subsample used
+
+output dimension of o1 for cell 0 block 2 with input -2 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 2 with input 0 and operation identity:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 3 with input 0 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 3 with input -1 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 4 with input 2 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 4 with input 1 and operation 5x5_depth_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 0 with input -2 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 0 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 1 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 1 with input -1 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+
+Identity conv2D
+
+
+Identity subsample used
+
+output dimension of o1 for cell 1 block 2 with input -2 and operation identity:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 2 with input 0 and operation identity:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 3 with input 0 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 3 with input -1 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 4 with input 2 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 4 with input 1 and operation 5x5_depth_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 2 block 0 with input -2 and operation 5x5_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 0 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 1 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 1 with input -1 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+
+Identity conv2D
+
+
+Identity subsample used
+
+output dimension of o1 for cell 2 block 2 with input -2 and operation identity:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 2 with input 0 and operation identity:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 3 with input 0 and operation 5x5_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 3 with input -1 and operation 5x5_conv:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 4 with input 2 and operation 3x3_depth_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 4 with input 1 and operation 5x5_depth_conv:
+[32, 16, 16, 24]
+output dimension of o1 for cell 3 block 0 with input -2 and operation 5x5_conv:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 0 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 48]
+output dimension of o1 for cell 3 block 1 with input -2 and operation 3x3_max_pool:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 1 with input -1 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+
+Identity subsample used
+
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 2 with input -2 and operation identity:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 2 with input 0 and operation identity:
+[32, 32, 32, 48]
+output dimension of o1 for cell 3 block 3 with input 0 and operation 5x5_conv:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 3 with input -1 and operation 5x5_conv:
+[32, 16, 16, 48]
+output dimension of o1 for cell 3 block 4 with input 2 and operation 3x3_depth_conv:
+[32, 32, 32, 48]
+output dimension of o2 for cell 3 block 4 with input 1 and operation 5x5_depth_conv:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 0 with input -2 and operation 5x5_conv:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 0 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 1 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 1 with input -1 and operation 3x3_max_pool:
+[32, 16, 16, 48]
+
+Identity subsample used
+
+
+Identity subsample used
+
+output dimension of o1 for cell 4 block 2 with input -2 and operation identity:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 2 with input 0 and operation identity:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 3 with input 0 and operation 5x5_conv:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 3 with input -1 and operation 5x5_conv:
+[32, 16, 16, 48]
+output dimension of o1 for cell 4 block 4 with input 2 and operation 3x3_depth_conv:
+[32, 16, 16, 48]
+output dimension of o2 for cell 4 block 4 with input 1 and operation 5x5_depth_conv:
+[32, 16, 16, 48]
+output dimension of o1 for cell 5 block 0 with input -2 and operation 5x5_conv:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 0 with input -2 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+output dimension of o1 for cell 5 block 1 with input -2 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 1 with input -1 and operation 3x3_max_pool:
+[32, 8, 8, 48]
+
+Identity conv2D
+
+
+Identity subsample used
+
+output dimension of o1 for cell 5 block 2 with input -2 and operation identity:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 2 with input 0 and operation identity:
+[32, 8, 8, 48]
+output dimension of o1 for cell 5 block 3 with input 0 and operation 5x5_conv:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 3 with input -1 and operation 5x5_conv:
+[32, 8, 8, 48]
+output dimension of o1 for cell 5 block 4 with input 2 and operation 3x3_depth_conv:
+[32, 8, 8, 48]
+output dimension of o2 for cell 5 block 4 with input 1 and operation 5x5_depth_conv:
+[32, 8, 8, 48]
+output dimension of o1 for cell 6 block 0 with input -2 and operation 5x5_conv:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 0 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 96]
+output dimension of o1 for cell 6 block 1 with input -2 and operation 3x3_max_pool:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 1 with input -1 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+
+Identity subsample used
+
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 2 with input -2 and operation identity:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 2 with input 0 and operation identity:
+[32, 16, 16, 96]
+output dimension of o1 for cell 6 block 3 with input 0 and operation 5x5_conv:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 3 with input -1 and operation 5x5_conv:
+[32, 8, 8, 96]
+output dimension of o1 for cell 6 block 4 with input 2 and operation 3x3_depth_conv:
+[32, 16, 16, 96]
+output dimension of o2 for cell 6 block 4 with input 1 and operation 5x5_depth_conv:
+[32, 8, 8, 96]
+output dimension of o1 for cell 7 block 0 with input -2 and operation 5x5_conv:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 0 with input -2 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o1 for cell 7 block 1 with input -2 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 1 with input -1 and operation 3x3_max_pool:
+[32, 8, 8, 96]
+
+Identity subsample used
+
+
+Identity subsample used
+
+output dimension of o1 for cell 7 block 2 with input -2 and operation identity:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 2 with input 0 and operation identity:
+[32, 8, 8, 96]
+output dimension of o1 for cell 7 block 3 with input 0 and operation 5x5_conv:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 3 with input -1 and operation 5x5_conv:
+[32, 8, 8, 96]
+WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:489: softmax_cross_entropy (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.softmax_cross_entropy instead. Note that the order of the logits and labels arguments has been changed.
+WARNING:tensorflow:From /home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:398: compute_weighted_loss (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.compute_weighted_loss instead.
+WARNING:tensorflow:From /home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:151: add_loss (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.add_loss instead.
+INFO:tensorflow:Summary name /clone_loss is illegal; using clone_loss instead.
+2019-02-14 15:43:42.027402: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-02-14 15:43:42.197834: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:08:00.0
+totalMemory: 10.91GiB freeMemory: 10.60GiB
+2019-02-14 15:43:42.197889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:08:00.0, compute capability: 6.1)
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /home/lile/Projects/git_repo/hacone/outputs/cifarnet_movidius/_-2_-2_5_0_-2_-1_0_0_-2_0_1_1_0_-1_5_5_2_1_2_4/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 0.
+INFO:tensorflow:global step 10: loss = 2.3384 (0.093 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:597: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+INFO:tensorflow:Scale of 0 disables regularizer.
+output dimension of o1 for cell 7 block 4 with input 2 and operation 3x3_depth_conv:
+[32, 8, 8, 96]
+output dimension of o2 for cell 7 block 4 with input 1 and operation 5x5_depth_conv:
+[32, 8, 8, 96]
+final output shape
+(32, 1, 1, 192)
+eval model
+output dimension of o1 for cell 0 block 0 with input -2 and operation 5x5_conv:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 0 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o1 for cell 0 block 1 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 1 with input -1 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+
+Identity conv2D
+
+
+Identity subsample used
+
+output dimension of o1 for cell 0 block 2 with input -2 and operation identity:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 2 with input 0 and operation identity:
+[100, 32, 32, 24]
+output dimension of o1 for cell 0 block 3 with input 0 and operation 5x5_conv:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 3 with input -1 and operation 5x5_conv:
+[100, 32, 32, 24]
+output dimension of o1 for cell 0 block 4 with input 2 and operation 3x3_depth_conv:
+[100, 32, 32, 24]
+output dimension of o2 for cell 0 block 4 with input 1 and operation 5x5_depth_conv:
+[100, 32, 32, 24]
+output dimension of o1 for cell 1 block 0 with input -2 and operation 5x5_conv:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 0 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o1 for cell 1 block 1 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 1 with input -1 and operation 3x3_max_pool:
+[100, 32, 32, 24]
+
+Identity conv2D
+
+
+Identity subsample used
+
+output dimension of o1 for cell 1 block 2 with input -2 and operation identity:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 2 with input 0 and operation identity:
+[100, 32, 32, 24]
+output dimension of o1 for cell 1 block 3 with input 0 and operation 5x5_conv:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 3 with input -1 and operation 5x5_conv:
+[100, 32, 32, 24]
+output dimension of o1 for cell 1 block 4 with input 2 and operation 3x3_depth_conv:
+[100, 32, 32, 24]
+output dimension of o2 for cell 1 block 4 with input 1 and operation 5x5_depth_conv:
+[100, 32, 32, 24]
+output dimension of o1 for cell 2 block 0 with input -2 and operation 5x5_conv:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 0 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 24]
+output dimension of o1 for cell 2 block 1 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 1 with input -1 and operation 3x3_max_pool:
+[100, 16, 16, 24]
+
+Identity conv2D
+
+
+Identity subsample used
+
+output dimension of o1 for cell 2 block 2 with input -2 and operation identity:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 2 with input 0 and operation identity:
+[100, 16, 16, 24]
+output dimension of o1 for cell 2 block 3 with input 0 and operation 5x5_conv:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 3 with input -1 and operation 5x5_conv:
+[100, 16, 16, 24]
+output dimension of o1 for cell 2 block 4 with input 2 and operation 3x3_depth_conv:
+[100, 16, 16, 24]
+output dimension of o2 for cell 2 block 4 with input 1 and operation 5x5_depth_conv:
+[100, 16, 16, 24]
+output dimension of o1 for cell 3 block 0 with input -2 and operation 5x5_conv:
+[100, 32, 32, 48]
+output dimension of o2 for cell 3 block 0 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 48]
+output dimension of o1 for cell 3 block 1 with input -2 and operation 3x3_max_pool:
+[100, 32, 32, 48]
+output dimension of o2 for cell 3 block 1 with input -1 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+
+Identity subsample used
+
+
+Identity subsample used
+
+output dimension of o1 for cell 3 block 2 with input -2 and operation identity:
+[100, 32, 32, 48]
+output dimension of o2 for cell 3 block 2 with input 0 and operation identity:
+[100, 32, 32, 48]
+output dimension of o1 for cell 3 block 3 with input 0 and operation 5x5_conv:
+[100, 32, 32, 48]
+output dimension of o2 for cell 3 block 3 with input -1 and operation 5x5_conv:
+[100, 16, 16, 48]
+output dimension of o1 for cell 3 block 4 with input 2 and operation 3x3_depth_conv:
+[100, 32, 32, 48]
+output dimension of o2 for cell 3 block 4 with input 1 and operation 5x5_depth_conv:
+[100, 16, 16, 48]
+output dimension of o1 for cell 4 block 0 with input -2 and operation 5x5_conv:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 0 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o1 for cell 4 block 1 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 1 with input -1 and operation 3x3_max_pool:
+[100, 16, 16, 48]
+
+Identity subsample used
+
+
+Identity subsample used
+
+output dimension of o1 for cell 4 block 2 with input -2 and operation identity:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 2 with input 0 and operation identity:
+[100, 16, 16, 48]
+output dimension of o1 for cell 4 block 3 with input 0 and operation 5x5_conv:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 3 with input -1 and operation 5x5_conv:
+[100, 16, 16, 48]
+output dimension of o1 for cell 4 block 4 with input 2 and operation 3x3_depth_conv:
+[100, 16, 16, 48]
+output dimension of o2 for cell 4 block 4 with input 1 and operation 5x5_depth_conv:
+[100, 16, 16, 48]
+output dimension of o1 for cell 5 block 0 with input -2 and operation 5x5_conv:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 0 with input -2 and operation 3x3_max_pool:
+[100, 8, 8, 48]
+output dimension of o1 for cell 5 block 1 with input -2 and operation 3x3_max_pool:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 1 with input -1 and operation 3x3_max_pool:
+[100, 8, 8, 48]
+
+Identity conv2D
+
+
+Identity subsample used
+
+output dimension of o1 for cell 5 block 2 with input -2 and operation identity:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 2 with input 0 and operation identity:
+[100, 8, 8, 48]
+output dimension of o1 for cell 5 block 3 with input 0 and operation 5x5_conv:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 3 with input -1 and operation 5x5_conv:
+[100, 8, 8, 48]
+output dimension of o1 for cell 5 block 4 with input 2 and operation 3x3_depth_conv:
+[100, 8, 8, 48]
+output dimension of o2 for cell 5 block 4 with input 1 and operation 5x5_depth_conv:
+[100, 8, 8, 48]
+output dimension of o1 for cell 6 block 0 with input -2 and operation 5x5_conv:
+[100, 16, 16, 96]
+output dimension of o2 for cell 6 block 0 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 96]
+output dimension of o1 for cell 6 block 1 with input -2 and operation 3x3_max_pool:
+[100, 16, 16, 96]
+output dimension of o2 for cell 6 block 1 with input -1 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+
+Identity subsample used
+
+
+Identity subsample used
+
+output dimension of o1 for cell 6 block 2 with input -2 and operation identity:
+[100, 16, 16, 96]
+output dimension of o2 for cell 6 block 2 with input 0 and operation identity:
+[100, 16, 16, 96]
+output dimension of o1 for cell 6 block 3 with input 0 and operation 5x5_conv:
+[100, 16, 16, 96]
+output dimension of o2 for cell 6 block 3 with input -1 and operation 5x5_conv:
+[100, 8, 8, 96]
+output dimension of o1 for cell 6 block 4 with input 2 and operation 3x3_depth_conv:
+[100, 16, 16, 96]
+output dimension of o2 for cell 6 block 4 with input 1 and operation 5x5_depth_conv:
+[100, 8, 8, 96]
+output dimension of o1 for cell 7 block 0 with input -2 and operation 5x5_conv:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 0 with input -2 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o1 for cell 7 block 1 with input -2 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 1 with input -1 and operation 3x3_max_pool:
+[100, 8, 8, 96]
+
+Identity subsample used
+
+
+Identity subsample used
+
+output dimension of o1 for cell 7 block 2 with input -2 and operation identity:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 2 with input 0 and operation identity:
+[100, 8, 8, 96]
+oWARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:664: streaming_recall_at_k (from tensorflow.contrib.metrics.python.ops.metric_ops) is deprecated and will be removed after 2016-11-08.
+Instructions for updating:
+Please use `streaming_sparse_recall_at_k`, and reshape labels from [batch_size] to [batch_size, 1].
+INFO:tensorflow:Evaluating /home/lile/Projects/git_repo/hacone/outputs/cifarnet_movidius/_-2_-2_5_0_-2_-1_0_0_-2_0_1_1_0_-1_5_5_2_1_2_4/model.ckpt-10
+INFO:tensorflow:Starting evaluation at 2019-02-14-07:43:54
+2019-02-14 15:43:54.709171: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:08:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/lile/Projects/git_repo/hacone/outputs/cifarnet_movidius/_-2_-2_5_0_-2_-1_0_0_-2_0_1_1_0_-1_5_5_2_1_2_4/model.ckpt-10
+INFO:tensorflow:Evaluation [1/50]
+INFO:tensorflow:Evaluation [2/50]
+INFO:tensorflow:Evaluation [3/50]
+INFO:tensorflow:Evaluation [4/50]
+INFO:tensorflow:Evaluation [5/50]
+INFO:tensorflow:Evaluation [6/50]
+INFO:tensorflow:Evaluation [7/50]
+INFO:tensorflow:Evaluation [8/50]
+INFO:tensorflow:Evaluation [9/50]
+INFO:tensorflow:Evaluation [10/50]
+INFO:tensorflow:Evaluation [11/50]
+INFO:tensorflow:Evaluation [12/50]
+INFO:tensorflow:Evaluation [13/50]
+INFO:tensorflow:Evaluation [14/50]
+INFO:tensorflow:Evaluation [15/50]
+INFO:tensorflow:Evaluation [16/50]
+INFO:tensorflow:Evaluation [17/50]
+INFO:tensorflow:Evaluation [18/50]
+INFO:tensorflow:Evaluation [19/50]
+INFO:tensorflow:Evaluation [20/50]
+INFO:tensorflow:Evaluation [21/50]
+INFO:tensorflow:Evaluation [22/50]
+INFO:tensorflow:Evaluation [23/50]
+INFO:tensorflow:Evaluation [24/50]
+INFO:tensorflow:Evaluation [25/50]
+INFO:tensorflow:Evaluation [26/50]
+INFO:tensorflow:Evaluation [27/50]
+INFO:tensorflow:Evaluation [28/50]
+INFO:tensorflow:Evaluation [29/50]
+INFO:tensorflow:Evaluation [30/50]
+INFO:tensorflow:Evaluation [31/50]
+INFO:tensorflow:Evaluation [32/50]
+INFO:tensorflow:Evaluation [33/50]
+INFO:tensorflow:Evaluation [34/50]
+INFO:tensorflow:Evaluation [35/50]
+INFO:tensorflow:Evaluation [36/50]
+INFO:tensorflow:Evaluation [37/50]
+INFO:tensorflow:Evaluation [38/50]
+INFO:tensorflow:Evaluation [39/50]
+INFO:tensorflow:Evaluation [40/50]
+INFO:tensorflow:Evaluation [41/50]
+INFO:tensorflow:Evaluation [42/50]
+INFO:tensorflow:Evaluation [43/50]
+INFO:tensorflow:Evaluation [44/50]
+INFO:tensorflow:Evaluation [45/50]
+INFO:tensorflow:Evaluation [46/50]
+INFO:tensorflow:Evaluation [47/50]
+INFO:tensorflow:Evaluation [48/50]
+INFO:tensorflow:Evaluation [49/50]
+INFO:tensorflow:Evaluation [50/50]
+2019-02-14 15:44:03.841844: I tensorflow/core/kernels/logging_ops.cc:79] eval/Recall_5[0.5056]
+2019-02-14 15:44:03.841919: I tensorflow/core/kernels/logging_ops.cc:79] eval/Accuracy[0.0988]
+INFO:tensorflow:Finished evaluation at 2019-02-14-07:44:04
+utput dimension of o1 for cell 7 block 3 with input 0 and operation 5x5_conv:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 3 with input -1 and operation 5x5_conv:
+[100, 8, 8, 96]
+output dimension of o1 for cell 7 block 4 with input 2 and operation 3x3_depth_conv:
+[100, 8, 8, 96]
+output dimension of o2 for cell 7 block 4 with input 1 and operation 5x5_depth_conv:
+[100, 8, 8, 96]
+final output shape
+(100, 1, 1, 192)
+Traceback (most recent call last):
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 245, in launch
+    result = python_launcher(job)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 330, in python_launcher
+    result = module.main(job['id'], params)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 845, in main
+    dico_hardware = test_movidius(model_name, case)
+NameError: global name 'test_jetson' is not defined
+Problem executing the function
+Job failed in 28.04 seconds.
+(<type 'exceptions.NameError'>, NameError("global name 'test_jetson' is not defined",), <traceback object at 0x7f8080688f80>)

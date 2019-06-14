@@ -1,0 +1,159 @@
+Job launching after 0.27 seconds in submission.
+Running python job.
+Changed into dir /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10
+Importing train_eval_image_classifier_movidius.py
+Running train_eval_image_classifier_movidius.main()
+WARNING:tensorflow:From /home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py:420: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+_-1_-2_5_5_-2_-2_2_2_0_-2_0_7_-2_-2_3_3_-2_1_6_0
+[-1, -2, 5, 5, -2, -2, 2, 2, 0, -2, 0, 7, -2, -2, 3, 3, -2, 1, 6, 0]
+train model
+cifar10
+output dimension of o1 for cell 0 block 0 with input -1 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 0 with input -2 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 1 with input -2 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 1 with input -2 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 2 with input 0 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 2 with input -2 and operation 7x7_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 3 with input -2 and operation 3x3_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 3 with input -2 and operation 3x3_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 0 block 4 with input -2 and operation 7x7_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 0 block 4 with input 1 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 0 with input -1 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 0 with input -2 and operation 5x5_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 1 with input -2 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 1 with input -2 and operation 3x3_depth_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 2 with input 0 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 2 with input -2 and operation 7x7_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 3 with input -2 and operation 3x3_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 3 with input -2 and operation 3x3_conv:
+[32, 32, 32, 24]
+output dimension of o1 for cell 1 block 4 with input -2 and operation 7x7_depth_conv:
+[32, 32, 32, 24]
+output dimension of o2 for cell 1 block 4 with input 1 and operation 3x3_max_pool:
+[32, 32, 32, 24]
+output dimension of o1 for cell 2 block 0 with input -1 and operation 5x5_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 0 with input -2 and operation 5x5_conv:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 1 with input -2 and operation 3x3_depth_conv:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 1 with input -2 and operation 3x3_depth_conv:
+[32, 16, 16, 24]
+output dimension of o1 for cell 2 block 2 with input 0 and operation 3x3_max_pool:
+[32, 16, 16, 24]
+output dimension of o2 for cell 2 block 2 with input -2 and operation 7x7_conv:
+[32, 16, 16, 24]
+Traceback (most recent call last):
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 245, in launch
+    result = python_launcher(job)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/spearmint/launcher.py", line 330, in python_launcher
+    result = module.main(job['id'], params)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 885, in main
+    train_model(candidate, N, F)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 496, in train_model
+    clones = model_deploy.create_clones(deploy_config, clone_fn, [batch_queue])
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/slim/deployment/model_deploy.py", line 193, in create_clones
+    outputs = model_fn(*args, **kwargs)
+  File "/home/data/Projects/git_repo/hacone/Spearmint-PESM/examples/cifar10/train_eval_image_classifier_movidius.py", line 479, in clone_fn
+    logits, end_points = network_fn(images)
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/nn_search/nets/nets_factory.py", line 76, in network_fn
+    return func(images, candidate, N, F, num_classes, is_training=is_training, **kwargs)
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/nn_search/nets/cifarnet.py", line 95, in cifarnet
+    net = build_cell(end_points, cell_id, candidate, F, stride = 2, scope = 'Reduction_cell_{}'.format(cell_id),is_training=is_training)
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/nn_search/nets/cifarnet.py", line 245, in build_cell
+    o2 = apply_operation(input_points[str(i2)], op2, num_outputs, stride = 2, scope = 'block_{}_op2'.format(i),is_training=is_training)
+  File "/home/lile/Projects/git_repo/hacone/tensorflow/nn_search/nets/cifarnet.py", line 169, in apply_operation
+    net = slim.conv2d(net, num_outputs, [3, 3], stride = stride, activation_fn = tf.nn.relu, normalizer_fn = slim.batch_norm, normalizer_params={'is_training':is_training}, scope = op_name)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1042, in convolution
+    outputs = normalizer_fn(outputs, **normalizer_params)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 643, in batch_norm
+    outputs = layer.apply(inputs, training=is_training)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/layers/base.py", line 671, in apply
+    return self.__call__(inputs, *args, **kwargs)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/layers/base.py", line 559, in __call__
+    self.build(input_shapes[0])
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/layers/normalization.py", line 223, in build
+    trainable=False)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/layers/base.py", line 458, in add_variable
+    trainable=trainable and self.trainable)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 1203, in get_variable
+    constraint=constraint)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 1092, in get_variable
+    constraint=constraint)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 417, in get_variable
+    return custom_getter(**custom_getter_kwargs)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 1583, in wrapped_custom_getter
+    *args, **kwargs)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1539, in layer_variable_getter
+    return _model_variable_getter(getter, *args, **kwargs)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1531, in _model_variable_getter
+    custom_getter=getter, use_resource=use_resource)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 262, in model_variable
+    use_resource=use_resource)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 217, in variable
+    use_resource=use_resource)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1539, in layer_variable_getter
+    return _model_variable_getter(getter, *args, **kwargs)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1531, in _model_variable_getter
+    custom_getter=getter, use_resource=use_resource)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 262, in model_variable
+    use_resource=use_resource)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 217, in variable
+    use_resource=use_resource)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 394, in _true_getter
+    use_resource=use_resource, constraint=constraint)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 805, in _get_single_variable
+    constraint=constraint)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variables.py", line 213, in __init__
+    constraint=constraint)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variables.py", line 303, in _init_from_args
+    initial_value(), name="initial_value", dtype=dtype)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 779, in <lambda>
+    shape.as_list(), dtype=dtype, partition_info=partition_info)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/init_ops.py", line 108, in __call__
+    return array_ops.ones(shape, dtype)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/ops/array_ops.py", line 1561, in ones
+    output = constant(one, shape=shape, dtype=dtype, name=name)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/framework/constant_op.py", line 214, in constant
+    name=name).outputs[0]
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2956, in create_op
+    op_def=op_def)
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 1470, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+  File "/home/lile/Projects/.virtualenvs/nn_search/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2561, in _extract_stack
+    frame_info))
+KeyboardInterrupt
+Problem executing the function
+Job failed in 1.35 seconds.
+(<type 'exceptions.KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x7fbc2f6fc1b8>)
