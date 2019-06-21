@@ -8,5 +8,5 @@ It is about daily life activity recognition and contains more than 1000 samples.
 - Numpy
 
 # Results
-The baseline is a vanilla LSTM for classification.
+The baseline is a vanilla LSTM for classification : two stacked LSTM layers followed by a Fully Connected layer.
 A naive implementation achieves >97% of categorical accuracy
