@@ -6,7 +6,7 @@ We totally have 7 steps, and usually I stored the data in ```adaptive_quantizati
     pls note that activations can be output of 100 images.
     ```weights``` are saved in data_dir ```weights_dir```; ```activations``` are saved in ```activations_dir```
 
-2. run c++ codes: get weights & activations codebook. (folder name: dead_zones)
+2. run c++ codes: get weights & activations codebook. (folder name: dead_zones/dead_zone_uniform_quantization_layer.cpp)
     we denote:
 
     a. ```number_weights_layer```: the number of quantized weights layer.
@@ -34,7 +34,7 @@ We totally have 7 steps, and usually I stored the data in ```adaptive_quantizati
 4. activations error (folder name: activations_error):
     a. run bash file: run1.sh & run2.sh
 
-5. run c++: get bit allocation (folder name: dead_zones).
+5. run c++: get bit allocation (folder name: dead_zones/pareto_condition.cpp).
 
     a. merge the weights error and activations error together into a input file using ```pareto_condition.py``` to get pareto condition input: ```pareto_condition_inputs.txt```. 
 
