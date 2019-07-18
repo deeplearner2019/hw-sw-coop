@@ -1,0 +1,247 @@
+Namespace(GPU='4,5,6,7', background_frequency=0.8, background_volume=0.1, batch_size=100, bit_width=3, check_nans=False, clip_duration_ms=1000, data_dir='uci_har/data', data_url='http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz', eval_step_interval=200, feature_bin_count=40, first_h=40, first_w=16, how_many_training_steps='900,2000', layers=4, learning_rate='0.01,0.003', model_architecture='conv4', preprocess='mfcc', quantize=False, sample_rate=16000, save_step_interval=100, second_h=10, second_w=4, silence_percentage=10.0, start_checkpoint='', summaries_dir='/tmp/retrain_logs', testing_percentage=10, third_h=10, third_w=4, time_shift_ms=100.0, train_dir='/DL2-Target1/govind/', unknown_percentage=10.0, validation_percentage=10, wanted_words='yes,no,up,down,left,right,on,off,stop,go', window_size_ms=30.0, window_stride_ms=100.0)
+Traceback (most recent call last):
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1589, in _create_c_op
+    c_op = c_api.TF_FinishOperation(op_desc)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Negative dimension size caused by subtracting 40 from 10 for 'conv1/conv2d/Conv2D' (op: 'Conv2D') with input shapes: [?,10,40,1], [40,16,1,64].
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "train1.py", line 523, in <module>
+    tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 125, in run
+    _sys.exit(main(argv))
+  File "train1.py", line 152, in main
+    is_training=True)
+  File "/home/govind/speech_commands/speech_commands/models.py", line 140, in create_model
+    return create_conv4_model(fingerprint_input, model_settings, is_training)
+  File "/home/govind/speech_commands/speech_commands/models.py", line 171, in create_conv4_model
+    kernel_regularizer=tf.contrib.layers.l2_regularizer(WEIGHT_DECAY)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/layers/convolutional.py", line 427, in conv2d
+    return layer.apply(inputs)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 774, in apply
+    return self.__call__(inputs, *args, **kwargs)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 329, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 703, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/keras/layers/convolutional.py", line 184, in call
+    outputs = self._convolution_op(inputs, self.kernel)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 868, in __call__
+    return self.conv_op(inp, filter)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 520, in __call__
+    return self.call(inp, filter)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py", line 204, in __call__
+    name=self.name)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py", line 956, in conv2d
+    data_format=data_format, dilations=dilations, name=name)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3414, in create_op
+    op_def=op_def)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1756, in __init__
+    control_input_ops)
+  File "/home/govind/.conda/envs/tf_gpu/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1592, in _create_c_op
+    raise ValueError(str(e))
+ValueError: Negative dimension size caused by subtracting 40 from 10 for 'conv1/conv2d/Conv2D' (op: 'Conv2D') with input shapes: [?,10,40,1], [40,16,1,64].
+INFO:tensorflow:Skipping quant after conv1/conv2d/add_fold
+INFO:tensorflow:Skipping quant after conv2/conv2d/add_fold
+INFO:tensorflow:Skipping quant after conv3/conv2d/add_fold
+INFO:tensorflow:Training from step: 1 
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-100"
+INFO:tensorflow:Confusion Matrix:
+ [[398   1   2   0   3   0   1   0   0   5   0   0]
+ [  5  69  44  76  23  14  37  22  38  25   5  52]
+ [  7  22 243  29  10   2  68   8  10   8   0  18]
+ [  3  15   3 239  14  21  12   7  34   9   4  76]
+ [  6   9   3  36 192   4  32  10  36  37  12  29]
+ [  5  14  13  78  15 137  23   1  73   6   7  41]
+ [  5  11  51  30  31   1 204  16  15  17   0  17]
+ [  5  24  32  34  13   5  64 168  28   4   0  25]
+ [  3   5   1  27  30  10   4  10 242  43   2  26]
+ [  6   2   4  13  51   2  23   5  56 220   9  14]
+ [  5  10  10  30  97  13  21   0  27  25 123  32]
+ [  4  15   3 154  25   8   4   3  25  15   8 150]]
+INFO:tensorflow:Step 200: Validation accuracy = 48.5% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-200"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-300"
+INFO:tensorflow:Confusion Matrix:
+ [[405   0   1   0   0   0   1   2   0   0   1   0]
+ [  5  85  27   2  20  27  38  60  58  14  40  34]
+ [  7  13 248   2   8   0 108  21   5   5   4   4]
+ [  5  10   6 100  17  49  39  21  17   5  45 123]
+ [  8   3   0   1 183   4  61   6  16  21  94   9]
+ [  4  15   2   3  15 219  23   3  57   2  55  15]
+ [  5   4  28   2  21   1 272  30   7  11  13   4]
+ [  8   7   7   0   6   3  66 280  15   2   6   2]
+ [  5   9   0   1  19   6  14   9 293  21  19   7]
+ [  7   2   0   0  44   1  34   5  42 227  42   1]
+ [  6   5   1   0  28  10  13   1  12   8 299  10]
+ [  7   9   3  14  14  32  10   7  16   8  61 233]]
+INFO:tensorflow:Step 400: Validation accuracy = 57.9% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-400"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-500"
+INFO:tensorflow:Confusion Matrix:
+ [[402   0   2   1   3   1   0   0   0   0   1   0]
+ [  2 205  26  35  23  41  12  15  17   7  19   8]
+ [  7  27 305  28   5   6  39   2   0   3   2   1]
+ [  3  17   3 294  13  59   7   0   3   1  10  27]
+ [  5  16   2  20 262  15  24   1   1   9  37  14]
+ [  4  18   2  26   9 314   2   0  13   2  16   7]
+ [  5  14  54  16  34   6 241  17   0   7   3   1]
+ [  5  42   7  17   7  10  33 271   3   4   0   3]
+ [  5  43   1  14  22  45   1   3 228  35   2   4]
+ [  6   7   2   1  54  12  12   3   4 284  17   3]
+ [  5  14   2   6  44  37   5   0   2   7 261  10]
+ [  7  26   3 127  16  53   1   0   3   3  12 163]]
+INFO:tensorflow:Step 600: Validation accuracy = 65.7% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-600"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-700"
+INFO:tensorflow:Confusion Matrix:
+ [[395   1   4   0   2   1   2   5   0   0   0   0]
+ [  1 149  32  25  13  40  15  52  17  14  19  33]
+ [  4  14 326  16   1   7  37   9   0   1   0  10]
+ [  2   7   7 286   1  48   5   7   0   1  10  63]
+ [  3   8   3  14 201  25  32  14   1  38  35  32]
+ [  3   7   2  39   2 305   4   4   8   4   9  26]
+ [  4   2  64  11   7   7 242  44   0   6   3   8]
+ [  4  15   7   2   2  10  17 334   0   1   2   8]
+ [  3  24   3   3   9  54   3  14 222  48   1  19]
+ [  6   3   4   2  19   4  15  11   3 322   9   7]
+ [  2   8   3   5  17  37   6   5   0  10 278  22]
+ [  5   4   5  96   4  31   3   3   2   1   6 254]]
+INFO:tensorflow:Step 800: Validation accuracy = 67.4% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-800"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-900"
+INFO:tensorflow:Confusion Matrix:
+ [[396   0   4   0   4   1   0   0   0   2   1   2]
+ [ 57  53  33  19  26 102   4   1  20  18  57  20]
+ [ 58  18 187  27  17  25  36   2   4  16  18  17]
+ [ 53  34   8  82  24 124   7   1   3   4  37  60]
+ [ 67  17  11   6 106  13   5   2  11  36 113  19]
+ [ 55  23   5  20   7 202   2   2  14   5  53  25]
+ [ 69  17  58  12  40  20  73  11  11  56  23   8]
+ [ 54  38  29  17  40  36  59  26  37  38  21   7]
+ [ 62  24   6  19  33  80   4   1  91  22  44  17]
+ [ 66  14  20   9  54  13   9   2  25 137  50   6]
+ [ 66  11   6   9  34  34   4   0   8   7 207   7]
+ [ 51  11  11  51  17 116   1   0  14   8  65  69]]
+INFO:tensorflow:Step 1000: Validation accuracy = 33.1% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-1000"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-1100"
+INFO:tensorflow:Confusion Matrix:
+ [[398   0   3   1   0   1   0   2   2   2   1   0]
+ [ 55  65  67  42  23  44  25  38  10  14  13  14]
+ [ 70  19 253   7   7   1  41  12   0   7   4   4]
+ [ 56  24  46 143  18  60  21  24   3   4  10  28]
+ [ 83  14  27  13 112   9  40  24   7  31  40   6]
+ [ 62  52  28  48  14 139  10  12  11   7  10  20]
+ [ 72  10 101   6  11   7 130  39   1  13   5   3]
+ [ 63  13  57   4   9   4  99 134   4   8   3   4]
+ [ 73  22  17  15  29  42  14  38  96  35  12  10]
+ [ 81   8  30   4  33   8  60  21  17 133   5   5]
+ [ 81  14  25  28  44  40  15   9   4  12 106  15]
+ [ 59  17  23 115  15  64  15  19  10   5  18  54]]
+INFO:tensorflow:Step 1200: Validation accuracy = 35.9% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-1200"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-1300"
+INFO:tensorflow:Confusion Matrix:
+ [[405   0   2   0   1   1   0   0   0   1   0   0]
+ [ 75  52  13   6  52  97   9  11  46  11  31   7]
+ [ 84  23 106   2  45  16  78  18   8  15  16  14]
+ [ 66  27   6  22  38 149   6   7  23   6  35  52]
+ [ 80   7   3   2 188   4  12  10  18  34  40   8]
+ [ 69  17   2   3  20 198   5   0  44   6  36  13]
+ [ 85  16  28   2  57  14  74  37  16  51  16   2]
+ [ 74  18   9   1  44  21  44 102  51  23   7   8]
+ [ 79  16   0   3  41  49   0   7 145  23  26  14]
+ [ 81  10   0   1  86   4  14   9  27 152  18   3]
+ [ 89  14   3   4  72  29   3   4  13  12 145   5]
+ [ 64  17   1  14  39 115   4   6  45   7  41  61]]
+INFO:tensorflow:Step 1400: Validation accuracy = 33.6% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-1400"
+INFO:tensorflow:Skipping quant after conv1/conv2d/add_fold
+INFO:tensorflow:Skipping quant after conv2/conv2d/add_fold
+INFO:tensorflow:Skipping quant after conv3/conv2d/add_fold
+INFO:tensorflow:Training from step: 1 
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-100"
+INFO:tensorflow:Confusion Matrix:
+ [[403   0   2   0   4   0   0   0   1   0   0   0]
+ [  7  63  38  52  61  62  13  27  24   9  32  22]
+ [  7  13 274  14  38   7  36  15   3   7   5   6]
+ [  2  21   4 177  69  72   2   4  11   2  29  44]
+ [ 12   3   3   5 315   4  25   3   3  12  19   2]
+ [  3  15   2  21  49 250   7   3  22   4  30   7]
+ [ 10   5  47   8  83   3 179  31   0  19   7   6]
+ [ 10  13  21  11  65   9  48 204   7   7   1   6]
+ [  7   6   1  14  80  37   2   3 194  37  16   6]
+ [  9   1   1   3 145   3  12   8  21 176  25   1]
+ [ 16   1   5   4 105   9   9   0   5   6 226   7]
+ [  9   8   1 106  52  51   1   2   7   7  47 123]]
+INFO:tensorflow:Step 200: Validation accuracy = 52.6% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-200"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-300"
+INFO:tensorflow:Confusion Matrix:
+ [[404   2   0   0   2   0   0   0   0   0   2   0]
+ [  7 158  37  23  27  25   4  10  69   7  29  14]
+ [  8  22 360  10   3   2  12   0   4   0   3   1]
+ [  3  25  10 262  14  35   4   2   6   2  18  56]
+ [  6   6   2   6 275   0  26   1   8   8  66   2]
+ [  4  22   5  27  12 278   2   0  31   1  21  10]
+ [  7  14  61   1  28   0 252  15   2  10   6   2]
+ [  7  27   7   2   6   2  21 306  10   6   5   3]
+ [  7  11   1   1  16   2   2   0 338  12   8   5]
+ [  7   1   2   0  51   0   9   4  29 267  34   1]
+ [  6   7   1   1  31   5   1   0   5   3 331   2]
+ [ 10  21   3  75  11  44   1   1   7   2  22 217]]
+INFO:tensorflow:Step 400: Validation accuracy = 70.1% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-400"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-500"
+INFO:tensorflow:Confusion Matrix:
+ [[403   1   2   0   0   0   0   0   0   2   1   1]
+ [  5 193  35   7  17  51   4  15  28   5  28  22]
+ [  4  11 385   3   0   2   6   0   0   1   3  10]
+ [  2  13  11 228  12  65   4   1   1   2  17  81]
+ [  5  11   3   2 309   0   8   1   1  17  39  10]
+ [  4   8   5  15   3 330   3   0   9   1  17  18]
+ [  4  11  54   1  11   2 281  17   0   8   3   6]
+ [  4  25   1   1   4   4  14 333   0   4   5   7]
+ [  5  25   0   0   9  16   2   0 309  16  14   7]
+ [  3   3   0   0  31   0   4   2  11 328  22   1]
+ [  3   5   2   1  25   5   0   0   0   5 340   7]
+ [  7  11   4  41  13  50   0   0   1   0  12 275]]
+INFO:tensorflow:Step 600: Validation accuracy = 75.5% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-600"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-700"
+INFO:tensorflow:Confusion Matrix:
+ [[406   0   0   0   0   0   0   1   0   1   2   0]
+ [  3 262  30  11   8  17   5  32  13   4   7  18]
+ [  3  12 374   8   0   0  14  13   0   0   0   1]
+ [  2  23  11 311   4  16   9  13   0   2   2  44]
+ [  5  22   1  11 280   0  19  15   5  20  18  10]
+ [  3  24   4  42   2 304   2   8  10   1   3  10]
+ [  3  17  40   1   1   0 267  66   0   1   0   2]
+ [  3  16   0   1   1   0   6 373   0   1   1   0]
+ [  4  44   0   4   4   4   0   8 322   6   3   4]
+ [  4  10   3   1  22   3  12  14  13 314   6   3]
+ [  1  12   3   1  22   4   4   4   2   1 334   5]
+ [  9  23   3  70   4  12   1   9   2   3   2 276]]
+INFO:tensorflow:Step 800: Validation accuracy = 77.8% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-800"
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-900"
+INFO:tensorflow:Confusion Matrix:
+ [[407   1   0   0   1   0   0   0   1   0   0   0]
+ [ 58 106  22   6  33  91  32  18  23   8  10   3]
+ [ 52   7 233   5  23  11  84   1   2   1   4   2]
+ [ 51  30   9  65  32 182  19   8  10   2  10  19]
+ [ 56  10   1   2 246   8  29   4   9  18  22   1]
+ [ 55  17  10   4  10 285   7   3   3   1   7  11]
+ [ 55   7  39   2  13   6 252  12   7   0   3   2]
+ [ 40  18   3   2  17   3 111 190   7   2   4   5]
+ [ 59  32   1   3  29  58  13   1 167  34   4   2]
+ [ 47   1   2   1  71   5  33   1  20 215   8   1]
+ [ 65  14   1   4  90  39   5   1   8   6 155   5]
+ [ 46  35   2  23  28 192   8   2  11   7   3  57]]
+INFO:tensorflow:Step 1000: Validation accuracy = 48.4% (N=4916)
+INFO:tensorflow:Saving to "/DL2-Target1/govind/conv4.ckpt-1000"
+-bash: ython: command not found
